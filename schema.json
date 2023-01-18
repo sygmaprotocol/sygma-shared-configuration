@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "domains": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "bridgeContract": {
+              "type": "string"
+            },
+            "nativeTokenSymbol": {
+              "type": "string"
+            },
+            "nativeTokenFullName": {
+              "type": "string"
+            },
+            "nativeTokenDecimals": {
+              "type": "string"
+            },
+            "handlers": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": ["erc20", "erc721", "plgh", "pgh", "xc20"]
+                    },
+                    "address": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "address"
+                  ]
+                }
+              ]
+            },
+            "resources": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "resourceId": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "resourceId",
+                    "type",
+                    "address",
+                    "symbol"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "type",
+            "bridgeContract",
+            "nativeTokenSymbol",
+            "nativeTokenFullName",
+            "nativeTokenDecimals",
+            "handlers",
+            "resources"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "domains"
+  ]
+}
