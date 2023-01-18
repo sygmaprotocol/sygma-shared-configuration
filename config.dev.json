@@ -7,7 +7,7 @@
       "bridgeContract": "",
       "handlers": [
         {
-          "type": "",
+          "type": "erc20",
           "address": ""
         }
       ],
