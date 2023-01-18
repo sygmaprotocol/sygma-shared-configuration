@@ -1,0 +1,1 @@
+# sygma-shared-configuration
