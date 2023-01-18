@@ -1,0 +1,27 @@
+{
+  "domains": [
+    {
+      "id": 0,
+      "name": "",
+      "type": "",
+      "bridgeContract": "",
+      "handlers": [
+        {
+          "type": "",
+          "address": ""
+        }
+      ],
+      "nativeTokenSymbol": "",
+      "nativeTokenFullName": "",
+      "nativeTokenDecimals": "",
+      "resources": [
+        {
+          "resourceId": "",
+          "type": "",
+          "address": "",
+          "symbol": ""
+        }
+      ]
+    }
+  ]
+}
