@@ -1,4 +1,4 @@
-name: Validate testnet configuration JSON
+name: Validate configuration JSON files
 
 on:
   pull_request:
@@ -9,7 +9,17 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  verify-json-validation:
+  validate-devnet-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate JSON
+        uses: nhalstead/validate-json-action@0.1.3
+        with:
+          schema: /schema.json
+          jsons: /config.dev.json
+
+  validate-testnet-json:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
