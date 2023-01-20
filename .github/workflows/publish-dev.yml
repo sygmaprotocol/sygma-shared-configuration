@@ -57,7 +57,7 @@ jobs:
       - name: Load IPNS key
         shell: bash
         run: |
-          echo "${{secrets.KEY}}" >> ipnskey.pem
+          echo "${{secrets.KEY_DEV}}" >> ipnskey.pem
       - uses: sygmaprotocol/setup-ipfs@master
         with:
           run_daemon: true
