@@ -17,7 +17,7 @@
             "type": {
               "type": "string"
             },
-            "bridgeContract": {
+            "bridge": {
               "type": "string"
             },
             "nativeTokenSymbol": {
@@ -37,7 +37,7 @@
                   "properties": {
                     "type": {
                       "type": "string",
-                      "enum": ["erc20", "erc721", "plgh", "pgh", "xc20"]
+                      "enum": ["erc20", "erc721", "permissionedGeneric", "permissionlessGeneric", "xc20"]
                     },
                     "address": {
                       "type": "string"
@@ -83,7 +83,7 @@
             "id",
             "name",
             "type",
-            "bridgeContract",
+            "bridge",
             "nativeTokenSymbol",
             "nativeTokenFullName",
             "nativeTokenDecimals",
