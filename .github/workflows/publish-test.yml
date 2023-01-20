@@ -1,0 +1,93 @@
+name: Publish testnet configuration
+
+on:
+  push:
+    branches:
+      - master
+
+permissions: read-all
+
+jobs:
+  # Check if config.dev.json changed
+  check_for_config_change:
+    runs-on: ubuntu-latest
+    outputs:
+      config-changed: ${{ steps.changes.outputs.cfg }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Check for change
+        uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filters: |
+            cfg:
+              - 'config.test.json'
+
+  # Publish testnet configuration to IPFS
+  publish_ipfs:
+    runs-on: ubuntu-latest
+    # only run if testnet configuration changed
+    needs: check_for_config_change
+    if: ${{needs.check_for_config_change.outputs.config-changed == 'true'}}
+    # set CID as output
+    outputs:
+      cid: ${{ steps.ipfspub.outputs.cid }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Publish to IPFS
+        uses: aquiladev/ipfs-action@master
+        id: ipfspub
+        with:
+          path: ./config.test.json
+          service: infura
+          infuraProjectId: ${{ secrets.INFURA_PROJECT_ID }}
+          infuraProjectSecret: ${{ secrets.INFURA_PROJECT_SECRET }}
+
+  # Publish new CID to IPNS
+  publish_ipns:
+    runs-on: ubuntu-latest
+    # only run if ipfs publish was successful
+    needs: publish_ipfs
+    steps:
+      - name: Load IPNS key
+        shell: bash
+        run: |
+          echo "${{secrets.KEY}}" >> ipnskey.pem
+      - uses: sygmaprotocol/setup-ipfs@master
+        with:
+          run_daemon: true
+      - name: Import IPNS key
+        shell: bash
+        run: |
+          ipfs key import IPNSKey -f pem-pkcs8-cleartext ipnskey.pem
+      - name: Publish to IPNS
+        shell: bash
+        run: |
+          set -o pipefail
+          ipfs name publish --key=IPNSKey /ipfs/${{ needs.publish_ipfs.outputs.cid }}
+      - name: Sleep for 30s
+        uses: juliangruber/sleep-action@v1
+        with:
+          time: 30s
+
+  # Upload configuration file to CS Storage
+  publish_storage:
+    runs-on: ubuntu-latest
+    # only run if devnet configuration changed
+    needs: check_for_config_change
+    if: ${{needs.check_for_config_change.outputs.config-changed == 'true'}}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag uploader
+      - name: Upload new configuration
+        run: docker run -e ENV='test' -e CS_STORAGE_BUCKET_ID=${{ secrets.CS_STORAGE_BUCKET_ID }} -e CS_STORAGE_API_KEY=${{ secrets.CS_STORAGE_API_KEY }} --name dev-uploader uploader ./config-uploader
+      - name: Print logs
+        if: always()
+        run: |
+          docker ps -a
+          docker logs dev-uploader
