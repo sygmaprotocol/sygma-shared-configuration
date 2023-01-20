@@ -4,7 +4,7 @@
       "id": 0,
       "name": "Goerli",
       "type": "evm",
-      "bridgeContract": "0xb36C801f644908bAAe89b7C28ad57Af18638A6a9",
+      "bridge": "0xb36C801f644908bAAe89b7C28ad57Af18638A6a9",
       "handlers": [
         {
           "type": "erc20",
@@ -32,7 +32,7 @@
       "id": 1,
       "name": "Mumbai",
       "type": "evm",
-      "bridgeContract": "0x37313Ab1701fCfC5050E84B4E7f841abB588a1db",
+      "bridge": "0x37313Ab1701fCfC5050E84B4E7f841abB588a1db",
       "handlers": [
         {
           "type": "erc20",
@@ -60,7 +60,7 @@
       "id": 2,
       "name": "Moonbase",
       "type": "evm",
-      "bridgeContract": "0x6CAf9103c8cE3c9C347D57Aee39E8e66e43091b8",
+      "bridge": "0x6CAf9103c8cE3c9C347D57Aee39E8e66e43091b8",
       "handlers": [
         {
           "type": "erc20",
@@ -88,7 +88,7 @@
       "id": 3,
       "name": "Shibuya",
       "type": "evm",
-      "bridgeContract": "0x2f06a1dcfc9e02E553c65AD4B121414D3386ABFE",
+      "bridge": "0x2f06a1dcfc9e02E553c65AD4B121414D3386ABFE",
       "handlers": [
         {
           "type": "erc20",
