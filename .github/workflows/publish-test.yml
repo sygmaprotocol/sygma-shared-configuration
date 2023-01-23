@@ -57,7 +57,7 @@ jobs:
       - name: Load IPNS key
         shell: bash
         run: |
-          echo "${{secrets.KEY}}" >> ipnskey.pem
+          echo "${{secrets.KEY_TEST}}" >> ipnskey.pem
       - uses: sygmaprotocol/setup-ipfs@master
         with:
           run_daemon: true
@@ -79,9 +79,11 @@ jobs:
         run: |
           curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}
       - name: Check if propagation successful
-        shell: bash
-        run: |
-          diff <(curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}) <(cat config.dev.json) 
+        uses: nick-fields/retry@v2
+        with:
+          timeout_seconds: 60
+          max_attempts: 10
+          command: diff <(curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}) <(cat config.dev.json)
 
   # Upload configuration file to CS Storage
   publish_storage:
