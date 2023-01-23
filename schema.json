@@ -33,7 +33,7 @@
               "type": "integer"
             },
             "startBlock": {
-              "type": "string"
+              "type": "integer"
             },
             "handlers": {
               "type": "array",

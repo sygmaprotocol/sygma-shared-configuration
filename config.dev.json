@@ -27,7 +27,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": "7225328",
+      "startBlock": 7225328,
       "resources": []
     },
     {
@@ -57,7 +57,7 @@
       "nativeTokenFullName": "matic",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": "27171235",
+      "startBlock": 27171235,
       "resources": []
     },
     {
@@ -87,7 +87,7 @@
       "nativeTokenFullName": "dev",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": "2916751",
+      "startBlock": 2916751,
       "resources": []
     }
   ]
