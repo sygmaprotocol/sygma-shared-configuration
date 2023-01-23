@@ -83,7 +83,7 @@ jobs:
         with:
           timeout_seconds: 60
           max_attempts: 10
-          command: diff <(curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}) <(cat config.dev.json)
+          command: diff <(curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}) <(cat config.test.json)
 
   # Upload configuration file to CS Storage
   publish_storage:
