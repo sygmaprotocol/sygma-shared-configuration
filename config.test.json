@@ -1,33 +1,93 @@
 {
   "domains": [
     {
-      "id": 0,
-      "name": "",
-      "type": "",
-      "bridge": "",
+      "id": 1,
+      "name": "Goerli",
+      "type": "evm",
+      "bridge": "0x95ECF5ae000e0fe0e0dE63aDE9b7D82a372038b4",
       "handlers": [
         {
           "type": "erc20",
-          "address": ""
+          "address": "0xea24Bb5500fE670d1ce1B9EaEbA942a5ca85e5Ea"
         },
         {
           "type": "erc721",
-          "address": ""
+          "address": "0xC2aae1ac76eD2Bb37bF4AdD72A82165bD2bf99F3"
         },
         {
           "type": "permissionedGeneric",
-          "address": ""
+          "address": "0xd8681e9c2bA2fdfE6690F59bc726C657ed8B494D"
         },
         {
           "type": "permissionlessGeneric",
-          "address": ""
+          "address": "0x8DeCB677dAD03F07b5647eAA0B502d8f44B645eF"
         }
       ],
-      "nativeTokenSymbol": "",
-      "nativeTokenFullName": "",
+      "nativeTokenSymbol": "ETH",
+      "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": "",
+      "startBlock": "8056086",
+      "resources": []
+    },
+    {
+      "id": 2,
+      "name": "Moonbase",
+      "type": "evm",
+      "bridge": "0xd8681e9c2bA2fdfE6690F59bc726C657ed8B494D",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0xC3ea0Fbaa708D225BD2575dC4A57e0eaE8aFc77F"
+        },
+        {
+          "type": "erc721",
+          "address": "0x530Ca8291856c727cc6a33c2ACD50f79184AFA3d"
+        },
+        {
+          "type": "permissionedGeneric",
+          "address": "0x7350e258Cb88a22572Edefe5d80BAD21b42Cc124"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x06f3CE7b93eBE17Df5F46d23934F1125C1dcC5f5"
+        }
+      ],
+      "nativeTokenSymbol": "DEV",
+      "nativeTokenFullName": "dev",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": "3282200",
+      "resources": []
+    },
+    {
+      "id": 3,
+      "name": "Mumbai",
+      "type": "evm",
+      "bridge": "0x9a8F70222FB768e16FE343c9EbA8634e4bd6524A",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0xb76A581fc20020675651EABC465ECaA311474186"
+        },
+        {
+          "type": "erc721",
+          "address": "0x5D7fc7407F00C415a13C43076e7Db82b357DE658"
+        },
+        {
+          "type": "permissionedGeneric",
+          "address": "0x16B10caAacc1a87C7C92Ec281A96323faA0f3CA0"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x314c8b3C6643D237213381ee3a6D5bDaeDFaD477"
+        }
+      ],
+      "nativeTokenSymbol": "MATIC",
+      "nativeTokenFullName": "matic",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": "29438072",
       "resources": []
     }
   ]
