@@ -4,26 +4,31 @@
       "id": 0,
       "name": "",
       "type": "",
-      "bridgeContract": "",
+      "bridge": "",
       "handlers": [
         {
           "type": "erc20",
+          "address": ""
+        },
+        {
+          "type": "erc721",
+          "address": ""
+        },
+        {
+          "type": "permissionedGeneric",
+          "address": ""
+        },
+        {
+          "type": "permissionlessGeneric",
           "address": ""
         }
       ],
       "nativeTokenSymbol": "",
       "nativeTokenFullName": "",
-      "nativeTokenDecimals": "",
-      "blockConfirmations": "",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
       "startBlock": "",
-      "resources": [
-        {
-          "resourceId": "",
-          "type": "",
-          "address": "",
-          "symbol": ""
-        }
-      ]
+      "resources": []
     }
   ]
 }
