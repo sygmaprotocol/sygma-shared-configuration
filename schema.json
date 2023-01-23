@@ -27,6 +27,12 @@
               "type": "string"
             },
             "nativeTokenDecimals": {
+              "type": "integer"
+            },
+            "blockConfirmations": {
+              "type": "integer"
+            },
+            "startBlock": {
               "type": "string"
             },
             "handlers": {
@@ -87,6 +93,8 @@
             "nativeTokenSymbol",
             "nativeTokenFullName",
             "nativeTokenDecimals",
+            "blockConfirmations",
+            "startBlock",
             "handlers",
             "resources"
           ]
