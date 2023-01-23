@@ -25,8 +25,8 @@
       ],
       "nativeTokenSymbol": "ETH",
       "nativeTokenFullName": "ether",
-      "nativeTokenDecimals": "18",
-      "blockConfirmations": "5",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
       "startBlock": "7225328",
       "resources": []
     },
@@ -55,8 +55,8 @@
       ],
       "nativeTokenSymbol": "MATIC",
       "nativeTokenFullName": "matic",
-      "nativeTokenDecimals": "18",
-      "blockConfirmations": "5",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
       "startBlock": "27171235",
       "resources": []
     },
@@ -85,8 +85,8 @@
       ],
       "nativeTokenSymbol": "DEV",
       "nativeTokenFullName": "dev",
-      "nativeTokenDecimals": "18",
-      "blockConfirmations": "5",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
       "startBlock": "2916751",
       "resources": []
     }

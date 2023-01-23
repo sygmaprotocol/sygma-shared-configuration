@@ -22,8 +22,8 @@ Shared domains configuration for all Sygma services:
       ],
       "nativeTokenSymbol": "",
       "nativeTokenFullName": "",
-      "nativeTokenDecimals": "",
-      "blockConfirmations": "",
+      "nativeTokenDecimals": 0,
+      "blockConfirmations": 0,
       "startBlock": "",
       "resources": [
         {

@@ -27,7 +27,7 @@
               "type": "string"
             },
             "nativeTokenDecimals": {
-              "type": "string"
+              "type": "integer"
             },
             "blockConfirmations": {
               "type": "integer"
