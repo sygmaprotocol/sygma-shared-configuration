@@ -26,6 +26,8 @@
       "nativeTokenSymbol": "ETH",
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": "18",
+      "blockConfirmations": "5",
+      "startBlock": "7225328",
       "resources": []
     },
     {
@@ -54,6 +56,8 @@
       "nativeTokenSymbol": "MATIC",
       "nativeTokenFullName": "matic",
       "nativeTokenDecimals": "18",
+      "blockConfirmations": "5",
+      "startBlock": "27171235",
       "resources": []
     },
     {
@@ -82,34 +86,8 @@
       "nativeTokenSymbol": "DEV",
       "nativeTokenFullName": "dev",
       "nativeTokenDecimals": "18",
-      "resources": []
-    },
-    {
-      "id": 3,
-      "name": "Shibuya",
-      "type": "evm",
-      "bridge": "0x2f06a1dcfc9e02E553c65AD4B121414D3386ABFE",
-      "handlers": [
-        {
-          "type": "erc20",
-          "address": "0x6c14e3ACFb2AFa626907747996c8F2a79F7850e5"
-        },
-        {
-          "type": "erc721",
-          "address": "0x138D38E7944bBDb956F250ce30b58bb8c8541156"
-        },
-        {
-          "type": "permissionedGeneric",
-          "address": "0x2Cae068a8b47f64F2aD517E9c672f97e72584db2"
-        },
-        {
-          "type": "permissionlessGeneric",
-          "address": "0x46034Bc088371E2d67853A51BcF5d43d8972b760"
-        }
-      ],
-      "nativeTokenSymbol": "SBY",
-      "nativeTokenFullName": "shibuya",
-      "nativeTokenDecimals": "18",
+      "blockConfirmations": "5",
+      "startBlock": "2916751",
       "resources": []
     }
   ]

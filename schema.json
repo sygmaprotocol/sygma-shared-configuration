@@ -29,6 +29,12 @@
             "nativeTokenDecimals": {
               "type": "string"
             },
+            "blockConfirmations": {
+              "type": "integer"
+            },
+            "startBlock": {
+              "type": "string"
+            },
             "handlers": {
               "type": "array",
               "items": [
@@ -87,6 +93,8 @@
             "nativeTokenSymbol",
             "nativeTokenFullName",
             "nativeTokenDecimals",
+            "blockConfirmations",
+            "startBlock",
             "handlers",
             "resources"
           ]
