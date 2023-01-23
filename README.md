@@ -16,13 +16,15 @@ Shared domains configuration for all Sygma services:
       "bridgeContract": "",
       "handlers": [
         {
-          "type": "", // erc20 / erc721 / plgh / pgh / xc20
+          "type": "", // erc20 / erc721 / permissionedGeneric / permissionlessGeneric / xc20
           "address": ""
         }
       ],
       "nativeTokenSymbol": "",
       "nativeTokenFullName": "",
       "nativeTokenDecimals": "",
+      "blockConfirmations": "",
+      "startBlock": "",
       "resources": [
         {
           "resourceId": "",
