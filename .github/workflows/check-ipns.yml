@@ -20,7 +20,7 @@ jobs:
       - name: Load IPNS key
         shell: bash
         run: |
-          echo "${{secrets.[matrix.key]}}" >> ipnskey.pem
+          echo "${{secrets.[format('KEY_{0}', matrix.key)]}}" >> ipnskey.pem
       - uses: sygmaprotocol/setup-ipfs@master
         with:
           run_daemon: true
