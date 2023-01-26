@@ -35,9 +35,9 @@ jobs:
           FILE="config.${KEY,,}.json"
           echo $FILE
 
-#      - name: Check IPNS
-#        uses: nick-fields/retry@v2
-#        with:
-#          timeout_seconds: 60
-#          max_attempts: 10
-#          command: diff <(curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}) <(cat $FILE)
+      - name: Check IPNS
+        uses: nick-fields/retry@v2
+        with:
+          timeout_seconds: 60
+          max_attempts: 10
+          command: diff <(curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}) <(cat $FILE)
