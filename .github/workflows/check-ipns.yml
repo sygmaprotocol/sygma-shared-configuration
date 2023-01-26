@@ -28,9 +28,13 @@ jobs:
         shell: bash
         run: |
           echo "IPNS=$(ipfs key import IPNSKey -f pem-pkcs8-cleartext ipnskey.pem | grep -o -E "\w{62}")" >> $GITHUB_ENV
+
+      - name: Lowercase key
+        run: KEY=
+
       - name: Check IPNS
         uses: nick-fields/retry@v2
         with:
           timeout_seconds: 60
           max_attempts: 10
-          command: diff <(curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}) <(cat config.dev.json)
+          command: diff <(curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}) <(cat "config.${${{matrix.key}},,}.json")
