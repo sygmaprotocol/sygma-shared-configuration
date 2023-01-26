@@ -5,34 +5,15 @@ on:
     branches:
       - main
   schedule:
-    cron: "* */12 * * *"
+    cron:
+      - "* */12 * * *"
 
 permissions: read-all
 
 jobs:
-  # Check if config.dev.json changed
-  check_for_config_change:
-    runs-on: ubuntu-latest
-    outputs:
-      config-changed: ${{ steps.changes.outputs.cfg }}
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Check for change
-        uses: dorny/paths-filter@v2
-        id: changes
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          filters: |
-            cfg:
-              - 'config.test.json'
-
   # Publish testnet configuration to IPFS
   publish_ipfs:
     runs-on: ubuntu-latest
-    # only run if testnet configuration changed
-    needs: check_for_config_change
-    if: ${{needs.check_for_config_change.outputs.config-changed == 'true'}}
     # set CID as output
     outputs:
       cid: ${{ steps.ipfspub.outputs.cid }}
@@ -51,8 +32,6 @@ jobs:
   # Publish new CID to IPNS
   publish_ipns:
     runs-on: ubuntu-latest
-    # only run if ipfs publish was successful
-    needs: publish_ipfs
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -92,7 +71,6 @@ jobs:
     runs-on: ubuntu-latest
     # only run if devnet configuration changed
     needs: check_for_config_change
-    if: ${{needs.check_for_config_change.outputs.config-changed == 'true'}}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
