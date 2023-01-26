@@ -29,8 +29,8 @@ jobs:
         run: |
           echo "IPNS=$(ipfs key import IPNSKey -f pem-pkcs8-cleartext ipnskey.pem | grep -o -E "\w{62}")" >> $GITHUB_ENV
 
-      - name: Lowercase key
-        run: KEY=
+      - name: Cat file
+        run: cat "config.${${{matrix.key}},,}.json"
 
       - name: Check IPNS
         uses: nick-fields/retry@v2
