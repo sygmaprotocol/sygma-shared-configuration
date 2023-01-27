@@ -50,7 +50,7 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
-          ipfs name publish --key=IPNSKey /ipfs/${{ needs.publish_ipfs.outputs.cid }}
+          ipfs name publish --lifetime 168h --key=IPNSKey /ipfs/${{ needs.publish_ipfs.outputs.cid }}
       - name: Sleep for 10s
         uses: juliangruber/sleep-action@v1
         with:
