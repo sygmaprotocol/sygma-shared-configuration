@@ -4,33 +4,16 @@ on:
   push:
     branches:
       - main
+  schedule:
+    cron:
+      - "* */12 * * *"
 
 permissions: read-all
 
 jobs:
-  # Check if config.dev.json changed
-  check_for_config_change:
-    runs-on: ubuntu-latest
-    outputs:
-      config-changed: ${{ steps.changes.outputs.cfg }}
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Check for change
-        uses: dorny/paths-filter@v2
-        id: changes
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          filters: |
-            cfg:
-              - 'config.dev.json'
-
   # Publish devnet configuration to IPFS
   publish_ipfs:
     runs-on: ubuntu-latest
-    # only run if devnet configuration changed
-    needs: check_for_config_change
-    if: ${{needs.check_for_config_change.outputs.config-changed == 'true'}}
     # set CID as output
     outputs:
       cid: ${{ steps.ipfspub.outputs.cid }}
@@ -49,8 +32,6 @@ jobs:
   # Publish new CID to IPNS
   publish_ipns:
     runs-on: ubuntu-latest
-    # only run if ipfs publish was successful
-    needs: publish_ipfs
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -69,7 +50,7 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
-          ipfs name publish --key=IPNSKey /ipfs/${{ needs.publish_ipfs.outputs.cid }}
+          ipfs name publish --lifetime 168h --key=IPNSKey /ipfs/${{ needs.publish_ipfs.outputs.cid }}
       - name: Sleep for 10s
         uses: juliangruber/sleep-action@v1
         with:
@@ -88,9 +69,6 @@ jobs:
   # Upload configuration file to CS Storage
   publish_storage:
     runs-on: ubuntu-latest
-    # only run if devnet configuration changed
-    needs: check_for_config_change
-    if: ${{needs.check_for_config_change.outputs.config-changed == 'true'}}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
