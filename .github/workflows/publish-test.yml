@@ -30,6 +30,7 @@ jobs:
 
   # Publish new CID to IPNS
   publish_ipns:
+    needs: publish_ipfs
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -69,7 +70,6 @@ jobs:
   publish_storage:
     runs-on: ubuntu-latest
     # only run if devnet configuration changed
-    needs: check_for_config_change
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
