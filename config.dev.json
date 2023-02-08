@@ -28,7 +28,36 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 7225328,
-      "resources": []
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "erc20",
+          "address": "0x3D151A97A446C9ea6893038e7C0db73466f3f3af",
+          "symbol": "ERC20TST",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "erc20",
+          "address": "0x3F9A68fF29B3d86a6928C44dF171A984F6180009",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "type": "erc721",
+          "address": "0xe9d3b1433bACDfC26ee097629D238A41BF6dA3aE",
+          "symbol": "ERC721TST",
+          "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
     },
     {
       "id": 1,
@@ -58,7 +87,36 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 27171235,
-      "resources": []
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "erc20",
+          "address": "0x2465c8F84bDB7130ACDf31d694bc9c820F70ac06",
+          "symbol": "ERC20TST",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "erc20",
+          "address": "0xFC072Aa8ABB5646aFD0c22994bdE30dB57B1BF1C",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "type": "erc721",
+          "address": "0x4beD477d1f5D338855A521ABa2A88c9a15e2eA5d",
+          "symbol": "ERC721TST",
+          "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
     },
     {
       "id": 2,
@@ -88,7 +146,36 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 2916751,
-      "resources": []
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "erc20",
+          "address": "0xAc693E44E1EDe5f66A4e1406F65b904450932fB3",
+          "symbol": "ERC20TST",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "erc20",
+          "address": "0x3690601896C289be2d894c3d1213405310D0a25C",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "type": "erc721",
+          "address": "0x3D151A97A446C9ea6893038e7C0db73466f3f3af",
+          "symbol": "ERC721TST",
+          "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
     }
   ]
 }
