@@ -23,7 +23,7 @@
           "address": "0x549b6b372351837566A6A97e79c3847D535efF23"
         }
       ],
-      "nativeTokenSymbol": "ETH",
+      "nativeTokenSymbol": "eth",
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
@@ -82,7 +82,7 @@
           "address": "0x63C293b9d0E71619f37573D77C2d21841a1D9c1c"
         }
       ],
-      "nativeTokenSymbol": "MATIC",
+      "nativeTokenSymbol": "matic",
       "nativeTokenFullName": "matic",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
@@ -141,7 +141,7 @@
           "address": "0x09000C7786C34C79aa21a55942f12E7Bb69e772e"
         }
       ],
-      "nativeTokenSymbol": "DEV",
+      "nativeTokenSymbol": "glmr",
       "nativeTokenFullName": "dev",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
