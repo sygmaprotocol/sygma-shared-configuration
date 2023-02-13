@@ -2,7 +2,7 @@
   "domains": [
     {
       "id": 1,
-      "name": "Goerli",
+      "name": "ethereum",
       "type": "evm",
       "bridge": "0x95ECF5ae000e0fe0e0dE63aDE9b7D82a372038b4",
       "handlers": [
@@ -23,7 +23,7 @@
           "address": "0x8DeCB677dAD03F07b5647eAA0B502d8f44B645eF"
         }
       ],
-      "nativeTokenSymbol": "ETH",
+      "nativeTokenSymbol": "eth",
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
@@ -61,7 +61,7 @@
     },
     {
       "id": 2,
-      "name": "Moonbase",
+      "name": "moonbeam",
       "type": "evm",
       "bridge": "0xd8681e9c2bA2fdfE6690F59bc726C657ed8B494D",
       "handlers": [
@@ -82,7 +82,7 @@
           "address": "0x06f3CE7b93eBE17Df5F46d23934F1125C1dcC5f5"
         }
       ],
-      "nativeTokenSymbol": "DEV",
+      "nativeTokenSymbol": "glmr",
       "nativeTokenFullName": "dev",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
@@ -120,7 +120,7 @@
     },
     {
       "id": 3,
-      "name": "Mumbai",
+      "name": "polygon",
       "type": "evm",
       "bridge": "0x9a8F70222FB768e16FE343c9EbA8634e4bd6524A",
       "handlers": [
@@ -141,7 +141,7 @@
           "address": "0x314c8b3C6643D237213381ee3a6D5bDaeDFaD477"
         }
       ],
-      "nativeTokenSymbol": "MATIC",
+      "nativeTokenSymbol": "matic",
       "nativeTokenFullName": "matic",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
