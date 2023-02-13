@@ -4,7 +4,7 @@ This repository uploads shared domains configuration to IPFS (CS Storage) and pu
 
 ## Shared Domains Configuration
 
-Shared domains configuration for all Sygma services:
+Format of shared domains configuration for all Sygma services:
 
 ```json
 {
