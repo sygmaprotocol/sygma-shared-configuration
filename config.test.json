@@ -2,7 +2,7 @@
   "domains": [
     {
       "id": 1,
-      "name": "Goerli",
+      "name": "ethereum",
       "type": "evm",
       "bridge": "0x95ECF5ae000e0fe0e0dE63aDE9b7D82a372038b4",
       "handlers": [
@@ -61,7 +61,7 @@
     },
     {
       "id": 2,
-      "name": "Moonbase",
+      "name": "moonbeam",
       "type": "evm",
       "bridge": "0xd8681e9c2bA2fdfE6690F59bc726C657ed8B494D",
       "handlers": [
@@ -120,7 +120,7 @@
     },
     {
       "id": 3,
-      "name": "Mumbai",
+      "name": "polygon",
       "type": "evm",
       "bridge": "0x9a8F70222FB768e16FE343c9EbA8634e4bd6524A",
       "handlers": [
