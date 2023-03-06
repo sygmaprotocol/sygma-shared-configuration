@@ -8,7 +8,7 @@
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x27DA1FDA1bF990902602aA616063665fB14dE9f1"
+          "address": "0x18e705CBD37d31F52fDa29Fa63DC23d348a20E99"
         },
         {
           "type": "erc721",
@@ -67,7 +67,7 @@
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x567BC95eE7Cb7B99730998e8C8Aad62847C3fece"
+          "address": "0x1B3c399E65E9d414EA77ee88253c7dD180C77805"
         },
         {
           "type": "erc721",
@@ -126,7 +126,7 @@
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x81bbFC4aC5E731d9EAdb749a7e7A6E973CF7E399"
+          "address": "0x40e273C40349dCA9062F9a3B80BAdFF000512c1F"
         },
         {
           "type": "erc721",
