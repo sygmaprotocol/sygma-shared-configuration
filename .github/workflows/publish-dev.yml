@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: "* */12 * * *"
 
 permissions: read-all
 
@@ -27,44 +25,6 @@ jobs:
           service: infura
           infuraProjectId: ${{ secrets.INFURA_PROJECT_ID }}
           infuraProjectSecret: ${{ secrets.INFURA_PROJECT_SECRET }}
-
-  # Publish new CID to IPNS
-  publish_ipns:
-    runs-on: ubuntu-latest
-    needs: publish_ipfs
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Load IPNS key
-        shell: bash
-        run: |
-          echo "${{secrets.KEY_DEV}}" >> ipnskey.pem
-      - uses: sygmaprotocol/setup-ipfs@master
-        with:
-          run_daemon: true
-      - name: Import IPNS key
-        shell: bash
-        run: |
-          echo "IPNS=$(ipfs key import IPNSKey -f pem-pkcs8-cleartext ipnskey.pem | grep -o -E "\w{62}")" >> $GITHUB_ENV
-      - name: Publish to IPNS
-        shell: bash
-        run: |
-          set -o pipefail
-          ipfs name publish --lifetime 168h --key=IPNSKey /ipfs/${{ needs.publish_ipfs.outputs.cid }}
-      - name: Sleep for 10s
-        uses: juliangruber/sleep-action@v1
-        with:
-          time: 10s
-      - name: Propagate IPNS
-        shell: bash
-        run: |
-          curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}
-      - name: Check if propagation successful
-        uses: nick-fields/retry@v2
-        with:
-          timeout_seconds: 60
-          max_attempts: 10
-          command: diff <(curl -X GET https://cloudflare-ipfs.com/ipns/${{ env.IPNS }}) <(cat config.dev.json)
 
   # Upload configuration file to CS Storage
   publish_storage:
