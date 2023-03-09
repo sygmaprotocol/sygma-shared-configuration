@@ -176,6 +176,65 @@
           "decimals": 0
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "ethereum",
+      "type": "evm",
+      "bridge": "0x59d52E04d4521C0e6C78310f4c4FF9167BA71d01",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x03896BaeA3A8CD98E46C576AF6Ceaffb69a51AFB"
+        },
+        {
+          "type": "erc721",
+          "address": "0x9DA05ec79e82D2441D09ddE3B616710668eA0c33"
+        },
+        {
+          "type": "permissionedGeneric",
+          "address": "0x67c5DAdd58b2a0818B291f292F17f72094952bA9"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x3d60e7Fb97695648013e373186e3C8f5854ed434"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 3054823,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "erc20",
+          "address": "0x4cADdede58D2486e496f47c7BFfb18A7b36c4EE8",
+          "symbol": "ERC20TST",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "erc20",
+          "address": "0xe34E118597BF140F1816e721fEF85F1CF1fEf990",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "type": "erc721",
+          "address": "0x5d51B20d31aEdeee4Db6328890b8fD04d83432e6",
+          "symbol": "ERC721TST",
+          "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
     }
   ]
 }
