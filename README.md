@@ -1,8 +1,6 @@
 # sygma-shared-configuration
 
-This repository uploads shared domains configuration to IPFS (CS Storage) and publishes new entry to IPNS for each Sygma environment.
-## Architecture
-![](/docsResources/config.png)
+This repository uploads shared domains configuration to IPFS (CS Storage) for each Sygma environment.
 
 ## Shared Domains Configuration
 
