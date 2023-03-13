@@ -235,6 +235,34 @@
           "decimals": 0
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "substrate-devnet-phala",
+      "type": "substrate",
+      "bridge": "",
+      "handlers": [],
+      "nativeTokenSymbol": "pha",
+      "nativeTokenFullName": "pha",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 2,
+      "startBlock": 0,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "type": "erc20",
+          "address": "",
+          "symbol": "PHA",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "erc20",
+          "address": "",
+          "symbol": "USDC",
+          "decimals": 18
+        }
+      ]
     }
   ]
 }
