@@ -237,7 +237,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "substrate-devnet-phala",
       "type": "substrate",
       "bridge": "",

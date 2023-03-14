@@ -178,12 +178,12 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "rococo-phala",
       "type": "substrate",
       "bridge": "",
       "handlers": [],
-      "nativeTokenSymbol": "PHA",
+      "nativeTokenSymbol": "pha",
       "nativeTokenFullName": "pha",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 2,
