@@ -178,6 +178,65 @@
       ]
     },
     {
+      "id": 4,
+      "name": "ethereum",
+      "type": "evm",
+      "bridge": "0x447F2Ee01faaA9696382E12b3cfca05451F8a9FC",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x46034Bc088371E2d67853A51BcF5d43d8972b760"
+        },
+        {
+          "type": "erc721",
+          "address": "0xb52C5d999F0fB9E66c9839f1a5Eaf8Efd5DC0661"
+        },
+        {
+          "type": "permissionedGeneric",
+          "address": "0x69ACc143Bb96133e44c8a7D84766074dec495d4e"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x5c7C637b8Cb13D87b8FBcAc2480e617669f77d13"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 3081822,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "erc20",
+          "address": "0xaBea1a89d28014f80A537f0ee9049533bD5C259B",
+          "symbol": "ERC20TST",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "erc20",
+          "address": "0x0bE65444Fb4Aa0b84039D2a1DC837be0988c1b12",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "type": "erc721",
+          "address": "0x2b5cE032114A8aF3cF838d526F410F17539618D9",
+          "symbol": "ERC721TST",
+          "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
+    },
+    {
       "id": 5,
       "name": "rococo-phala",
       "type": "substrate",
