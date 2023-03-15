@@ -235,34 +235,6 @@
           "decimals": 0
         }
       ]
-    },
-    {
-      "id": 5,
-      "name": "rococo-phala",
-      "type": "substrate",
-      "bridge": "",
-      "handlers": [],
-      "nativeTokenSymbol": "pha",
-      "nativeTokenFullName": "pha",
-      "nativeTokenDecimals": 18,
-      "blockConfirmations": 2,
-      "startBlock": 0,
-      "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
-          "type": "erc20",
-          "address": "",
-          "symbol": "PHA",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
-          "type": "erc20",
-          "address": "",
-          "symbol": "ERC20TST",
-          "decimals": 18
-        }
-      ]
     }
   ]
 }

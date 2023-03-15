@@ -238,7 +238,7 @@
     },
     {
       "id": 5,
-      "name": "substrate-devnet-phala",
+      "name": "rococo-phala",
       "type": "substrate",
       "bridge": "",
       "handlers": [],
@@ -249,17 +249,17 @@
       "startBlock": 0,
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
           "type": "erc20",
           "address": "",
           "symbol": "PHA",
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
           "address": "",
-          "symbol": "USDC",
+          "symbol": "ERC20TST",
           "decimals": 18
         }
       ]
