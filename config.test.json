@@ -181,49 +181,49 @@
       "id": 4,
       "name": "ethereum",
       "type": "evm",
-      "bridge": "0x447F2Ee01faaA9696382E12b3cfca05451F8a9FC",
+      "bridge": "0x9a8F70222FB768e16FE343c9EbA8634e4bd6524A",
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x46034Bc088371E2d67853A51BcF5d43d8972b760"
+          "address": "0xb76A581fc20020675651EABC465ECaA311474186"
         },
         {
           "type": "erc721",
-          "address": "0xb52C5d999F0fB9E66c9839f1a5Eaf8Efd5DC0661"
+          "address": "0x5D7fc7407F00C415a13C43076e7Db82b357DE658"
         },
         {
           "type": "permissionedGeneric",
-          "address": "0x69ACc143Bb96133e44c8a7D84766074dec495d4e"
+          "address": "0x16B10caAacc1a87C7C92Ec281A96323faA0f3CA0"
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0x5c7C637b8Cb13D87b8FBcAc2480e617669f77d13"
+          "address": "0xB408D2329cB7ffFAecABa8811f165369a8C1E76B"
         }
       ],
       "nativeTokenSymbol": "eth",
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": 3081822,
+      "startBlock": 3127956,
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
-          "address": "0xaBea1a89d28014f80A537f0ee9049533bD5C259B",
+          "address": "0x06f3CE7b93eBE17Df5F46d23934F1125C1dcC5f5",
           "symbol": "ERC20TST",
           "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "erc20",
-          "address": "0x0bE65444Fb4Aa0b84039D2a1DC837be0988c1b12",
+          "address": "0xA9C41B54e635259EB1C72Fde4a6844D82eD00cde",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
           "type": "erc721",
-          "address": "0x2b5cE032114A8aF3cF838d526F410F17539618D9",
+          "address": "0x37313Ab1701fCfC5050E84B4E7f841abB588a1db",
           "symbol": "ERC721TST",
           "decimals": 0
         },
