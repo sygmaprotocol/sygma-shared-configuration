@@ -28,6 +28,16 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 8056086,
+      "feeHandlers": [
+        {
+          "address": "0x530Ca8291856c727cc6a33c2ACD50f79184AFA3d",
+          "type": "basic"
+        },
+        {
+          "address": "0x7350e258Cb88a22572Edefe5d80BAD21b42Cc124",
+          "type": "oracle"
+        }
+      ],
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -87,6 +97,16 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 3282200,
+      "feeHandlers": [
+        {
+          "address": "0xe7Ed7AAd072ACd23bA36F906C2515DF8eD43d482",
+          "type": "basic"
+        },
+        {
+          "address": "0x0693FeBE4766b85CcecB0C5168b39c81E0251366",
+          "type": "oracle"
+        }
+      ],
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -146,6 +166,16 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 29438072,
+      "feeHandlers": [
+        {
+          "address": "0xe255cA458925c26d3E05004e247579A64b020cEF",
+          "type": "basic"
+        },
+        {
+          "address": "0x0B4Befb569dEa0cA11f0bFeF6919a28Ae7d829E1",
+          "type": "oracle"
+        }
+      ],
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -205,6 +235,16 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 3127956,
+      "feeHandlers": [
+        {
+          "address": "0xe255cA458925c26d3E05004e247579A64b020cEF",
+          "type": "basic"
+        },
+        {
+          "address": "0x0B4Befb569dEa0cA11f0bFeF6919a28Ae7d829E1",
+          "type": "oracle"
+        }
+      ],
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
