@@ -8,7 +8,7 @@
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x18e705CBD37d31F52fDa29Fa63DC23d348a20E99"
+          "address": "0xAf2DB8059Bd69ba9Ac4c59D25de1C87931e62448"
         },
         {
           "type": "erc721",
