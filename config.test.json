@@ -28,6 +28,7 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 8056086,
+      "feeRouter": "0xC3ea0Fbaa708D225BD2575dC4A57e0eaE8aFc77F",
       "feeHandlers": [
         {
           "address": "0x530Ca8291856c727cc6a33c2ACD50f79184AFA3d",
@@ -97,6 +98,7 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 3282200,
+      "feeRouter": "0x6593d8aF009d35d0BbB6eDe1dd29dF55b73F9A98",
       "feeHandlers": [
         {
           "address": "0xe7Ed7AAd072ACd23bA36F906C2515DF8eD43d482",
@@ -166,6 +168,7 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 29438072,
+      "feeRouter": "0x2247c836CC252F0D7D06883350e902996Ddb442D",
       "feeHandlers": [
         {
           "address": "0xe255cA458925c26d3E05004e247579A64b020cEF",
@@ -235,6 +238,7 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 3127956,
+      "feeRouter": "0x2247c836CC252F0D7D06883350e902996Ddb442D",
       "feeHandlers": [
         {
           "address": "0xe255cA458925c26d3E05004e247579A64b020cEF",
