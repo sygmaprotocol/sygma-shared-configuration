@@ -37,6 +37,10 @@
         {
           "address": "0xF5703Fcf2bfFC33625857D8ae8994b3260AA3c1f",
           "type": "oracle"
+        },
+        {
+          "address": "0xFf6312a3D0022F75d2Bd92CF250B14A5Ea915945",
+          "type": "basic"
         }
       ],
       "resources": [
@@ -67,6 +71,13 @@
           "address": "",
           "symbol": "",
           "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "type": "erc20",
+          "address": "0xB376b0Ee6d8202721838e76376e81eEc0e2FE864",
+          "symbol": "GPHA",
+          "decimals": 18
         }
       ]
     },
