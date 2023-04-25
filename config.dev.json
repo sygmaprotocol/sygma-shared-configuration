@@ -318,6 +318,104 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 6,
+      "name": "ethereum",
+      "type": "evm",
+      "bridge": "0xeCc5790B2AD23fb02347615A6f9a89A729888c06",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x17e4C404aD634E429ebCdF9a10F38A96Ce8eEF27"
+        },
+        {
+          "type": "erc721",
+          "address": "0xF5Ac994A5C402F4f426c2D7319C27912d5DBD7a8"
+        },
+        {
+          "type": "permissionedGeneric",
+          "address": "0x6E8eC76964244292De4454c3762D680268C9cB42"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0xfCf72a42bd1c167a004a4Fa6ea341b0527f02477"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 1096573,
+      "feeRouter": "0x2692bE8dbDBDF816a1B4F67fBC6103e150bA8B23",
+      "feeHandlers": [
+        {
+          "address": "0xEE2e1fFE2F53A923902fEe87f3168741D8C56525",
+          "type": "basic"
+        },
+        {
+          "address": "0x2FfE7309168C05c3c5c1b04D9A22bCe5c1BA0136",
+          "type": "oracle"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "erc20",
+          "address": "0x2d5395aa622DBC7688B2eEeD3E2dC089aE0fd356",
+          "symbol": "ERC20TST",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "erc20",
+          "address": "0xE366E0B707FBF59CF9A3068af34dC519D5fa6e78",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "type": "erc721",
+          "address": "0xCD246D40f9f91F3cFF83210F2b689c2F126a6ceC",
+          "symbol": "ERC721TST",
+          "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+          "type": "erc20",
+          "address": "0xFC072Aa8ABB5646aFD0c22994bdE30dB57B1BF1C",
+          "symbol": "ERC20TST_14D",
+          "decimals": 14
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "erc20",
+          "address": "0xe3962002113d684A1Fcd7d319875d75bf483e349",
+          "symbol": "ERC20LRTST_14D",
+          "decimals": 14
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000900",
+          "type": "erc20",
+          "address": "0x54a323E6CAd64867c9625E479D70c80C250249CD",
+          "symbol": "ERC20TST_20D",
+          "decimals": 20
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000800",
+          "type": "erc20",
+          "address": "0x58476c75B48C86C05cCad9Ae82ac76145BC9119D",
+          "symbol": "ERC20LRTST_20D",
+          "decimals": 20
+        }
+      ]
     }
   ]
 }
