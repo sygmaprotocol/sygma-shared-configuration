@@ -309,7 +309,6 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000800",
           "type": "erc20",
           "address": "0x373e7650fc4085bBe5c26a7892e4Dea47aFf974e",
-          "burnable": true,
           "symbol": "ERC20LRTST_20D",
           "decimals": 20
         }
