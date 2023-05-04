@@ -44,6 +44,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
           "address": "0x3D151A97A446C9ea6893038e7C0db73466f3f3af",
+          "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
@@ -114,6 +115,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
           "address": "0xAc693E44E1EDe5f66A4e1406F65b904450932fB3",
+          "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
@@ -184,6 +186,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
           "address": "0x2465c8F84bDB7130ACDf31d694bc9c820F70ac06",
+          "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
@@ -254,6 +257,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
           "address": "0x06f3CE7b93eBE17Df5F46d23934F1125C1dcC5f5",
+          "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
@@ -282,6 +286,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
           "type": "erc20",
           "address": "0x3A90c6a40E01060Ef388A1E5AF76AD53C7DeEc32",
+          "burnable": true,
           "symbol": "ERC20TST_14D",
           "decimals": 14
         },
@@ -296,6 +301,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000900",
           "type": "erc20",
           "address": "0x81bbFC4aC5E731d9EAdb749a7e7A6E973CF7E399",
+          "burnable": true,
           "symbol": "ERC20TST_20D",
           "decimals": 20
         },
@@ -303,6 +309,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000800",
           "type": "erc20",
           "address": "0x373e7650fc4085bBe5c26a7892e4Dea47aFf974e",
+          "burnable": true,
           "symbol": "ERC20LRTST_20D",
           "decimals": 20
         }
