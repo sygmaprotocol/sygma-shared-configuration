@@ -48,6 +48,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
           "address": "0x3D151A97A446C9ea6893038e7C0db73466f3f3af",
+          "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
@@ -125,6 +126,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
           "address": "0x2465c8F84bDB7130ACDf31d694bc9c820F70ac06",
+          "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
@@ -195,6 +197,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
           "address": "0xAc693E44E1EDe5f66A4e1406F65b904450932fB3",
+          "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
@@ -265,6 +268,7 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
           "address": "0x4cADdede58D2486e496f47c7BFfb18A7b36c4EE8",
+          "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
@@ -296,7 +300,12 @@
       "name": "rococo-phala",
       "type": "substrate",
       "bridge": "",
-      "handlers": [],
+      "handlers": [
+        {
+          "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
+          "type": "erc20"
+        }
+      ],
       "nativeTokenSymbol": "pha",
       "nativeTokenFullName": "pha",
       "nativeTokenDecimals": 18,
@@ -305,7 +314,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
-          "type": "erc20",
+          "type": "native",
           "address": "",
           "symbol": "PHA",
           "decimals": 18
@@ -313,6 +322,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
+          "burnable": true,
           "address": "",
           "symbol": "ERC20TST",
           "decimals": 18
