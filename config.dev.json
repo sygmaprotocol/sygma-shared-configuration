@@ -2,6 +2,7 @@
   "domains": [
     {
       "id": 1,
+      "chainId": 5,
       "name": "ethereum",
       "type": "evm",
       "bridge": "0x5cEA5130c49dCd262B9482E0A76eCE8b23Ae45Df",
@@ -103,6 +104,7 @@
     },
     {
       "id": 2,
+      "chainId": 11155111,
       "name": "ethereum",
       "type": "evm",
       "bridge": "0x820d8d0666f85c7c035f471E3D4577F995F310aB",
@@ -204,6 +206,7 @@
     },
     {
       "id": 100,
+      "chainId": 7701,
       "name": "ethereum",
       "type": "evm",
       "bridge": "0x67c5DAdd58b2a0818B291f292F17f72094952bA9",
@@ -305,6 +308,7 @@
     },
     {
       "id": 101,
+      "chainId": 100,
       "name": "ethereum",
       "type": "evm",
       "bridge": "0xd2d95f7611c83b1f9041539557810033aC7B8742",
