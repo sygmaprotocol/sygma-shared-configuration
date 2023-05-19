@@ -146,7 +146,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "erc20",
-          "address": "0x4cADdede58D2486e496f47c7BFfb18A7b36c4EE8",
+          "address": "0x06f3CE7b93eBE17Df5F46d23934F1125C1dcC5f5",
           "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
@@ -154,14 +154,14 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "erc20",
-          "address": "0xe34E118597BF140F1816e721fEF85F1CF1fEf990",
+          "address": "0xA9C41B54e635259EB1C72Fde4a6844D82eD00cde",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
           "type": "erc721",
-          "address": "0x5d51B20d31aEdeee4Db6328890b8fD04d83432e6",
+          "address": "0x37313Ab1701fCfC5050E84B4E7f841abB588a1db",
           "symbol": "ERC721TST",
           "decimals": 0
         },
