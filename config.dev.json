@@ -43,7 +43,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x3D151A97A446C9ea6893038e7C0db73466f3f3af",
           "burnable": true,
           "symbol": "ERC20TST",
@@ -51,14 +51,14 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x3F9A68fF29B3d86a6928C44dF171A984F6180009",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "erc721",
+          "type": "nonFungible",
           "address": "0xe9d3b1433bACDfC26ee097629D238A41BF6dA3aE",
           "symbol": "ERC721TST",
           "decimals": 0
@@ -72,7 +72,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x9071E2fc95E6Ba663597efe99f04de3A5a4FD690",
           "burnable": true,
           "symbol": "ERC20TST_14D",
@@ -80,14 +80,14 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0xAEb75B8783B9B4c32A4Ca1Df4aB628cDd8Fd3064",
           "symbol": "ERC20LRTST_14D",
           "decimals": 14
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000900",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0xB33E8088CEb4D6668A9f0CB94ce7DfA789A5459c",
           "burnable": true,
           "symbol": "ERC20TST_20D",
@@ -95,7 +95,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000800",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x4B551bd8FeDc1D897c16486b111f04B60d9D153A",
           "symbol": "ERC20LRTST_20D",
           "decimals": 20
@@ -145,7 +145,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x06f3CE7b93eBE17Df5F46d23934F1125C1dcC5f5",
           "burnable": true,
           "symbol": "ERC20TST",
@@ -153,14 +153,14 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0xA9C41B54e635259EB1C72Fde4a6844D82eD00cde",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "erc721",
+          "type": "nonFungible",
           "address": "0x37313Ab1701fCfC5050E84B4E7f841abB588a1db",
           "symbol": "ERC721TST",
           "decimals": 0
@@ -174,7 +174,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x3A90c6a40E01060Ef388A1E5AF76AD53C7DeEc32",
           "burnable": true,
           "symbol": "ERC20TST_14D",
@@ -182,14 +182,14 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x026D1FFf4C9eFe9Cbc8047eD1DB0306544361Dba",
           "symbol": "ERC20LRTST_14D",
           "decimals": 14
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000900",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x81bbFC4aC5E731d9EAdb749a7e7A6E973CF7E399",
           "burnable": true,
           "symbol": "ERC20TST_20D",
@@ -197,7 +197,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000800",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x373e7650fc4085bBe5c26a7892e4Dea47aFf974e",
           "symbol": "ERC20LRTST_20D",
           "decimals": 20
@@ -247,7 +247,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x2d5395aa622DBC7688B2eEeD3E2dC089aE0fd356",
           "burnable": true,
           "symbol": "ERC20TST",
@@ -255,14 +255,14 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0xE366E0B707FBF59CF9A3068af34dC519D5fa6e78",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "erc721",
+          "type": "nonFungible",
           "address": "0xCD246D40f9f91F3cFF83210F2b689c2F126a6ceC",
           "symbol": "ERC721TST",
           "decimals": 0
@@ -276,7 +276,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0xFC072Aa8ABB5646aFD0c22994bdE30dB57B1BF1C",
           "burnable": true,
           "symbol": "ERC20TST_14D",
@@ -284,14 +284,14 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0xe3962002113d684A1Fcd7d319875d75bf483e349",
           "symbol": "ERC20LRTST_14D",
           "decimals": 14
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000900",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x54a323E6CAd64867c9625E479D70c80C250249CD",
           "burnable": true,
           "symbol": "ERC20TST_20D",
@@ -299,7 +299,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000800",
-          "type": "erc20",
+          "type": "fungible",
           "address": "0x58476c75B48C86C05cCad9Ae82ac76145BC9119D",
           "symbol": "ERC20LRTST_20D",
           "decimals": 20

@@ -43,7 +43,13 @@
                   "properties": {
                     "type": {
                       "type": "string",
-                      "enum": ["erc20", "erc721", "permissionedGeneric", "permissionlessGeneric", "xc20"]
+                      "enum": [
+                        "erc20",
+                        "erc721",
+                        "permissionedGeneric",
+                        "permissionlessGeneric",
+                        "xc20"
+                      ]
                     },
                     "address": {
                       "type": "string"
@@ -89,7 +95,13 @@
                       "type": "string"
                     },
                     "type": {
-                      "type": "string"
+                      "type": "string",
+                      "enum": [
+                        "fungible",
+                        "nonFungible",
+                        "permissionedGeneric",
+                        "permissionlessGeneric"
+                      ]
                     },
                     "address": {
                       "type": "string"
