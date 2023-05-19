@@ -115,7 +115,8 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
-          "type": "native",
+          "type": "fungible",
+          "native": true,
           "address": "",
           "symbol": "PHA",
           "decimals": 18
