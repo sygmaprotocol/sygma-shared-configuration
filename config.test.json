@@ -120,14 +120,6 @@
           "address": "",
           "symbol": "PHA",
           "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "type": "fungible",
-          "burnable": true,
-          "address": "",
-          "symbol": "ERC20LRTest",
-          "decimals": 18
         }
       ]
     }
