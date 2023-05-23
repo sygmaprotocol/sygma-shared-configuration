@@ -2,6 +2,7 @@
   "domains": [
     {
       "id": 1,
+      "chainId": 5,
       "name": "ethereum",
       "type": "evm",
       "bridge": "0xc26335a9f16398b5fDA4bC05b62C1429D8a4d755",
@@ -45,11 +46,19 @@
           "address": "",
           "symbol": "",
           "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "type": "fungible",
+          "address": "0xB376b0Ee6d8202721838e76376e81eEc0e2FE864",
+          "symbol": "GPHA",
+          "decimals": 18
         }
       ]
     },
     {
       "id": 2,
+      "chainId": 11155111,
       "name": "ethereum",
       "type": "evm",
       "bridge": "0xBcE812D24255d94BBb5f5C51e384640a492ac178",
@@ -119,14 +128,6 @@
           "native": true,
           "address": "",
           "symbol": "PHA",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "type": "fungible",
-          "burnable": true,
-          "address": "",
-          "symbol": "ERC20LRTest",
           "decimals": 18
         }
       ]
