@@ -107,6 +107,7 @@
     },
     {
       "id": 3,
+      "chainId": 5231,
       "name": "rococo-phala",
       "type": "substrate",
       "bridge": "",
@@ -128,7 +129,7 @@
           "native": true,
           "address": "",
           "symbol": "PHA",
-          "decimals": 18
+          "decimals": 12
         }
       ]
     }
