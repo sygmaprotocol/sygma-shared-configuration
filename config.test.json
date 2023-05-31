@@ -129,6 +129,8 @@
           "native": true,
           "symbol": "PHA",
           "decimals": 12,
+          "assetId": 1000,
+          "assetName": "Phala",
           "xcmMultiAssetId": {
             "concrete": {
               "parents": 0,
