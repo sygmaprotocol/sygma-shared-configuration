@@ -127,9 +127,16 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
           "type": "fungible",
           "native": true,
-          "address": "",
           "symbol": "PHA",
-          "decimals": 12
+          "decimals": 12,
+          "assetId": 1000,
+          "assetName": "Phala",
+          "xcmMultiAssetId": {
+            "concrete": {
+              "parents": 0,
+              "interior": "here"
+            }
+          }
         }
       ]
     }
