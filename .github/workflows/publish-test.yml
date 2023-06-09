@@ -8,7 +8,6 @@ on:
 permissions: read-all
 
 jobs:
-  # Publish testnet configurations to IPFS
   publish_testnet:
     runs-on: ubuntu-latest
     steps:
