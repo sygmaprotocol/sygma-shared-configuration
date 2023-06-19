@@ -1,4 +1,4 @@
-name: Publish testnet configurations
+name: Publish mainnet configurations
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 permissions: read-all
 
 jobs:
-  publish_testnet:
+  publish_mainnet:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -16,9 +16,9 @@ jobs:
       - name: Upload testnet assets
         uses: shallwefootball/s3-upload-action@master
         with:
-          aws_key_id: ${{ secrets.STAGE_AWS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.STAGE_AWS_SECRET_ACCESS_KEY }}
-          aws_bucket: chainbridge-assets-stage
-          source_dir: './testnet'
+          aws_key_id: ${{ secrets.PROD_AWS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}
+          aws_bucket: sygma-assets-mainnet
+          source_dir: './mainnet'
           destination_dir: '.'
 
