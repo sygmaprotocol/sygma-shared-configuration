@@ -53,7 +53,7 @@
       "bridge": "",
       "handlers": [
         {
-          "address": "",
+          "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
           "type": "erc20"
         }
       ],
@@ -88,7 +88,7 @@
       "bridge": "",
       "handlers": [
         {
-          "address": "",
+          "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
           "type": "erc20"
         }
       ],
