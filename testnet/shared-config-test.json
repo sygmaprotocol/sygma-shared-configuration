@@ -119,7 +119,7 @@
       ],
       "nativeTokenSymbol": "pha",
       "nativeTokenFullName": "pha",
-      "nativeTokenDecimals": 18,
+      "nativeTokenDecimals": 12,
       "blockConfirmations": 2,
       "startBlock": 5888,
       "resources": [
@@ -129,7 +129,6 @@
           "native": true,
           "symbol": "PHA",
           "decimals": 12,
-          "assetId": 1000,
           "assetName": "Phala",
           "xcmMultiAssetId": {
             "concrete": {
