@@ -59,7 +59,7 @@
       ],
       "nativeTokenSymbol": "pha",
       "nativeTokenFullName": "pha",
-      "nativeTokenDecimals": 18,
+      "nativeTokenDecimals": 12,
       "blockConfirmations": 2,
       "startBlock": 4076354,
       "resources": [
@@ -69,7 +69,6 @@
           "native": true,
           "symbol": "PHA",
           "decimals": 12,
-          "assetId": 1000,
           "assetName": "Phala",
           "xcmMultiAssetId": {
             "concrete": {
@@ -94,7 +93,7 @@
       ],
       "nativeTokenSymbol": "pha",
       "nativeTokenFullName": "pha",
-      "nativeTokenDecimals": 18,
+      "nativeTokenDecimals": 12,
       "blockConfirmations": 2,
       "startBlock": 2756266,
       "resources": [
@@ -104,7 +103,6 @@
           "native": true,
           "symbol": "PHA",
           "decimals": 12,
-          "assetId": 1000,
           "assetName": "Phala",
           "xcmMultiAssetId": {
             "concrete": {
