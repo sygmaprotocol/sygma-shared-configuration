@@ -3,7 +3,7 @@ name: Publish testnet configurations
 on:
   push:
     branches:
-      - main
+      - tcar/add-balance-checker-config
 
 permissions: read-all
 
