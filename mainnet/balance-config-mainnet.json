@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "url": "",
+    "type": "evm",
+    "nativeTokenMinBalance": "0.1",
+    "nativeBalanceData": [
+      {
+        "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x181b05D98dCCB9e38cf51fd30F4A225De79A3366",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0xa67bF22Df59071E57b0E345161bCDFcd436eD769",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x8f18154c57D2AFB1E12224788b366c5Da17Ef3E7",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x31404a0ece67Dd8b374C3088a76A5DcAC7D4BF37",
+        "topic": "MAINNET-relayer-low-balance"
+      }
+    ],
+    "assetBalanceData": [
+      {
+        "assets": [
+          {
+            "resourceId":
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "assetTokenMinBalance": "10"
+          }
+        ],
+        "accountAddresses": [],
+        "topic": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "",
+    "type": "substrate",
+    "nativeTokenMinBalance": "100",
+    "nativeBalanceData": [
+      {
+        "address": "44jVUMQaqqW4Ue6TWPAGyXXNzb5cvQqe1sfVeoZkzoMfGuUK",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "42z85jp7jYaKA1hQgRi6SKMR1AJXCF61s71zcQFCY3SGwcvt",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "1LavZxdZJCaAKG1HHGiVXY85a7entmrkECFKaWJU19MYtV6",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "16Y8imbTQxA8gCbxRtFSZKMLatZZTfBg1zRHp37Qwf7kkmnB",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "12U44X2BQndKGRjvxTYUefWc156qWrLzYXsM4eDrAHJWCacM",
+        "topic": "MAINNET-relayer-low-balance"
+      }
+    ],
+    "assetBalanceData": [
+      {
+        "assets": [
+          {
+            "resourceId":
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "assetTokenMinBalance": "10000"
+          }
+        ],
+        "accountAddresses": [],
+        "topic": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "",
+    "type": "substrate",
+    "nativeTokenMinBalance": "100",
+    "nativeBalanceData": [
+      {
+        "address": "44jVUMQaqqW4Ue6TWPAGyXXNzb5cvQqe1sfVeoZkzoMfGuUK",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "42z85jp7jYaKA1hQgRi6SKMR1AJXCF61s71zcQFCY3SGwcvt",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "1LavZxdZJCaAKG1HHGiVXY85a7entmrkECFKaWJU19MYtV6",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "16Y8imbTQxA8gCbxRtFSZKMLatZZTfBg1zRHp37Qwf7kkmnB",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "12U44X2BQndKGRjvxTYUefWc156qWrLzYXsM4eDrAHJWCacM",
+        "topic": "MAINNET-relayer-low-balance"
+      }
+    ],
+    "assetBalanceData": [
+      {
+        "assets": [
+          {
+            "resourceId":
+              "0x0000000000000000000000000000000000000000000000000000000000000001",
+            "assetTokenMinBalance": "10000"
+          }
+        ],
+        "accountAddresses": [],
+        "topic": ""
+      }
+    ]
+  }
+]
