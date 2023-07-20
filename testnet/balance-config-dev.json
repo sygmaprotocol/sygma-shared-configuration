@@ -3,7 +3,7 @@
        "id":1,
        "url":"",
        "type":"evm",
-       "nativeTokenMinBalance":"1000000",
+       "nativeTokenMinBalance":"0.1",
        "nativeBalanceData":[
           {
              "address":"0x002A465ADE27c72E34bf92f594B352A2Ac746D0a",
@@ -31,15 +31,15 @@
              "assets":[
                 {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000300",
-                   "assetTokenMinBalance":"1000000"
+                   "assetTokenMinBalance":"10"
                 },
                 {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000600",
-                   "assetTokenMinBalance":"1000000"
+                   "assetTokenMinBalance":"10"
                 },
                 {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000800",
-                   "assetTokenMinBalance":"1000000"
+                   "assetTokenMinBalance":"10"
                 }
              ],
              "accountAddresses":[
@@ -53,7 +53,7 @@
        "id":2,
        "url":"",
        "type":"evm",
-       "nativeTokenMinBalance":"1000000",
+       "nativeTokenMinBalance":"0.1",
        "nativeBalanceData":[
           {
              "address":"0x002A465ADE27c72E34bf92f594B352A2Ac746D0a",
@@ -81,7 +81,7 @@
              "assets":[
                 {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000300",
-                   "assetTokenMinBalance":"1000000"
+                   "assetTokenMinBalance":"10"
                 },
                 {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000600",
@@ -103,7 +103,7 @@
        "id":100,
        "url":"",
        "type":"evm",
-       "nativeTokenMinBalance":"1000000",
+       "nativeTokenMinBalance":"0.1",
        "nativeBalanceData":[
           {
              "address":"0x002A465ADE27c72E34bf92f594B352A2Ac746D0a",
@@ -131,7 +131,7 @@
              "assets":[
                 {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000300",
-                   "assetTokenMinBalance":"1000000"
+                   "assetTokenMinBalance":"10"
                 },
                 {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000600",
