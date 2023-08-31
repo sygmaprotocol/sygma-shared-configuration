@@ -1,6 +1,7 @@
 [
     {
       "id": 1,
+      "chainId": 5,
       "url": "",
       "type": "evm",
       "nativeTokenMinBalance": "0.5",
@@ -43,6 +44,7 @@
     },
     {
       "id": 2,
+      "chainId": 11155111,
       "url": "",
       "type": "evm",
       "nativeTokenMinBalance": "0.5",
@@ -80,6 +82,7 @@
     },
     {
       "id": 3,
+      "chainId": 5231,
       "url": "",
       "type": "substrate",
       "nativeTokenMinBalance": "100",
