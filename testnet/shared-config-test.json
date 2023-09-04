@@ -58,6 +58,93 @@
     },
     {
       "id": 2,
+      "chainId": 84531,
+      "name": "ethereum",
+      "type": "evm",
+      "bridge": "0xeCc5790B2AD23fb02347615A6f9a89A729888c06",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x17e4C404aD634E429ebCdF9a10F38A96Ce8eEF27"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x9535484111383531BB9D6922B309Bf316Cec9A19"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 	9146583,
+      "feeRouter": "0x2692bE8dbDBDF816a1B4F67fBC6103e150bA8B23",
+      "feeHandlers": [
+        {
+          "address": "0xEE2e1fFE2F53A923902fEe87f3168741D8C56525",
+          "type": "basic"
+        },
+        {
+          "address": "0x2FfE7309168C05c3c5c1b04D9A22bCe5c1BA0136",
+          "type": "oracle"
+        },
+        {
+          "address":"0x0c678958A685e028f153bA31e3C348eDbE4D98BA",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "fungible",
+          "address": "0x8Ed0fC96d7163b06F40E420cC81f6F525D40A954",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chainId": 5231,
+      "name": "rococo-phala",
+      "type": "substrate",
+      "bridge": "",
+      "handlers": [
+        {
+          "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
+          "type": "erc20"
+        }
+      ],
+      "nativeTokenSymbol": "pha",
+      "nativeTokenFullName": "pha",
+      "nativeTokenDecimals": 12,
+      "blockConfirmations": 2,
+      "startBlock": 5888,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "type": "fungible",
+          "native": true,
+          "symbol": "PHA",
+          "decimals": 12,
+          "assetName": "Phala",
+          "xcmMultiAssetId": {
+            "concrete": {
+              "parents": 0,
+              "interior": "here"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
       "chainId": 11155111,
       "name": "ethereum",
       "type": "evm",
@@ -102,40 +189,6 @@
           "address": "",
           "symbol": "",
           "decimals": 0
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "chainId": 5231,
-      "name": "rococo-phala",
-      "type": "substrate",
-      "bridge": "",
-      "handlers": [
-        {
-          "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
-          "type": "erc20"
-        }
-      ],
-      "nativeTokenSymbol": "pha",
-      "nativeTokenFullName": "pha",
-      "nativeTokenDecimals": 12,
-      "blockConfirmations": 2,
-      "startBlock": 5888,
-      "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
-          "type": "fungible",
-          "native": true,
-          "symbol": "PHA",
-          "decimals": 12,
-          "assetName": "Phala",
-          "xcmMultiAssetId": {
-            "concrete": {
-              "parents": 0,
-              "interior": "here"
-            }
-          }
         }
       ]
     }
