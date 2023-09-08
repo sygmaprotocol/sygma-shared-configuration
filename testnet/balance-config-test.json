@@ -48,10 +48,10 @@
     },
     {
       "id": 2,
-      "chainId": 84531,
+      "chainId": 11155111,
       "url": "",
       "type": "evm",
-      "nativeTokenMinBalance": "0.03",
+      "nativeTokenMinBalance": "0.1",
       "nativeBalanceData": [
         {
           "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
