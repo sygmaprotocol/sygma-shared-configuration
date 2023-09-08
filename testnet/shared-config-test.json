@@ -163,7 +163,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": 9402142,
+      "startBlock": 9492599,
       "feeRouter": "0xad3961FF8a445FF9EF4A85f450DcE1690c51Ce98",
       "feeHandlers": [
         {
@@ -216,7 +216,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": 12811120,
+      "startBlock": 12876313,
       "feeRouter": "",
       "feeHandlers": [
         {
