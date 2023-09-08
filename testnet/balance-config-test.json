@@ -21,6 +21,10 @@
         {
           "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
           "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+          "topic": "TEST-relayer-low-balance"
         }
       ],
       "assetBalanceData": [
@@ -64,6 +68,10 @@
         {
           "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
           "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+          "topic": "TEST-relayer-low-balance"
         }
       ],
       "assetBalanceData": [
@@ -102,6 +110,10 @@
         {
           "address": "45eGTXKATkBdwqTprSYTMGE5aZZaWjYzwesVfvc8WnqdvEao",
           "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "44LgzzD9AYMZ79LhXJwGj8hGfXoEhx5e6PZKFmURf1nNyrLn",
+          "topic": "TEST-relayer-low-balance"
         }
       ],
       "assetBalanceData": [
@@ -120,10 +132,10 @@
     },
     {
       "id": 4,
-      "chainId": 11155111,
+      "chainId": 84531,
       "url": "",
       "type": "evm",
-      "nativeTokenMinBalance": "0.5",
+      "nativeTokenMinBalance": "0.05",
       "nativeBalanceData": [
         {
           "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
@@ -139,6 +151,52 @@
         },
         {
           "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+          "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+          "topic": "TEST-relayer-low-balance"
+        }
+      ],
+      "assetBalanceData": [
+        {
+          "assets": [
+            {
+              "resourceId":
+                "0x0000000000000000000000000000000000000000000000000000000000000300",
+              "assetTokenMinBalance": "200"
+            }
+          ],
+          "accountAddresses": [],
+          "topic": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chainId": 338,
+      "url": "",
+      "type": "evm",
+      "nativeTokenMinBalance": "10",
+      "nativeBalanceData": [
+        {
+          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+          "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+          "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+          "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+          "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
           "topic": "TEST-relayer-low-balance"
         }
       ],

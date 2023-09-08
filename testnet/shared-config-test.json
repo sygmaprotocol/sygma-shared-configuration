@@ -84,7 +84,7 @@
           "type": "basic"
         },
         {
-          "address": "0x7dCBdb9cBA0Bb1871EECafAB290E5a2e45077479",
+          "address": "0xF97F5A81c77310C36EF042cf21CE8F43809B4334",
           "type": "oracle"
         },
         {
@@ -96,7 +96,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "fungible",
-          "address": "0xA9C41B54e635259EB1C72Fde4a6844D82eD00cde",
+          "address": "0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
