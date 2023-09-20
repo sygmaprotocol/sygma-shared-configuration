@@ -44,8 +44,8 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
           "type": "permissionlessGeneric",
           "address": "",
-          "symbol": "",
-          "decimals": 0
+          "symbol": "eth",
+          "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
@@ -104,8 +104,8 @@
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
           "type": "permissionlessGeneric",
           "address": "",
-          "symbol": "",
-          "decimals": 0
+          "symbol": "eth",
+          "decimals": 18
         }
       ]
     },
