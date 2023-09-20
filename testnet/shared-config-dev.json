@@ -32,7 +32,7 @@
       "feeRouter": "0x860B8a9b84Be8f2bF98d6455699cae5dcecCf43a",
       "feeHandlers": [
         {
-          "address": "0x6f9581E1baa1aCEC916eF4751a92C61aBd884970",
+          "address": "0xA88993743fFd129d2738Ca5a113B830264C17013",
           "type": "basic"
         },
         {
