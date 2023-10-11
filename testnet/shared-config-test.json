@@ -95,7 +95,7 @@
           "type": "oracle"
         },
         {
-          "address":"0x2e77dEa116117eCF44a427064260D16D488ccff2",
+          "address": "0x2e77dEa116117eCF44a427064260D16D488ccff2",
           "type": "percentage"
         }
       ],
@@ -164,8 +164,16 @@
           "assetName": "SygmaUSD",
           "xcmMultiAssetId": {
             "concrete": {
-              "parents": 0,
-              "interior": "here"
+              "parents": 1,
+              "interior": {
+                "X2": {
+                  "Parachain": 1000,
+                  "GeneralKey": {
+                    "length": 6,
+                    "data": "0x7379675553440000000000000000000000000000000000000000000000000000"
+                  }
+                }
+              }
             }
           }
         }
@@ -203,7 +211,7 @@
           "type": "oracle"
         },
         {
-          "address":"0x117689D3BD6b5Cf32cE1d971Dd879eF17209193A",
+          "address": "0x117689D3BD6b5Cf32cE1d971Dd879eF17209193A",
           "type": "percentage"
         }
       ],
