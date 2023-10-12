@@ -160,7 +160,7 @@
     "chainId": 8453,
     "url": "",
     "type": "evm",
-    "nativeTokenMinBalance": "0.1",
+    "nativeTokenMinBalance": "0.03",
     "nativeBalanceData": [
       {
         "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
