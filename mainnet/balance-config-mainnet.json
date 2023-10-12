@@ -153,19 +153,7 @@
         "topic": "MAINNET-relayer-low-balance"
       }
     ],
-    "assetBalanceData": [
-      {
-        "assets": [
-          {
-            "resourceId":
-              "0x0000000000000000000000000000000000000000000000000000000000000001",
-            "assetTokenMinBalance": "10000"
-          }
-        ],
-        "accountAddresses": [],
-        "topic": ""
-      }
-    ]
+    "assetBalanceData": []
   },
   {
     "id": 5,
@@ -195,18 +183,6 @@
         "topic": "MAINNET-relayer-low-balance"
       }
     ],
-    "assetBalanceData": [
-      {
-        "assets": [
-          {
-            "resourceId":
-              "0x0000000000000000000000000000000000000000000000000000000000000001",
-            "assetTokenMinBalance": "10000"
-          }
-        ],
-        "accountAddresses": [],
-        "topic": ""
-      }
-    ]
+    "assetBalanceData": []
   }
 ]

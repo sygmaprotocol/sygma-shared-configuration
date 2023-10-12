@@ -155,13 +155,6 @@
       ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000001",
-          "type": "fungible",
-          "address": "0x6c5bA91642F10282b576d91922Ae6448C9d52f4E",
-          "symbol": "PHA",
-          "decimals": 18
-        },
-        {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "permissionlessGeneric",
           "address": "",
@@ -203,13 +196,6 @@
         }
       ],
       "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000001",
-          "type": "fungible",
-          "address": "0x6c5bA91642F10282b576d91922Ae6448C9d52f4E",
-          "symbol": "PHA",
-          "decimals": 18
-        },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "permissionlessGeneric",
