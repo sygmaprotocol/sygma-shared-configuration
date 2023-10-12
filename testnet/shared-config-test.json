@@ -53,6 +53,13 @@
           "address": "0xB376b0Ee6d8202721838e76376e81eEc0e2FE864",
           "symbol": "GPHA",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "type": "fungible",
+          "address": "0xc00621087a20484DFB0F892ed1cE37fC2ABf72c8",
+          "symbol": "sygUSD",
+          "decimals": 18
         }
       ]
     },
@@ -88,7 +95,7 @@
           "type": "oracle"
         },
         {
-          "address":"0x2e77dEa116117eCF44a427064260D16D488ccff2",
+          "address": "0x2e77dEa116117eCF44a427064260D16D488ccff2",
           "type": "percentage"
         }
       ],
@@ -105,6 +112,13 @@
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "type": "fungible",
+          "address": "0xA9F30c6B5E7996D1bAd51D213277c30750bcBB36",
+          "symbol": "sygUSD",
           "decimals": 18
         }
       ]
@@ -138,6 +152,28 @@
             "concrete": {
               "parents": 0,
               "interior": "here"
+            }
+          }
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "type": "fungible",
+          "native": true,
+          "symbol": "sygUSD",
+          "decimals": 18,
+          "assetName": "SygmaUSD",
+          "xcmMultiAssetId": {
+            "concrete": {
+              "parents": 1,
+              "interior": {
+                "X2": {
+                  "Parachain": 1000,
+                  "GeneralKey": {
+                    "length": 6,
+                    "data": "0x7379675553440000000000000000000000000000000000000000000000000000"
+                  }
+                }
+              }
             }
           }
         }
@@ -175,7 +211,7 @@
           "type": "oracle"
         },
         {
-          "address":"0x117689D3BD6b5Cf32cE1d971Dd879eF17209193A",
+          "address": "0x117689D3BD6b5Cf32cE1d971Dd879eF17209193A",
           "type": "percentage"
         }
       ],
