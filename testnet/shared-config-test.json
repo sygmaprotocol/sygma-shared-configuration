@@ -161,7 +161,7 @@
           "assetID": 1984,
           "native": false,
           "symbol": "sygUSD",
-          "decimals": 18,
+          "decimals": 6,
           "assetName": "SygmaUSD",
           "xcmMultiAssetId": {
             "concrete": {
