@@ -158,7 +158,8 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
           "type": "fungible",
-          "native": true,
+          "assetID": 1984,
+          "native": false,
           "symbol": "sygUSD",
           "decimals": 18,
           "assetName": "SygmaUSD",
