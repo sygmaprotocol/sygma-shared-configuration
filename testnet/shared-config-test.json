@@ -229,7 +229,7 @@
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "",
-          "decimals": 0
+          "decimals": 18
         }
       ]
     },
@@ -282,7 +282,7 @@
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "",
-          "decimals": 0
+          "decimals": 18
         }
       ]
     }
