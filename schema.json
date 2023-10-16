@@ -15,10 +15,15 @@
               "type": "string"
             },
             "type": {
-              "type": "string"
+              "type": "string",
+              "enum": [
+                "evm",
+                "substrate"
+              ]
             },
             "bridge": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^$|^0x[a-fA-F0-9]{40}$"
             },
             "nativeTokenSymbol": {
               "type": "string"
@@ -63,7 +68,8 @@
               ]
             },
             "feeRouter": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^0x[a-fA-F0-9]{40}$"
             },
             "feeHandlers": {
               "type": "array",
@@ -72,10 +78,16 @@
                   "type": "object",
                   "properties": {
                     "address": {
-                      "type": "string"
+                      "type": "string",
+                      "pattern": "^0x[a-fA-F0-9]{40}$"
                     },
                     "type": {
-                      "type": "string"
+                      "type": "string",
+                      "enum": [
+                        "basic",
+                        "oracle",
+                        "percentage"
+                      ]
                     }
                   },
                   "required": [
@@ -92,7 +104,8 @@
                   "type": "object",
                   "properties": {
                     "resourceId": {
-                      "type": "string"
+                      "type": "string",
+                      "pattern": "^0x[0-9]{64}$"
                     },
                     "type": {
                       "type": "string",
@@ -104,7 +117,8 @@
                       ]
                     },
                     "address": {
-                      "type": "string"
+                      "type": "string",
+                      "pattern": "^$|^0x[a-fA-F0-9]{40}$"
                     },
                     "symbol": {
                       "type": "string"

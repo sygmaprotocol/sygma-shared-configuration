@@ -40,7 +40,7 @@ Format of shared domains configuration for all Sygma services:
 - domains - array of domains that the bridge is supporting
   - id - domain id
   - name - domain name
-  - type - domain type (supstrate, evm)
+  - type - domain type (substrate, evm)
   - bridgeContract - address of the bridge contract
   - handlers - information about the type and address of the handlers contracts
     - type - handler type (erc20, erc721, permissionedGeneric, permissionlessGeneric)
