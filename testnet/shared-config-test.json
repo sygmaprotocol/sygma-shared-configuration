@@ -285,6 +285,97 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 6,
+      "chainId": 17000,
+      "name": "holesky",
+      "type": "evm",
+      "bridge": "0xE366E0B707FBF59CF9A3068af34dC519D5fa6e78",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0xEeFBd08769Ab1e369a04a17180E91E4549938d4c"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0xc1154781Fa12a845aCaf276Bf2030040Ba9DAec8"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 240679	,
+      "feeRouter": "0x5626A5a7b65E3d851c693AC583068e75853fE0C8",
+      "feeHandlers": [
+        {
+          "address": "0xEE7946aE5f7287a39Bc67207868EDD4a95f96795",
+          "type": "basic"
+        },
+        {
+          "address": "0x9535484111383531BB9D6922B309Bf316Cec9A19",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chainId": 80001,
+      "name": "mumbai",
+      "type": "evm",
+      "bridge": "0xeAEffbadF776Da90D8e0a94D918E1CB83c12242d",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x49780Df8982ADeC1989c50c3d2A7f96037f0E937"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x2f2a45CF84D67F22f4925C70612B2506De7a4efB"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 41961888,
+      "feeRouter": "0xa5007DF9379b88d62108b061702c1408459FFF3b",
+      "feeHandlers": [
+        {
+          "address": "0x68812fAA580212a29Fa562ECBFf9C7cBfF1bf5AD",
+          "type": "basic"
+        },
+        {
+          "address": "0x850c0Dfaf1E8489b6699F7D490f8B5693B226De4",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "fungible",
+          "address": "0x75811b960c7acB255f9091bBAC401700E407CDB6",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
     }
   ]
 }
