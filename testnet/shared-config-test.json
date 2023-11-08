@@ -28,8 +28,8 @@
           "type": "basic"
         },
         {
-          "address": "0x66eB349d5750957f68Fe43c01f82019fCe278293",
-          "type": "oracle"
+          "address": "0x2CCD04E702E8Fa321876268E763a2e579F27188B",
+          "type": "percentage"
         }
       ],
       "resources": [
@@ -89,10 +89,6 @@
         {
           "address": "0xDcBA3f691eF406415556C802163C265Db56208cF",
           "type": "basic"
-        },
-        {
-          "address": "0xF97F5A81c77310C36EF042cf21CE8F43809B4334",
-          "type": "oracle"
         },
         {
           "address": "0x2e77dEa116117eCF44a427064260D16D488ccff2",
@@ -208,10 +204,6 @@
           "type": "basic"
         },
         {
-          "address": "0xA30Ad3e57b33149cd31EE2E9Dd37e327ad1e65C3",
-          "type": "oracle"
-        },
-        {
           "address": "0x117689D3BD6b5Cf32cE1d971Dd879eF17209193A",
           "type": "percentage"
         }
@@ -259,10 +251,6 @@
         {
           "address": "0x8eDab7563C618a3F1e5021677640565468C706d8",
           "type": "basic"
-        },
-        {
-          "address": "0x055CEe6D441f0c913D863776356C12FfA2FCDc47",
-          "type": "oracle"
         },
         {
           "address": "0x26545905a3a63B9ffB37926e909a827bDd088512",

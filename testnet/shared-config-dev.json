@@ -32,12 +32,12 @@
       "feeRouter": "0x860B8a9b84Be8f2bF98d6455699cae5dcecCf43a",
       "feeHandlers": [
         {
-          "address": "0xA88993743fFd129d2738Ca5a113B830264C17013",
+          "address": "0x4828Fb7b41D5B4AC8428de2bbD0cb616Cd494973",
           "type": "basic"
         },
         {
-          "address": "0xD001f527E7C134DA7fe23F3bc6d8ffDd9C03514E",
-          "type": "oracle"
+          "address": "0x4828Fb7b41D5B4AC8428de2bbD0cb616Cd494973",
+          "type": "percentage"
         }
       ],
       "resources": [
@@ -138,8 +138,8 @@
           "type": "basic"
         },
         {
-          "address": "0xd2f4B94e5Ca7c6A105a354C329C2085259FDFeF8",
-          "type": "oracle"
+          "address": "0xB52dfE3b6F7a2763691B4320473F9a9Fd2E39708",
+          "type": "percentage"
         }
       ],
       "resources": [
@@ -240,8 +240,8 @@
           "type": "basic"
         },
         {
-          "address": "0x0c3a5d050d60f424F4D9875138bFF0cA9EdE0766",
-          "type": "oracle"
+          "address": "0x8684ceD7E4A9c63beAF61Ff7403f20AD6EB5DDB9",
+          "type": "percentage"
         }
       ],
       "resources": [
