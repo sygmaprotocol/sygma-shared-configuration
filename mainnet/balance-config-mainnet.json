@@ -190,7 +190,7 @@
     "chainId": 100,
     "url": "",
     "type": "evm",
-    "nativeTokenMinBalance": "10",
+    "nativeTokenMinBalance": "5",
     "nativeBalanceData": [
       {
         "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
