@@ -204,6 +204,44 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 6,
+      "chainId": 100,
+      "name": "gnosis",
+      "type": "evm",
+      "bridge": "0x5FdC38c9b32909CcfF4629ffBFe5394852584C59",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x89b835B4b01E29C9464860189a394297913fD65B"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0xde57DEfEe28F0F59C5Ad3B7116B3E98d257f6f27"
+        }
+      ],
+      "nativeTokenSymbol": "XDAI",
+      "nativeTokenFullName": "xDai",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 31074851,
+      "feeRouter": "0xbb2bf03eD554571EFe9BEE2b46dFdc7e44c157e4",
+      "feeHandlers": [
+        {
+          "address": "0xDAC861f54368cD917f6dbEb93FF90727B2c37cB2",
+          "type": "basic"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 18
+        }
+      ]
     }
   ]
 }
