@@ -21,7 +21,7 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 17471012,
-      "feeRouter": "0xEB87a3258668b79a21E454ab524ed4b67CA5b491",
+      "feeRouter": "0xC47468aeae431f5D0B7DA50F9f5D8a6c0eca4789",
       "feeHandlers": [
         {
           "address": "0xe43F8245249d7fAF46408723Ab36D071dD85D7BB",
