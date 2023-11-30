@@ -54,7 +54,7 @@
     "chainId": 5232,
     "url": "",
     "type": "substrate",
-    "nativeTokenMinBalance": "100",
+    "nativeTokenMinBalance": "50",
     "nativeBalanceData": [
       {
         "address": "44jVUMQaqqW4Ue6TWPAGyXXNzb5cvQqe1sfVeoZkzoMfGuUK",
@@ -104,7 +104,7 @@
     "chainId": 5233,
     "url": "",
     "type": "substrate",
-    "nativeTokenMinBalance": "100",
+    "nativeTokenMinBalance": "50",
     "nativeBalanceData": [
       {
         "address": "44jVUMQaqqW4Ue6TWPAGyXXNzb5cvQqe1sfVeoZkzoMfGuUK",
