@@ -25,6 +25,14 @@
       {
         "address": "0x31404a0ece67Dd8b374C3088a76A5DcAC7D4BF37",
         "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x34D92E33c9973277a83B105B1C45c9579F71C98E",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x580549E46b62929182aCfbCB93544A0f213405a2",
+        "topic": "MAINNET-relayer-low-balance"
       }
     ],
     "assetBalanceData": [
@@ -66,6 +74,14 @@
       },
       {
         "address": "12U44X2BQndKGRjvxTYUefWc156qWrLzYXsM4eDrAHJWCacM",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "44hpPpAVbFQpxbDcG8o3pyJTdnwmWminBBudNiog5XrBPAQ7",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "454WJaPkoeZs7L1acD5HFUcb9rGCRX67p1KYDWADHv6uGF3u",
         "topic": "MAINNET-relayer-low-balance"
       }
     ],
@@ -109,6 +125,14 @@
       {
         "address": "12U44X2BQndKGRjvxTYUefWc156qWrLzYXsM4eDrAHJWCacM",
         "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "44hpPpAVbFQpxbDcG8o3pyJTdnwmWminBBudNiog5XrBPAQ7",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "454WJaPkoeZs7L1acD5HFUcb9rGCRX67p1KYDWADHv6uGF3u",
+        "topic": "MAINNET-relayer-low-balance"
       }
     ],
     "assetBalanceData": [
@@ -151,6 +175,14 @@
       {
         "address": "0x31404a0ece67Dd8b374C3088a76A5DcAC7D4BF37",
         "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x34D92E33c9973277a83B105B1C45c9579F71C98E",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x580549E46b62929182aCfbCB93544A0f213405a2",
+        "topic": "MAINNET-relayer-low-balance"
       }
     ],
     "assetBalanceData": []
@@ -181,6 +213,14 @@
       {
         "address": "0x31404a0ece67Dd8b374C3088a76A5DcAC7D4BF37",
         "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x34D92E33c9973277a83B105B1C45c9579F71C98E",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x580549E46b62929182aCfbCB93544A0f213405a2",
+        "topic": "MAINNET-relayer-low-balance"
       }
     ],
     "assetBalanceData": []
@@ -210,6 +250,14 @@
       },
       {
         "address": "0x31404a0ece67Dd8b374C3088a76A5DcAC7D4BF37",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x34D92E33c9973277a83B105B1C45c9579F71C98E",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x580549E46b62929182aCfbCB93544A0f213405a2",
         "topic": "MAINNET-relayer-low-balance"
       }
     ],
