@@ -234,6 +234,44 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 7,
+      "chainId": 137,
+      "name": "polygon",
+      "type": "evm",
+      "bridge": "0x5FdC38c9b32909CcfF4629ffBFe5394852584C59",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x3eE20f17BC7D07bf3e06a7342C13A29823C22Ad5"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x96eb8544Dd96aF28EeBa9b86a1De6357DAb519F6"
+        }
+      ],
+      "nativeTokenSymbol": "MATIC",
+      "nativeTokenFullName": "MATIC",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 50493698,
+      "feeRouter": "0x11947a868b304898e51E50371b84a34D278026e5",
+      "feeHandlers": [
+        {
+          "address": "0x823055b65894203e41EA35BaAC0E1862a9C07E6D",
+          "type": "basic"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 18
+        }
+      ]
     }
   ]
 }
