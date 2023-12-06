@@ -240,7 +240,7 @@
       "chainId": 137,
       "name": "polygon",
       "type": "evm",
-      "bridge": "0x5FdC38c9b32909CcfF4629ffBFe5394852584C59",
+      "bridge": "0x73aB792E6AdF236879a0A2AB1597fa221E736a0d",
       "handlers": [
         {
           "type": "erc20",
