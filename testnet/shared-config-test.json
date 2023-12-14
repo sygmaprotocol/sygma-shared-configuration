@@ -163,13 +163,17 @@
             "concrete": {
               "parents": 1,
               "interior": {
-                "X2": {
-                  "Parachain": 1000,
-                  "GeneralKey": {
+                "X2": [
+                  {
+                    "Parachain": 1000
+                  },
+                  {
+                    "GeneralKey": {
                     "length": 6,
                     "data": "0x7379675553440000000000000000000000000000000000000000000000000000"
+                    }
                   }
-                }
+                ]
               }
             }
           }
