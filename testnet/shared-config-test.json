@@ -368,6 +368,48 @@
           "decimals": 0
         }
       ]
+    },
+    {
+      "id": 8,
+      "chainId": 421614,
+      "name": "arbitrum_sepolia",
+      "type": "evm",
+      "bridge": "0xFB2530Fb3f5801aD35ccd6fdA29715D9330b7F9f",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x5AF405550De00b38cAC1ED7276d0A09114831bCB"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x5ffB6Dc54221371CcBDb9850A283488e12aDf97D"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 6414771,
+      "feeRouter": "0x723366b1Cfff44ebddCB1E1FE569a439363E3B80",
+      "feeHandlers": [
+        {
+          "address": "0xE366E0B707FBF59CF9A3068af34dC519D5fa6e78",
+          "type": "basic"
+        },
+        {
+          "address": "0xEeFBd08769Ab1e369a04a17180E91E4549938d4c",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
     }
   ]
 }
