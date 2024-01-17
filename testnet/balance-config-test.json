@@ -306,7 +306,7 @@
       "chainId": 421614,
       "url": "",
       "type": "evm",
-      "nativeTokenMinBalance": "0.5",
+      "nativeTokenMinBalance": "0.1",
       "nativeBalanceData": [
         {
           "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
@@ -336,7 +336,7 @@
       "chainId": 10200,
       "url": "",
       "type": "evm",
-      "nativeTokenMinBalance": "0.5",
+      "nativeTokenMinBalance": "0.1",
       "nativeBalanceData": [
         {
           "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
