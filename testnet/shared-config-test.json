@@ -410,6 +410,48 @@
           "decimals": 0
         }
       ]
+    },
+    {
+      "id": 9,
+      "chainId": 10200,
+      "name": "gnosis_chiado",
+      "type": "evm",
+      "bridge": "0x668fad90DeAd0F8f04346A735875b62eF9c65f0B",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0xb947F89269F0cF54CC721BcDE298a46930f3418b"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0xe4B86b1B07bBdB0C47940b9B3bD4954A0deAdaBE"
+        }
+      ],
+      "nativeTokenSymbol": "XDAI",
+      "nativeTokenFullName": "xdai",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 7761223,
+      "feeRouter": "0x3F22ae1e689561Fb36013e40b464482EFA8ec465",
+      "feeHandlers": [
+        {
+          "address": "0x9F5efb442d6F24704dB85569876D9c0CA65aed40",
+          "type": "basic"
+        },
+        {
+          "address": "0x95735f49808502C31375F49583c4DFc26cccF0e5",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 0
+        }
+      ]
     }
   ]
 }
