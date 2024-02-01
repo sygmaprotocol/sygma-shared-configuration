@@ -226,6 +226,13 @@
           "address": "",
           "symbol": "",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "type": "fungible",
+          "address": "0xA56419ECdb71acE442a6FbfC8E50c5F993667938",
+          "symbol": "sygUSD",
+          "decimals": 18
         }
       ]
     },
