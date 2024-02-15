@@ -75,6 +75,10 @@
           "address": "0xa65387feCb172ffF8A0aabA323A10c63757BBFA6"
         },
         {
+          "type": "erc721",
+          "address": "0x669F52487ffA6f9aBf722082f735537A98Ec0E4b"
+        },
+        {
           "type": "permissionlessGeneric",
           "address": "0x7dCBdb9cBA0Bb1871EECafAB290E5a2e45077479"
         }
@@ -96,6 +100,13 @@
         }
       ],
       "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "type": "nonfungible",
+          "address": "0x285207cbed7af3bc80e05421d17ae1181d63abd0",
+          "symbol": "ERC721TST",
+          "decimals": 0
+        },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "fungible",
@@ -248,6 +259,10 @@
           "address": "0x39D1Aea5F01138940F19A15049E2073D4df1dc9E"
         },
         {
+          "type": "erc721",
+          "address": "0x52757D9c1a8f8b496cf1e688bbB8055f9F3DfC8a"
+        },
+        {
           "type": "permissionlessGeneric",
           "address": "0x3CBbC542d10CD037cafb1632B29B5B0F59B08A48"
         }
@@ -269,6 +284,13 @@
         }
       ],
       "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "type": "nonfungible",
+          "address": "0x18a8e0748fa207483d23aeac3d0508a25dda3db1",
+          "symbol": "ERC721TST",
+          "decimals": 0
+        },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "fungible",

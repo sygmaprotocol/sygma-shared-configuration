@@ -58,7 +58,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "nonFungible",
+          "type": "nonfungible",
           "address": "0xe9d3b1433bACDfC26ee097629D238A41BF6dA3aE",
           "symbol": "ERC721TST",
           "decimals": 0
@@ -160,7 +160,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "nonFungible",
+          "type": "nonfungible",
           "address": "0x37313Ab1701fCfC5050E84B4E7f841abB588a1db",
           "symbol": "ERC721TST",
           "decimals": 0
@@ -262,7 +262,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "nonFungible",
+          "type": "nonfungible",
           "address": "0xCD246D40f9f91F3cFF83210F2b689c2F126a6ceC",
           "symbol": "ERC721TST",
           "decimals": 0

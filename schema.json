@@ -111,7 +111,7 @@
                       "type": "string",
                       "enum": [
                         "fungible",
-                        "nonFungible",
+                        "nonfungible",
                         "permissionedGeneric",
                         "permissionlessGeneric"
                       ]
