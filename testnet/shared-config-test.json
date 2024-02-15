@@ -103,7 +103,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
           "type": "nonFungible",
-          "address": "0xe9d3b1433bACDfC26ee097629D238A41BF6dA3aE",
+          "address": "0x285207cbed7af3bc80e05421d17ae1181d63abd0",
           "symbol": "ERC721TST",
           "decimals": 0
         },
