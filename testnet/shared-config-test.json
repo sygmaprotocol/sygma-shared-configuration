@@ -102,7 +102,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "nonFungible",
+          "type": "nonfungible",
           "address": "0x285207cbed7af3bc80e05421d17ae1181d63abd0",
           "symbol": "ERC721TST",
           "decimals": 0
@@ -286,7 +286,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "nonFungible",
+          "type": "nonfungible",
           "address": "0x18a8e0748fa207483d23aeac3d0508a25dda3db1",
           "symbol": "ERC721TST",
           "decimals": 0
