@@ -122,6 +122,13 @@
           "decimals": 18
         },
         {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
+        },
+        {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
           "type": "fungible",
           "address": "0xA9F30c6B5E7996D1bAd51D213277c30750bcBB36",
@@ -304,6 +311,13 @@
           "address": "",
           "symbol": "",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
         }
       ]
     },
@@ -346,6 +360,13 @@
           "address": "",
           "symbol": "",
           "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
         }
       ]
     },
@@ -395,6 +416,13 @@
           "address": "",
           "symbol": "",
           "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
         }
       ]
     },
@@ -437,6 +465,13 @@
           "address": "",
           "symbol": "",
           "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
         }
       ]
     },
@@ -479,6 +514,13 @@
           "address": "",
           "symbol": "",
           "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
         }
       ]
     }
