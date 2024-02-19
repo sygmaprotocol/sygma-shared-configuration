@@ -94,11 +94,11 @@
       ]
     },
     {
-      "id": 4,
-      "chainId": 84531,
+      "id": 5,
+      "chainId": 338,
       "url": "",
       "type": "evm",
-      "nativeTokenMinBalance": "0.05",
+      "nativeTokenMinBalance": "10",
       "nativeBalanceData": [
         {
           "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
@@ -127,11 +127,6 @@
             {
               "resourceId":
                 "0x0000000000000000000000000000000000000000000000000000000000000300",
-              "assetTokenMinBalance": "200"
-            },
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000001100",
               "assetTokenMinBalance": "200"
             }
           ],
