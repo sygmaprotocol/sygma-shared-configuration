@@ -1,69 +1,6 @@
 {
   "domains": [
     {
-      "id": 1,
-      "chainId": 5,
-      "name": "goerli",
-      "type": "evm",
-      "bridge": "0xf9a3618bC7Dd11d715cC45D6038F821F13290d8E",
-      "handlers": [
-        {
-          "type": "erc20",
-          "address": "0x41c105C70ABF590d67dc8fD7708F9E52BB44CeF2"
-        },
-        {
-          "type": "permissionlessGeneric",
-          "address": "0x318EFd751B60730786D29376A6785bb02C923733"
-        }
-      ],
-      "nativeTokenSymbol": "eth",
-      "nativeTokenFullName": "ether",
-      "nativeTokenDecimals": 18,
-      "blockConfirmations": 5,
-      "startBlock": 9681836,
-      "feeRouter": "0xB6F9764Ee1d6B6b3211785C3EAFBAd3F8358D205",
-      "feeHandlers": [
-        {
-          "address": "0x4e4Ef31C98f1C2Cf581098Abc0b2d0e456426aE7",
-          "type": "basic"
-        },
-        {
-          "address": "0x2CCD04E702E8Fa321876268E763a2e579F27188B",
-          "type": "percentage"
-        }
-      ],
-      "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "type": "fungible",
-          "address": "0x3F9A68fF29B3d86a6928C44dF171A984F6180009",
-          "symbol": "ERC20LRTest",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "eth",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
-          "type": "fungible",
-          "address": "0xB376b0Ee6d8202721838e76376e81eEc0e2FE864",
-          "symbol": "GPHA",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
-          "type": "fungible",
-          "address": "0xc00621087a20484DFB0F892ed1cE37fC2ABf72c8",
-          "symbol": "sygUSD",
-          "decimals": 18
-        }
-      ]
-    },
-    {
       "id": 2,
       "chainId": 11155111,
       "name": "sepolia",
@@ -188,62 +125,6 @@
               }
             }
           }
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "chainId": 84531,
-      "name": "base",
-      "type": "evm",
-      "bridge": "0x5e2bed941Ed40251ffb8F7B3B7ab3459464A2aad",
-      "handlers": [
-        {
-          "type": "erc20",
-          "address": "0x2C0ae7Fb251ec0772793d480d31B4bc8E3b498a7"
-        },
-        {
-          "type": "permissionlessGeneric",
-          "address": "0x14d1cA88277E13B5615C2C727415a1B94E90264F"
-        }
-      ],
-      "nativeTokenSymbol": "eth",
-      "nativeTokenFullName": "ether",
-      "nativeTokenDecimals": 18,
-      "blockConfirmations": 5,
-      "startBlock": 9492599,
-      "feeRouter": "0xad3961FF8a445FF9EF4A85f450DcE1690c51Ce98",
-      "feeHandlers": [
-        {
-          "address": "0x7dCBdb9cBA0Bb1871EECafAB290E5a2e45077479",
-          "type": "basic"
-        },
-        {
-          "address": "0x117689D3BD6b5Cf32cE1d971Dd879eF17209193A",
-          "type": "percentage"
-        }
-      ],
-      "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "type": "fungible",
-          "address": "0xA5278861d2352fd8eD59b985a29ad46E40930F12",
-          "symbol": "ERC20LRTest",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
-          "type": "fungible",
-          "address": "0xA56419ECdb71acE442a6FbfC8E50c5F993667938",
-          "symbol": "sygUSD",
-          "decimals": 18
         }
       ]
     },
