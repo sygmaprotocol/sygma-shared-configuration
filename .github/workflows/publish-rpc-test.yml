@@ -1,0 +1,24 @@
+name: Publish Testnet RPC Gateways
+
+on:
+  push:
+    branches:
+      - main
+
+permissions: read-all
+
+jobs:
+  publish_testnet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Upload testnet assets
+        uses: shallwefootball/s3-upload-action@master
+        with:
+          aws_key_id: ${{ secrets.STAGE_AWS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.STAGE_AWS_SECRET_ACCESS_KEY }}
+          aws_bucket: chainbridge-assets-stage
+          source_dir: './rpc-testnet'
+          destination_dir: '.'
+
