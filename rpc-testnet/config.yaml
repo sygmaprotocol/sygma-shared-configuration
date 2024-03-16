@@ -1,0 +1,12 @@
+metrics:
+  port: 9090 # Port for Prometheus metrics, served on /metrics and /
+
+port: 8001
+
+gateways:
+  - configFile: "https://chainbridge-assets-stage.s3.us-east-2.amazonaws.com/config_holesky.yml"
+    name: "Holesky gateway"
+  - configFile: "https://chainbridge-assets-stage.s3.us-east-2.amazonaws.com/config_sepolia.yml"
+    name: "Sepolia gateway"
+
+    

@@ -1,0 +1,22 @@
+name: "Holesky"
+
+proxy:
+  path: "holesky" # port for RPC gateway
+  upstreamTimeout: "1s" # when is a request considered timed out
+
+healthChecks:
+  interval: "20s" # how often to do healthchecks
+  timeout: "1s" # when should the timeout occur and considered unhealthy
+  failureThreshold: 2 # how many failed checks until marked as unhealthy
+  successThreshold: 1 # how many successes to be marked as healthy again
+
+targets:
+  - name: "ChainSafe"
+    connection:
+      http: # ws is supported by default, it will be a sticky connection.
+        url: "https://lodestar-holeskyrpc.chainsafe.io/"
+        # compression: true # Specify if the target supports request compression
+  - name: "ChainStack"
+    connection:
+      http:
+        url: "https://ethereum-holesky.core.chainstack.com/fa43b2c681ae6532d501996e5a9e0baa"

@@ -1,0 +1,24 @@
+---
+
+name: "Sepolia"
+
+proxy:
+  path: "sepolia" # port for RPC gateway
+  upstreamTimeout: "1s" # when is a request considered timed out
+
+healthChecks:
+  interval: "20s" # how often to do healthchecks
+  timeout: "1s" # when should the timeout occur and considered unhealthy
+  failureThreshold: 2 # how many failed checks until marked as unhealthy
+  successThreshold: 1 # how many successes to be marked as healthy again
+
+targets:
+  - name: "ChainSafe"
+    connection:
+      http: # ws is supported by default, it will be a sticky connection.
+        url: "https://lodestar-sepoliarpc.chainsafe.io"
+        # compression: true # Specify if the target supports request compression
+  - name: "Alchemy"
+    connection:
+      http:
+        url: "https://eth-sepolia.g.alchemy.com/v2/M3RtUsouiiQ2KgADdSJq2pzWfhr4CXoW"
