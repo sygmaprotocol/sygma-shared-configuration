@@ -12,14 +12,17 @@ permissions: read-all
 jobs:
   publish_testnet:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config_file: ["holesky", "sepolia"]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: render jinja2 templates to task definition json files
         uses: cuchi/jinja2-action@v1.2.0
         with:
-          template: 'rpc-${{ env.ENVIRONMENT }}.j2'
-          output_file: 'rpp-${{ env.ENVIRONMENT }}.yml'
+          template: 'rpc-${{ env.ENVIRONMENT }}/config_{{ matrix.config_file }}.j2'
+          output_file: 'rpp-${{ env.ENVIRONMENT }}/config_{{ matrix.config_file }}.yml'
           data_format: yml
           variables: |
             alchemyRPC=${{ secrets.Alch_Sepolia }}
