@@ -22,7 +22,7 @@ jobs:
         uses: cuchi/jinja2-action@v1.2.0
         with:
           template: 'rpc-${{ env.ENVIRONMENT }}/config_${{ matrix.config_file }}.j2'
-          output_file: 'rpp-${{ env.ENVIRONMENT }}/config_${{ matrix.config_file }}.yml'
+          output_file: 'rpc-${{ env.ENVIRONMENT }}/config_${{ matrix.config_file }}.yml'
           data_format: yml
           variables: |
             alchemyRPC=${{ secrets.Alch_Sepolia }}
