@@ -34,6 +34,6 @@ jobs:
           aws_key_id: ${{ secrets.STAGE_AWS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.STAGE_AWS_SECRET_ACCESS_KEY }}
           aws_bucket: chainbridge-assets-stage
-          source_dir: '::add-mask::./rpc-${{ env.ENVIRONMENT }}/${{matrix.config_file }}.yml'
+          source_dir: './rpc-${{ env.ENVIRONMENT }}/${{matrix.config_file }}.yml'
           destination_dir: '.'
 
