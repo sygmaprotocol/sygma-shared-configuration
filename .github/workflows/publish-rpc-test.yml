@@ -5,7 +5,7 @@ on:
     branches:
       - rpc-gateways
 env:
-  ENVIRONMENT: 'TESTNET'
+  ENVIRONMENT: 'testnet'
 
 permissions: read-all
 
