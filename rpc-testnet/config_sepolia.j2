@@ -1,7 +1,9 @@
-name: "Holesky"
+---
+
+name: "Sepolia"
 
 proxy:
-  path: "holesky" # port for RPC gateway
+  path: "sepolia" # port for RPC gateway
   upstreamTimeout: "1s" # when is a request considered timed out
 
 healthChecks:
@@ -14,9 +16,9 @@ targets:
   - name: "ChainSafe"
     connection:
       http: # ws is supported by default, it will be a sticky connection.
-        url: "https://lodestar-holeskyrpc.chainsafe.io/"
+        url: "https://lodestar-sepoliarpc.chainsafe.io"
         # compression: true # Specify if the target supports request compression
-  - name: "ChainStack"
+  - name: "Alchemy"
     connection:
       http:
-        url: "https://ethereum-holesky.core.chainstack.com/fa43b2c681ae6532d501996e5a9e0baa"
+        url: "https://eth-sepolia.g.alchemy.com/{{ alchemyRPC }}"
