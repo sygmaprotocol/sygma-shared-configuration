@@ -16,6 +16,10 @@
           "address": "0x669F52487ffA6f9aBf722082f735537A98Ec0E4b"
         },
         {
+          "type": "erc1155",
+          "address": "0x65903772866e538e6ffc001dd0c7665e356eb6d8"
+        },
+        {
           "type": "permissionlessGeneric",
           "address": "0x7dCBdb9cBA0Bb1871EECafAB290E5a2e45077479"
         },
@@ -53,6 +57,13 @@
           "type": "fungible",
           "address": "0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
           "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
+          "type": "erc1155",
+          "address": "0xc6de9aa04ef369540a6a4fa2864342732bc99d06",
+          "symbol": "ERC1155TST",
           "decimals": 18
         },
         {
@@ -155,6 +166,10 @@
           "address": "0x52757D9c1a8f8b496cf1e688bbB8055f9F3DfC8a"
         },
         {
+          "type": "erc1155",
+          "address": "0x2d92a0aa3ea19da735514ea542438345ef09cb60"
+        },
+        {
           "type": "permissionlessGeneric",
           "address": "0x3CBbC542d10CD037cafb1632B29B5B0F59B08A48"
         },
@@ -192,6 +207,13 @@
           "type": "fungible",
           "address": "0x2938ED97eF9D897Dac7B21c48e045f34a3a02846",
           "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
+          "type": "erc1155",
+          "address": "0x0d3ce33038a3e9bf940eca6f5eadf355d47d36b3",
+          "symbol": "ERC1155TST",
           "decimals": 18
         },
         {
@@ -419,6 +441,59 @@
           "address": "",
           "symbol": "",
           "decimals": 0
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chainId": 84532,
+      "name": "base_sepolia",
+      "type": "evm",
+      "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x72a588B76025d552B239532C31fB7D5Cc80A3e41"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x7f4e1E62A0Abd4A381254335CeF5770F74b3E22E"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0xfd69bbfcCbfc832C56Ca1490df48B4baF3DfD376"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 7501472,
+      "feeRouter": "0x772e242e6c312f6eF6255d8F35921e7A30D018BA",
+      "feeHandlers": [
+        {
+          "address": "0xde937016D67811f08D93ee54093ea686C21d211C",
+          "type": "basic"
+        },
+        {
+          "address": "0x4430E5D4447Df0FC25adCafEb8b5E49d38B56e21",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
