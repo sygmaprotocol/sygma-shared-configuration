@@ -92,6 +92,7 @@
     {
       "id": 3,
       "chainId": 5231,
+      "parachainId": 2004,
       "name": "rococo-phala",
       "type": "substrate",
       "bridge": "",
