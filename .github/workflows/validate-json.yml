@@ -28,3 +28,13 @@ jobs:
         with:
           schema: /schema.json
           jsons: /testnet/shared-config-test.json
+
+  validate-mainnet-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate JSON
+        uses: nhalstead/validate-json-action@0.1.3
+        with:
+          schema: /schema.json
+          jsons: /mainnet/shared-config-mainnet.json
