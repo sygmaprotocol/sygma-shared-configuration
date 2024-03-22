@@ -272,7 +272,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "fungible",
-          "address": "0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
+          "address": "0xa85F87ff5F5d28eB775C23e35771A984c4bb3D41",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
