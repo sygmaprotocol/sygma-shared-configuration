@@ -73,7 +73,7 @@
       "feeRouter": "0xC2C26789671ec5e1542308Ee38faE4A640bCc03e",
       "feeHandlers": [
         {
-          "address": "0xC2C26789671ec5e1542308Ee38faE4A640bCc03e",
+          "address": "0xEA3a9Bcc6de765aC6E01e327D22DB53b8d3DFa0C",
           "type": "basic"
         },
         {
