@@ -1,0 +1,102 @@
+{
+  "domains": [
+    {
+      "id": 1,
+      "chainId": 17000,
+      "name": "holesky",
+      "type": "evm",
+      "bridge": "0x6Bac21Aa7627009C79cd4784D94e9c280E36ED79",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x96e0cBCb653448a6AE76C2f4041eC6D73127585a"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x347BfeA6B3E929d91caE8e0AfB5DE97d3574AB45"
+        }
+      ],
+      "nativeTokenSymbol": "ETH",
+      "nativeTokenFullName": "eth",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 1213349,
+      "feeRouter": "0x48512523Bb2634467292dd7776313916425F4c8a",
+      "feeHandlers": [
+        {
+          "address": "0x51b9DcAcB395B00857C815aDb89D20175cBb4A58",
+          "type": "basic"
+        },
+        {
+          "address": "0x8fc170823A8dc9eD6Ce81128f0FED3E0089D52f1",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "fungible",
+          "address": "0xa85F87ff5F5d28eB775C23e35771A984c4bb3D41",
+          "symbol": "ERC20TST",
+          "decimals": 18
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chainId": 11155111,
+      "name": "sepolia",
+      "type": "evm",
+      "bridge": "0x57a3aC22bb0779A91B334027982cbC58a71aaD32",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x65Ce12864941F56D3665bb0d97D803E81a1d09a0"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x57d66F8A5A57942b25368C837005141e8A586155"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 5557824,
+      "feeRouter": "0xC2C26789671ec5e1542308Ee38faE4A640bCc03e",
+      "feeHandlers": [
+        {
+          "address": "0xC2C26789671ec5e1542308Ee38faE4A640bCc03e",
+          "type": "basic"
+        },
+        {
+          "address": "0xA048Ddc2C953052835e7847d8c3C4b19183AE1C0",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "fungible",
+          "address": "0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
+          "symbol": "ERC20TST",
+          "decimals": 18
+        }
+      ]
+    }
+  ]
+}
