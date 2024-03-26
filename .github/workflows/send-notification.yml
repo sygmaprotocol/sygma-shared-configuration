@@ -1,0 +1,54 @@
+name: "Send notification"
+
+on: 
+  pull_request:
+    types: [closed]
+
+jobs:
+  send_notification:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v32
+
+    - name: Check if mainnet was changed
+      if: contains(steps.changed-files.outputs.all_changed_files, 'shared-config-mainnet.json')
+      run: |
+          echo "mainnet_changed=true" >> $GITHUB_ENV
+
+    - name: Send Slack notification for mainnet
+      uses: slackapi/slack-github-action@v1.25.0
+      if: ${{ env.mainnet_changed }}
+      with:
+        payload: | 
+         {
+           "environment": "MAINNET",
+           "pr_url": "${{ github.event.pull_request.html_url }}"
+         }
+      env: 
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+    - name: Check if testnet was changed
+      if: contains(steps.changed-files.outputs.all_changed_files, 'shared-config-test.json')
+      run: |
+          echo "testnet_changed=true" >> $GITHUB_ENV
+
+    - name: Send Slack notification for testnet
+      uses: slackapi/slack-github-action@v1.25.0
+      if: ${{ env.testnet_changed }}
+      with:
+        payload: | 
+         {
+           "environment": "TESTNET",
+           "pr_url": "${{ github.event.pull_request.html_url }}"
+         }
+      env: 
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
