@@ -5,7 +5,9 @@
       "chainId": 17000,
       "name": "holesky",
       "type": "evm",
-      "bridge": "0x6Bac21Aa7627009C79cd4784D94e9c280E36ED79",
+      "bridge": "0x3DA376947B760836905a0407588C606D1020C4f3",
+      "router": "0x6Bac21Aa7627009C79cd4784D94e9c280E36ED79",
+      "executor": "0x8Fa58B46F887aB519bB4d7967E718eCe7a92716d",
       "handlers": [
         {
           "type": "erc20",
@@ -54,7 +56,9 @@
       "chainId": 11155111,
       "name": "sepolia",
       "type": "evm",
-      "bridge": "0x57a3aC22bb0779A91B334027982cbC58a71aaD32",
+      "bridge": "0x60e3fd2148f3D6934521a00a0Cf318cB1194e072",
+      "router": "0x57a3aC22bb0779A91B334027982cbC58a71aaD32",
+      "executor": "0x108E42c97a57A7FFC3fbB80A8A14129a94cD29C7",
       "handlers": [
         {
           "type": "erc20",
