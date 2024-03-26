@@ -501,6 +501,13 @@
           "address": "",
           "symbol": "eth",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "type": "fungible",
+          "address": "0xb947F89269F0cF54CC721BcDE298a46930f3418b",
+          "symbol": "sygUSD",
+          "decimals": 18
         }
       ]
     }
