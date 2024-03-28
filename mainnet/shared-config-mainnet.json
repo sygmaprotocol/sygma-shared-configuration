@@ -48,6 +48,7 @@
     {
       "id": 2,
       "chainId": 5232,
+      "parachainId": 2004,
       "name": "khala",
       "type": "substrate",
       "bridge": "",
@@ -82,6 +83,7 @@
     {
       "id": 3,
       "chainId": 5233,
+      "parachainId": 2035,
       "name": "phala",
       "type": "substrate",
       "bridge": "",
