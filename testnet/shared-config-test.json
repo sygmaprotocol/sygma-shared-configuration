@@ -17,7 +17,7 @@
         },
         {
           "type": "erc1155",
-          "address": "0x65903772866e538e6ffc001dd0c7665e356eb6d8"
+          "address": "0x65903772866E538E6fFc001dD0C7665E356eB6d8"
         },
         {
           "type": "permissionlessGeneric",
@@ -25,7 +25,7 @@
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0x39f34c108e0e47ed7fe124975c0204aa5146c074"
+          "address": "0x39f34c108E0E47ED7fe124975c0204aa5146c074"
         }
       ],
       "nativeTokenSymbol": "eth",
@@ -33,14 +33,14 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 4228380,
-      "feeRouter": "0xcf4324addf2eca0181a2a0f5176ef61d115c0ae4",
+      "feeRouter": "0xCF4324adDf2ECA0181A2A0F5176ef61D115C0ae4 ",
       "feeHandlers": [
         {
-          "address": "0xb71adf39d4bc4ebc5b8a5a514d921db269afacff",
+          "address": "0xb71adf39D4Bc4EbC5b8a5A514d921dB269AFAcff",
           "type": "basic"
         },
         {
-          "address": "0xcec8b912ddfc25f381edc11d0629652ec2022265",
+          "address": "0xcEc8b912DdfC25F381EDC11D0629652EC2022265",
           "type": "percentage"
         }
       ],
@@ -48,7 +48,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
           "type": "nonfungible",
-          "address": "0x285207cbed7af3bc80e05421d17ae1181d63abd0",
+          "address": "0x285207Cbed7AF3Bc80E05421D17AE1181d63aBd0",
           "symbol": "ERC721TST",
           "decimals": 0
         },
@@ -62,7 +62,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
           "type": "erc1155",
-          "address": "0xc6de9aa04ef369540a6a4fa2864342732bc99d06",
+          "address": "0xc6DE9aa04eF369540A6A4Fa2864342732bC99d06",
           "symbol": "ERC1155TST",
           "decimals": 18
         },
@@ -167,7 +167,7 @@
         },
         {
           "type": "erc1155",
-          "address": "0x2d92a0aa3ea19da735514ea542438345ef09cb60"
+          "address": "0x2d92a0aa3Ea19DA735514Ea542438345EF09cB60"
         },
         {
           "type": "permissionlessGeneric",
@@ -175,7 +175,7 @@
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0x65903772866e538e6ffc001dd0c7665e356eb6d8"
+          "address": "0x65903772866E538E6fFc001dD0C7665E356eB6d8"
         }
       ],
       "nativeTokenSymbol": "eth",
@@ -183,14 +183,14 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 12876313,
-      "feeRouter": "0xa7f6f510e7d36bc52a19e8e812933f022be9d86b",
+      "feeRouter": "0xA7f6f510E7d36bC52a19e8e812933F022Be9d86b",
       "feeHandlers": [
         {
-          "address": "0xb43c86671d10a05bf074220d5b343da18840a5d0",
+          "address": "0xB43c86671d10a05bf074220D5B343DA18840A5d0",
           "type": "basic"
         },
         {
-          "address": "0x81219b8c30f1edb53684038ec43934b71bb326cc",
+          "address": "0x81219B8c30f1eDb53684038EC43934b71Bb326CC",
           "type": "percentage"
         }
       ],
@@ -198,7 +198,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
           "type": "nonfungible",
-          "address": "0x18a8e0748fa207483d23aeac3d0508a25dda3db1",
+          "address": "0x18A8E0748FA207483D23aeAc3D0508a25dDA3dB1",
           "symbol": "ERC721TST",
           "decimals": 0
         },
@@ -212,7 +212,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
           "type": "erc1155",
-          "address": "0x0d3ce33038a3e9bf940eca6f5eadf355d47d36b3",
+          "address": "0x0d3Ce33038a3E9bF940eCA6f5EADF355d47D36B3",
           "symbol": "ERC1155TST",
           "decimals": 18
         },
@@ -249,7 +249,7 @@
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0x3c1a4d85826919ce0d170aaa93987c79d2b4374d"
+          "address": "0x3C1A4d85826919CE0d170AaA93987C79D2B4374d"
         }
       ],
       "nativeTokenSymbol": "eth",
@@ -302,7 +302,7 @@
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0x9d45e9be1e70735ee78052717107d5dc59c1eace"
+          "address": "0x9D45e9bE1E70735Ee78052717107d5dc59C1EaCE"
         }
       ],
       "nativeTokenSymbol": "eth",
@@ -362,7 +362,7 @@
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0xcb9eb2b2abbd51945a82f77e789c26720b3835bf"
+          "address": "0xcB9EB2B2ABBD51945A82f77e789C26720B3835bF"
         }
       ],
       "nativeTokenSymbol": "eth",
@@ -415,7 +415,7 @@
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0xf2d8a89bd008180222c2be154c9948421c9184db"
+          "address": "0xF2d8A89bd008180222c2be154C9948421C9184dB"
         }
       ],
       "nativeTokenSymbol": "XDAI",
