@@ -25,6 +25,14 @@
         {
           "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
           "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+          "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+          "topic": "TEST-relayer-low-balance"
         }
       ],
       "assetBalanceData": [
@@ -160,6 +168,14 @@
         },
         {
           "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+          "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0x71B54037B7b843934F575a762087D455bf44Bb1B",
+          "topic": "TEST-relayer-low-balance"
+        },
+        {
+          "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
           "topic": "TEST-relayer-low-balance"
         }
       ],
