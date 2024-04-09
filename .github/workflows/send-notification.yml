@@ -6,6 +6,16 @@ jobs:
   send_notification:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
+    strategy: 
+      matrix:
+        include:
+        - webhook: SLACK_WEBHOOK_URL1 
+        - webhook: SLACK_WEBHOOK_URL2
+
+    env: 
+      SLACK_WEBHOOK_URL1: ${{ secrets.SLACK_WEBHOOK_URL1 }}
+      SLACK_WEBHOOK_URL2: ${{ secrets.SLACK_WEBHOOK_URL2 }}
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -44,39 +54,9 @@ jobs:
             {
               title: 'Author',
               value: `${ process.env.AS_AUTHOR }`,
-            }
-            ],
-          }]
-         }
-      env: 
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL1 }}
-
-    - name: Send Slack notification
-      uses: 8398a7/action-slack@v3
-      if: ${{ env.environment_changed }}
-      with:
-        status: custom
-        fields: all
-        custom_payload: |
-         {
-          text: `Changes have been detected.\nPlease restart your relayer(s) on the changed environment.\n\n If a new network was added with these changes, you will have to expand your local relayer(s) configuration.\n\n For more details feel free to contact the Sygma team.`,
-          attachments: [{
-            color: 'good',
-            fields: [
-            {
-              title: 'Repository',
-              value: `${ process.env.AS_REPO }`,
-            },  
-            {
-              title: 'Pull request',
-              value: `${ process.env.AS_PULL_REQUEST }`,
-            },
-            {
-              title: 'Author',
-              value: `${ process.env.AS_AUTHOR }`,
             },
             ],
           }]
          }
       env: 
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL2 }}
+        SLACK_WEBHOOK_URL: ${{ secrets[matrix.webhook] }}
