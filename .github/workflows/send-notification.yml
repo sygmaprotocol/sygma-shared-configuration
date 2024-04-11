@@ -15,6 +15,8 @@ jobs:
     env: 
       SLACK_WEBHOOK_URL1: ${{ secrets.SLACK_WEBHOOK_URL1 }}
       SLACK_WEBHOOK_URL2: ${{ secrets.SLACK_WEBHOOK_URL2 }}
+      MAINNET_CHANGED: ":x:"
+      TESTNET_CHANGED: ":x:"
 
     steps:
     - name: Checkout repository
@@ -26,20 +28,28 @@ jobs:
       id: changed-files
       uses: tj-actions/changed-files@v32
 
-    - name: Check if mainnet or testnet were changed
-      if: contains(steps.changed-files.outputs.all_changed_files, 'shared-config-mainnet.json') || contains(steps.changed-files.outputs.all_changed_files, 'shared-config-test.json')
+    - name: Check if mainnet changed
+      if: contains(steps.changed-files.outputs.all_changed_files, 'shared-config-mainnet.json')
       run: |
-          echo "environment_changed=true" >> $GITHUB_ENV
+          echo "ENVIRONMENT_CHANGED=true" >> $GITHUB_ENV
+          echo "MAINNET_CHANGED=:heavy_check_mark:" >> $GITHUB_ENV
+
+
+    - name: Check if testnet changed
+      if: contains(steps.changed-files.outputs.all_changed_files, 'shared-config-test.json')
+      run: |
+          echo "ENVIRONMENT_CHANGED=true" >> $GITHUB_ENV
+          echo "TESTNET_CHANGED=:heavy_check_mark:" >> $GITHUB_ENV
 
     - name: Send Slack notification
       uses: 8398a7/action-slack@v3
-      if: ${{ env.environment_changed }}
+      if: ${{ env.ENVIRONMENT_CHANGED }}
       with:
         status: custom
         fields: all
         custom_payload: |
          {
-          text: `Changes have been detected.\nPlease restart your relayer(s) on the changed environment.\n\n If a new network was added with these changes, you will have to expand your local relayer(s) configuration.\n\n For more details feel free to contact the Sygma team.`,
+          text: `Changes have been detected.\nPlease restart your relayer(s) on:\n\n*MAINNET* ${{ env.MAINNET_CHANGED }}\n*TESTNET* ${{ env.TESTNET_CHANGED }}\n\nIf a new network was added with these changes, you will have to expand your local relayer(s) configuration.\n\nFor more details feel free to contact the Sygma team.`,
           attachments: [{
             color: 'good',
             fields: [
