@@ -61,7 +61,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
-          "type": "erc1155",
+          "type": "semifungible",
           "address": "0xc6DE9aa04eF369540A6A4Fa2864342732bC99d06",
           "symbol": "ERC1155TST",
           "decimals": 18
@@ -212,7 +212,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
-          "type": "erc1155",
+          "type": "semifungible",
           "address": "0x0d3Ce33038a3E9bF940eCA6f5EADF355d47D36B3",
           "symbol": "ERC1155TST",
           "decimals": 18
