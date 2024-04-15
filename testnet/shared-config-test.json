@@ -61,7 +61,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
-          "type": "erc1155",
+          "type": "semifungible",
           "address": "0xc6DE9aa04eF369540A6A4Fa2864342732bC99d06",
           "symbol": "ERC1155TST",
           "decimals": 18
@@ -212,7 +212,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
-          "type": "erc1155",
+          "type": "semifungible",
           "address": "0x0d3Ce33038a3E9bF940eCA6f5EADF355d47D36B3",
           "symbol": "ERC1155TST",
           "decimals": 18
@@ -270,66 +270,6 @@
         }
       ],
       "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "",
-          "decimals": 0
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "eth",
-          "decimals": 18
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "chainId": 80001,
-      "name": "mumbai",
-      "type": "evm",
-      "bridge": "0xeAEffbadF776Da90D8e0a94D918E1CB83c12242d",
-      "handlers": [
-        {
-          "type": "erc20",
-          "address": "0x49780Df8982ADeC1989c50c3d2A7f96037f0E937"
-        },
-        {
-          "type": "permissionlessGeneric",
-          "address": "0x2f2a45CF84D67F22f4925C70612B2506De7a4efB"
-        },
-        {
-          "type": "permissionlessGeneric",
-          "address": "0x9D45e9bE1E70735Ee78052717107d5dc59C1EaCE"
-        }
-      ],
-      "nativeTokenSymbol": "eth",
-      "nativeTokenFullName": "ether",
-      "nativeTokenDecimals": 18,
-      "blockConfirmations": 5,
-      "startBlock": 41961888,
-      "feeRouter": "0xa5007DF9379b88d62108b061702c1408459FFF3b",
-      "feeHandlers": [
-        {
-          "address": "0x68812fAA580212a29Fa562ECBFf9C7cBfF1bf5AD",
-          "type": "basic"
-        },
-        {
-          "address": "0x850c0Dfaf1E8489b6699F7D490f8B5693B226De4",
-          "type": "percentage"
-        }
-      ],
-      "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "type": "fungible",
-          "address": "0x75811b960c7acB255f9091bBAC401700E407CDB6",
-          "symbol": "ERC20LRTest",
-          "decimals": 18
-        },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
           "type": "permissionlessGeneric",
