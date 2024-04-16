@@ -451,6 +451,59 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 11,
+      "chainId": 80002,
+      "name": "amoy",
+      "type": "evm",
+      "bridge": "0x09379198A26E98b42E2619D2fCa1f3170c6FBB6e",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x7E462Fc0E0b6f5EC18C8935f2676E7E40e06a7af"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x3080Ecd6dEc3fe8a3A07d40e656f7D5fc6b3c3A7"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x1F932B2582c52f939DCfb367A3A42f8A95f66782"
+        }
+      ],
+      "nativeTokenSymbol": "MATIC",
+      "nativeTokenFullName": "matic",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock":  5932031,
+      "feeRouter": "0x055CEe6D441f0c913D863776356C12FfA2FCDc47",
+      "feeHandlers": [
+        {
+          "address": "0x43E3A09C5Db24130b94f415fD11bac4b1d44A6A3",
+          "type": "basic"
+        },
+        {
+          "address": "0xcdc03289407b570e434D4BA17B3481CF6B02f369",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
+        }
+      ]
     }
   ]
 }
