@@ -451,6 +451,55 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 11,
+      "chainId": 80002,
+      "name": "amoy",
+      "type": "evm",
+      "bridge": "0x76779F1C15605d78001a364F6E551e25Bb63b74B",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0xd70A2b4823501d62CbE9C2a94d5c450a4439aC08"
+        }
+      ],
+      "nativeTokenSymbol": "MATIC",
+      "nativeTokenFullName": "matic",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock":  6042982,
+      "feeRouter": "0x6b3BB80A93087CF0eABb72c6a1654C979586E15B",
+      "feeHandlers": [
+        {
+          "address": "0xEe1B03dc34d8A5F8f85de78335c29ecc1e73A65e",
+          "type": "basic"
+        },
+        {
+          "address": "0x7F6dee7Cbc91Ee5B7186Db391D3b5f0068d3e250",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "fungible",
+          "address": "0x245466D2175bcED0A1ad1ce804C8F724D7050e85",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        }
+      ]
     }
   ]
 }
