@@ -26,21 +26,6 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 5915176,
-      "feeRouter": "0xE119B7736fC3e5E53C828d8708d64364CA7eF4B7",
-      "feeHandlers": [
-        {
-          "address": "0x0302B3056905B941CC82974D22F615CA90fF4b78",
-          "type": "basic"
-        },
-        {
-          "address": "0x168696d55a73DF66DAA340f612a83e425BeF4f74",
-          "type": "percentage"
-        },
-        {
-          "address": "0xc62Eaab9FaBB603A7D4eFDc9e75956e7929b17D9",
-          "type": "twap"
-        }
-      ],
       "resources": [
         {
           "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -104,21 +89,6 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 1555707,
-      "feeRouter": "0x51A8a164614DFBA8508eB384eEC01259af811595",
-      "feeHandlers": [
-        {
-          "address": "0xFf561FF3bCb12b1aa208E0E216e3C0B9bE7c3392",
-          "type": "basic"
-        },
-        {
-          "address": "0xf64cE3a1c66E1d3a86Dcf32b074f0E58F13e2f3B",
-          "type": "percentage"
-        },
-        {
-          "address": "0xEbBF01ff875d8C8F6f284E5838d9605c92D90a75",
-          "type": "twap"
-        }
-      ],
       "resources": [
         {
           "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
