@@ -9,52 +9,36 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  validate-devnet-json:
+  validate-json:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config:
+          - name: validate-devnet-json
+            schema: /schema.json
+            json: /testnet/shared-config-dev.json
+          - name: validate-devnet-v3-json
+            schema: /schema-v3.json
+            json: /testnet/shared-config-dev-v3.json
+          - name: validate-testnet-json
+            schema: /schema.json
+            json: /testnet/shared-config-test.json
+#          - name: validate-testnet-v3-json
+#            schema: /schema-v3.json
+#            json: /testnet/shared-config-test-v3.json
+          - name: validate-mainnet-json
+            schema: /schema.json
+            json: /mainnet/shared-config-mainnet.json
+#          - name: validate-mainnet-v3-json
+#            schema: /schema-v3.json
+#            json: /mainnet/shared-config-mainnet-v3.json
+          - name: validate-x-json
+            schema: /schema.json
+            json: /testnet/shared-config-x.json
     steps:
       - uses: actions/checkout@v1
       - name: Validate JSON
         uses: nhalstead/validate-json-action@0.1.3
         with:
-          schema: /schema.json
-          jsons: /testnet/shared-config-dev.json
-
-  validate-devnet-v3-json:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - name: Validate JSON
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: /schema-v3.json
-          jsons: /testnet/shared-config-dev-v3.json
-
-  validate-testnet-json:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - name: Validate JSON
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: /schema.json
-          jsons: /testnet/shared-config-test.json
-
-  validate-mainnet-json:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - name: Validate JSON
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: /schema.json
-          jsons: /mainnet/shared-config-mainnet.json
-
-  validate-x-json:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - name: Validate JSON
-        uses: nhalstead/validate-json-action@0.1.3
-        with:
-          schema: /schema.json
-          jsons: /testnet/shared-config-x.json
+          schema: ${{ matrix.config.schema }}
+          jsons: ${{ matrix.config.json }}
