@@ -1,8 +1,9 @@
 {
   "domains": [
     {
-      "id": 2,
+      "sygmaId": 2,
       "chainId": 11155111,
+      "caipId": "eip155:11155111",
       "name": "sepolia",
       "type": "evm",
       "bridge": "0x0903C2cBB992380450598f610101424671D2940a",
@@ -42,7 +43,8 @@
       ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "caip19": "eip155:11155111/erc20:0xFD0421E981542707869Db272ae98c1C8C98448C2",
           "type": "fungible",
           "address": "0xFD0421E981542707869Db272ae98c1C8C98448C2",
           "burnable": true,
@@ -50,21 +52,24 @@
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "eip155:11155111/erc20:0x6D3E32d5b6818A274F00fE69e33b54b4a820CD60",
           "type": "fungible",
           "address": "0x6D3E32d5b6818A274F00fE69e33b54b4a820CD60",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "caip19": "eip155:11155111/erc20:0xb8b43e03cba3Ab1f5799E5525E124d700924163f",
           "type": "nonfungible",
           "address": "0xb8b43e03cba3Ab1f5799E5525E124d700924163f",
           "symbol": "ERC721TST",
           "decimals": 0
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -73,8 +78,9 @@
       ]
     },
     {
-      "id": 3,
+      "sygmaId": 3,
       "chainId": 17000,
+      "caipId": "eip155:17000",
       "name": "holesky",
       "type": "evm",
       "bridge": "0x404aDEFc0410d90b134aaf27f8c65A7dB1487663",
@@ -115,30 +121,34 @@
       ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "fungible",
+          "caip19": "eip155:17000/erc20:0x873Ce69Da09b380d6531aBaD3A86A16950e01Fc8",
           "address": "0x873Ce69Da09b380d6531aBaD3A86A16950e01Fc8",
           "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "fungible",
+          "caip19": "eip155:17000/erc20:0xDDf81Bd7c08ad69D4ed82A2c2E190c65D30cc8bA",
           "address": "0xDDf81Bd7c08ad69D4ed82A2c2E190c65D30cc8bA",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
           "type": "nonfungible",
+          "caip19": "eip155:17000/erc20:0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
           "address": "0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
           "symbol": "ERC721TST",
           "decimals": 0
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
           "type": "permissionlessGeneric",
+          "caip19": "",
           "address": "",
           "symbol": "eth",
           "decimals": 18
