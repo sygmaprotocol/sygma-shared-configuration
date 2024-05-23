@@ -1,43 +1,39 @@
 {
   "domains": [
     {
-      "id": 2,
+      "id": 1,
       "chainId": 11155111,
       "name": "sepolia",
       "type": "evm",
-      "bridge": "0x0903C2cBB992380450598f610101424671D2940a",
+      "bridge": "0xD6cAfa81F6233381544Cec9b059DFfFCEC77dA6B",
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x0c824cbf76A0AaA23A6884727E798Cf5Cf247A27"
+          "address": "0xeE996C429303B60f712C06215497CE52698d8c7b"
         },
         {
           "type": "erc721",
-          "address": "0xA89B2cF596622d04abCf8Fd904397fF9daCEAa1E"
+          "address": "0x97f3D1796AAd978938b5dD36B4395327134054c8"
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0x3f2186A560879cA3f13749d50F06f3f4cC271231"
+          "address": "0x4ff757eeCc134f00909E2E395E71ea8a2F994DE8"
         }
       ],
       "nativeTokenSymbol": "eth",
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": 5915176,
-      "feeRouter": "0xE119B7736fC3e5E53C828d8708d64364CA7eF4B7",
+      "startBlock": 5960974,
+      "feeRouter": "0x6903b2011456AfB36932d8648a7C4bAA5c55aA96",
       "feeHandlers": [
         {
-          "address": "0x0302B3056905B941CC82974D22F615CA90fF4b78",
+          "address": "0xb063236Afbd7E0209FF7Ff005268b6D035A5AF9c",
           "type": "basic"
         },
         {
-          "address": "0x168696d55a73DF66DAA340f612a83e425BeF4f74",
+          "address": "0x07DCb5a9Fd703800ce9e806Ca8f627660F3d5571",
           "type": "percentage"
-        },
-        {
-          "address": "0xc62Eaab9FaBB603A7D4eFDc9e75956e7929b17D9",
-          "type": "twap"
         }
       ],
       "resources": [
@@ -73,44 +69,40 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "chainId": 17000,
       "name": "holesky",
       "type": "evm",
-      "bridge": "0x404aDEFc0410d90b134aaf27f8c65A7dB1487663",
+      "bridge": "0x0fE2c6f1c2582f0782f90bB49C5DA0b6AA4087dC",
       "handlers": [
         {
           "type": "erc20",
-          "address": "0xd7bF1cDc3B2695c8cE42fDc06a832dC198Ca8c6E"
+          "address": "0x7909AD0Fa92B8a59c8CD4d635fd8b46f867FF937"
         },
         {
           "type": "erc721",
-          "address": "0x5266f231ac9eB0A701852b03Eb4dac9416B64064"
+          "address": "0x6b4507E759E28228F47D2fd9197B08214cb4cF6F"
         },
 
         {
           "type": "permissionlessGeneric",
-          "address": "0xb82d24e7738451824564a206BF897A8B09480841"
+          "address": "0xF5703Fcf2bfFC33625857D8ae8994b3260AA3c1f"
         }
       ],
       "nativeTokenSymbol": "eth",
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": 1555707,
-      "feeRouter": "0x51A8a164614DFBA8508eB384eEC01259af811595",
+      "startBlock": 1596632,
+      "feeRouter": "0x57FF8537205Df1F6Ab441EeFE4256a59A96008B5",
       "feeHandlers": [
         {
-          "address": "0xFf561FF3bCb12b1aa208E0E216e3C0B9bE7c3392",
+          "address": "0xE3D472596B028D6C1a90ECcEF9f8941Dc626DEa9",
           "type": "basic"
         },
         {
-          "address": "0xf64cE3a1c66E1d3a86Dcf32b074f0E58F13e2f3B",
+          "address": "0x373e7650fc4085bBe5c26a7892e4Dea47aFf974e",
           "type": "percentage"
-        },
-        {
-          "address": "0xEbBF01ff875d8C8F6f284E5838d9605c92D90a75",
-          "type": "twap"
         }
       ],
       "resources": [
