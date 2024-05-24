@@ -136,6 +136,26 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Bitcoin-Testnet3",
+      "type": "btc",
+      "nativeTokenSymbol": "BTC",
+      "nativeTokenFullName": "Bitcoin",
+      "nativeTokenDecimals": 8,
+      "blockConfirmations": 5,
+      "startBlock": 2817394,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "fungible",
+          "address": "tb1pkwg7akwja3ec03j3pk09fmt5d59g8axc5mya3gptxd6uacvq35usmhh8x6",
+          "burnable": false,
+          "symbol": "BTC",
+          "decimals": 8
+        }
+      ]
     }
   ]
 }
