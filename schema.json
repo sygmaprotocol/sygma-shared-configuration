@@ -12,8 +12,7 @@
               "type": "integer"
             },
             "caipId": {
-              "type": "string",
-              "pattern": "^eip155:\\d+$"
+              "type": "string"
             },
             "chainId": {
               "type": "integer"
@@ -118,8 +117,7 @@
                       "pattern": "^0x[0-9]{64}$"
                     },
                     "caip19": {
-                      "type": "string",
-                      "pattern": "^eip155:\\d+/(erc20|erc721|erc1155):0x[a-fA-F0-9]{40}$"                 
+                      "type": "string"
                     },
                     "type": {
                       "type": "string",
