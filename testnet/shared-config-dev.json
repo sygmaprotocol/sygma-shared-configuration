@@ -3,6 +3,7 @@
     {
       "id": 1,
       "chainId": 11155111,
+      "caipId": "eip155:11155111",
       "name": "sepolia",
       "type": "evm",
       "bridge": "0x8c7ef673fdB8A91c70f85b7f9Cf5055C0D6B4410",
@@ -39,6 +40,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "caip19": "eip155:11155111/erc20:0xFD0421E981542707869Db272ae98c1C8C98448C2",
           "type": "fungible",
           "address": "0xFD0421E981542707869Db272ae98c1C8C98448C2",
           "burnable": true,
@@ -47,6 +49,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "eip155:11155111/erc20:0x6D3E32d5b6818A274F00fE69e33b54b4a820CD60",
           "type": "fungible",
           "address": "0x6D3E32d5b6818A274F00fE69e33b54b4a820CD60",
           "symbol": "ERC20LRTest",
@@ -54,6 +57,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "caip19": "eip155:11155111/erc721:0xb8b43e03cba3Ab1f5799E5525E124d700924163f",
           "type": "nonfungible",
           "address": "0xb8b43e03cba3Ab1f5799E5525E124d700924163f",
           "symbol": "ERC721TST",
@@ -61,6 +65,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -71,6 +76,7 @@
     {
       "id": 2,
       "chainId": 17000,
+      "caipId": "eip155:17000",
       "name": "holesky",
       "type": "evm",
       "bridge": "0x4f1624f758f43c69750f70cb12922A4ba34b6558",
@@ -108,6 +114,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "caip19": "eip155:17000/erc20:0x873Ce69Da09b380d6531aBaD3A86A16950e01Fc8",
           "type": "fungible",
           "address": "0x873Ce69Da09b380d6531aBaD3A86A16950e01Fc8",
           "burnable": true,
@@ -116,6 +123,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "eip155:17000/erc20:0xDDf81Bd7c08ad69D4ed82A2c2E190c65D30cc8bA",
           "type": "fungible",
           "address": "0xDDf81Bd7c08ad69D4ed82A2c2E190c65D30cc8bA",
           "symbol": "ERC20LRTest",
@@ -123,6 +131,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "caip19": "eip155:17000/erc20:0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
           "type": "nonfungible",
           "address": "0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
           "symbol": "ERC721TST",
@@ -130,6 +139,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",

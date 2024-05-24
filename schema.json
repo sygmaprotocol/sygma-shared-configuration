@@ -11,6 +11,10 @@
             "id": {
               "type": "integer"
             },
+            "caipId": {
+              "type": "string",
+              "pattern": "^eip155:\\d+$"
+            },
             "chainId": {
               "type": "integer"
             },
@@ -112,6 +116,10 @@
                     "resourceId": {
                       "type": "string",
                       "pattern": "^0x[0-9]{64}$"
+                    },
+                    "caip19": {
+                      "type": "string",
+                      "pattern": "^eip155:\\d+/(erc20|erc721|erc1155):0x[a-fA-F0-9]{40}$"                 
                     },
                     "type": {
                       "type": "string",
