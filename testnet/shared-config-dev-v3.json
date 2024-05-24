@@ -1,31 +1,31 @@
 {
   "domains": [
     {
-      "sygmaId": 2,
+      "sygmaId": 1,
       "chainId": 11155111,
       "caipId": "eip155:11155111",
       "name": "sepolia",
       "type": "evm",
-      "bridge": "0x0903C2cBB992380450598f610101424671D2940a",
+      "bridge": "0x8c7ef673fdB8A91c70f85b7f9Cf5055C0D6B4410",
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x0c824cbf76A0AaA23A6884727E798Cf5Cf247A27"
+          "address": "0x9354dD909416Be9405F174A9Fa81dD5D3F72bE5D"
         },
         {
           "type": "erc721",
-          "address": "0xA89B2cF596622d04abCf8Fd904397fF9daCEAa1E"
+          "address": "0x482BBD2DA050dB6f2f6EAa9278408A116905826F"
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0x3f2186A560879cA3f13749d50F06f3f4cC271231"
+          "address": "0xD006a7c5A723476dc1b088880b2017116Ea371dc"
         }
       ],
       "nativeTokenSymbol": "eth",
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": 5915176,
+      "startBlock": 5962175,
       "resources": [
         {
           "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -63,32 +63,32 @@
       ]
     },
     {
-      "sygmaId": 3,
+      "sygmaId": 2,
       "chainId": 17000,
       "caipId": "eip155:17000",
       "name": "holesky",
       "type": "evm",
-      "bridge": "0x404aDEFc0410d90b134aaf27f8c65A7dB1487663",
+      "bridge": "0x4f1624f758f43c69750f70cb12922A4ba34b6558",
       "handlers": [
         {
           "type": "erc20",
-          "address": "0xd7bF1cDc3B2695c8cE42fDc06a832dC198Ca8c6E"
+          "address": "0x26cB44fa6a2F8Abbb4BA1cAcD9b2A46d80c4d8cC"
         },
         {
           "type": "erc721",
-          "address": "0x5266f231ac9eB0A701852b03Eb4dac9416B64064"
+          "address": "0x5e1ff3a04FF54c6B841393306e1a57ED44Ae8005"
         },
 
         {
           "type": "permissionlessGeneric",
-          "address": "0xb82d24e7738451824564a206BF897A8B09480841"
+          "address": "0x675F2F8B8b67149BDac736c1AbD561Ee450a08D5"
         }
       ],
       "nativeTokenSymbol": "eth",
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": 1555707,
+      "startBlock": 1597715,
       "resources": [
         {
           "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
