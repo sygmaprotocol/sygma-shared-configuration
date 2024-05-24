@@ -1,8 +1,9 @@
 {
   "domains": [
     {
-      "id": 1,
+      "sygmaId": 1,
       "chainId": 11155111,
+      "caipId": "eip155:11155111",
       "name": "sepolia",
       "type": "evm",
       "bridge": "0x8c7ef673fdB8A91c70f85b7f9Cf5055C0D6B4410",
@@ -25,20 +26,10 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 5962175,
-      "feeRouter": "0x143A067e2A3473Ec5A3f032fCA0924788937506d",
-      "feeHandlers": [
-        {
-          "address": "0x680b673194EC98A625df666A9cd4902B2aF1B987",
-          "type": "basic"
-        },
-        {
-          "address": "0x746Ed33B71B0964a47a89E66c8a757d6B8c04c94",
-          "type": "percentage"
-        }
-      ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "caip19": "eip155:11155111/erc20:0xFD0421E981542707869Db272ae98c1C8C98448C2",
           "type": "fungible",
           "address": "0xFD0421E981542707869Db272ae98c1C8C98448C2",
           "burnable": true,
@@ -46,21 +37,24 @@
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "eip155:11155111/erc20:0x6D3E32d5b6818A274F00fE69e33b54b4a820CD60",
           "type": "fungible",
           "address": "0x6D3E32d5b6818A274F00fE69e33b54b4a820CD60",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "caip19": "eip155:11155111/erc20:0xb8b43e03cba3Ab1f5799E5525E124d700924163f",
           "type": "nonfungible",
           "address": "0xb8b43e03cba3Ab1f5799E5525E124d700924163f",
           "symbol": "ERC721TST",
           "decimals": 0
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -69,8 +63,9 @@
       ]
     },
     {
-      "id": 2,
+      "sygmaId": 2,
       "chainId": 17000,
+      "caipId": "eip155:17000",
       "name": "holesky",
       "type": "evm",
       "bridge": "0x4f1624f758f43c69750f70cb12922A4ba34b6558",
@@ -94,43 +89,36 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 1597715,
-      "feeRouter": "0x3B50efbeadE66cB9Ec1357bafa285608AC2ad996",
-      "feeHandlers": [
-        {
-          "address": "0x359Da945fBFa88B007596B3acF44ca455eE284c7",
-          "type": "basic"
-        },
-        {
-          "address": "0x0F059f0eC01D40774176e6b04E4954C4D2E8C168",
-          "type": "percentage"
-        }
-      ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "fungible",
+          "caip19": "eip155:17000/erc20:0x873Ce69Da09b380d6531aBaD3A86A16950e01Fc8",
           "address": "0x873Ce69Da09b380d6531aBaD3A86A16950e01Fc8",
           "burnable": true,
           "symbol": "ERC20TST",
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "fungible",
+          "caip19": "eip155:17000/erc20:0xDDf81Bd7c08ad69D4ed82A2c2E190c65D30cc8bA",
           "address": "0xDDf81Bd7c08ad69D4ed82A2c2E190c65D30cc8bA",
           "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
           "type": "nonfungible",
+          "caip19": "eip155:17000/erc20:0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
           "address": "0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
           "symbol": "ERC721TST",
           "decimals": 0
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "sygmaResourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
           "type": "permissionlessGeneric",
+          "caip19": "",
           "address": "",
           "symbol": "eth",
           "decimals": 18
