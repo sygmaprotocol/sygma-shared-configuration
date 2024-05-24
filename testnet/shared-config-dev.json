@@ -131,7 +131,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "caip19": "eip155:17000/erc20:0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
+          "caip19": "eip155:17000/erc721:0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
           "type": "nonfungible",
           "address": "0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
           "symbol": "ERC721TST",
