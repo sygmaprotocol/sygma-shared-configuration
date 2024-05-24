@@ -150,7 +150,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "fungible",
-          "address": "",
+          "address": "tb1pkwg7akwja3ec03j3pk09fmt5d59g8axc5mya3gptxd6uacvq35usmhh8x6",
           "burnable": false,
           "symbol": "BTC",
           "decimals": 8
