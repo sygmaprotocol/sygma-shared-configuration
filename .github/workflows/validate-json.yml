@@ -17,21 +17,12 @@ jobs:
           - name: validate-devnet-json
             schema: /schema.json
             json: /testnet/shared-config-dev.json
-          - name: validate-devnet-v3-json
-            schema: /schema-v3.json
-            json: /testnet/shared-config-dev-v3.json
           - name: validate-testnet-json
             schema: /schema.json
             json: /testnet/shared-config-test.json
-#          - name: validate-testnet-v3-json
-#            schema: /schema-v3.json
-#            json: /testnet/shared-config-test-v3.json
           - name: validate-mainnet-json
             schema: /schema.json
             json: /mainnet/shared-config-mainnet.json
-#          - name: validate-mainnet-v3-json
-#            schema: /schema-v3.json
-#            json: /mainnet/shared-config-mainnet-v3.json
           - name: validate-x-json
             schema: /schema.json
             json: /testnet/shared-config-x.json

@@ -25,39 +25,20 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 5962175,
-      "feeRouter": "0x143A067e2A3473Ec5A3f032fCA0924788937506d",
-      "feeHandlers": [
-        {
-          "address": "0x680b673194EC98A625df666A9cd4902B2aF1B987",
-          "type": "basic"
-        },
-        {
-          "address": "0x746Ed33B71B0964a47a89E66c8a757d6B8c04c94",
-          "type": "percentage"
-        }
-      ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
           "type": "fungible",
-          "address": "0xFD0421E981542707869Db272ae98c1C8C98448C2",
-          "burnable": true,
-          "symbol": "ERC20TST",
+          "address": "0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
+          "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "fungible",
-          "address": "0x6D3E32d5b6818A274F00fE69e33b54b4a820CD60",
-          "symbol": "ERC20LRTest",
+          "address": "0x7d5e591661F4E727cE7A41982859C1c70A81ECf0",
+          "symbol": "sygBTC",
           "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "nonfungible",
-          "address": "0xb8b43e03cba3Ab1f5799E5525E124d700924163f",
-          "symbol": "ERC721TST",
-          "decimals": 0
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
@@ -83,7 +64,6 @@
           "type": "erc721",
           "address": "0x5e1ff3a04FF54c6B841393306e1a57ED44Ae8005"
         },
-
         {
           "type": "permissionlessGeneric",
           "address": "0x675F2F8B8b67149BDac736c1AbD561Ee450a08D5"
@@ -94,39 +74,20 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 1597715,
-      "feeRouter": "0x3B50efbeadE66cB9Ec1357bafa285608AC2ad996",
-      "feeHandlers": [
-        {
-          "address": "0x359Da945fBFa88B007596B3acF44ca455eE284c7",
-          "type": "basic"
-        },
-        {
-          "address": "0x0F059f0eC01D40774176e6b04E4954C4D2E8C168",
-          "type": "percentage"
-        }
-      ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
           "type": "fungible",
-          "address": "0x873Ce69Da09b380d6531aBaD3A86A16950e01Fc8",
-          "burnable": true,
-          "symbol": "ERC20TST",
+          "address": "0xa85F87ff5F5d28eB775C23e35771A984c4bb3D41",
+          "symbol": "ERC20LRTest",
           "decimals": 18
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
           "type": "fungible",
-          "address": "0xDDf81Bd7c08ad69D4ed82A2c2E190c65D30cc8bA",
-          "symbol": "ERC20LRTest",
+          "address": "0x04EdAC940e4beD3aF04EC1a6f6f951cD42572c76",
+          "symbol": "sygBTC",
           "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "type": "nonfungible",
-          "address": "0xF8550C42Cbe8040D471cEFAA80f4Eded6Cfb34Ab",
-          "symbol": "ERC721TST",
-          "decimals": 0
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
