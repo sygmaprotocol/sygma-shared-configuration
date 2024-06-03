@@ -500,6 +500,74 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 12,
+      "chainId": 6231,
+      "parachainId": 1000,
+      "name": "tangle-standalone-testnet",
+      "type": "substrate",
+      "bridge": "",
+      "handlers": [
+        {
+          "address": "--TODO--",
+          "type": "erc20"
+        }
+      ],
+      "nativeTokenSymbol": "tnt",
+      "nativeTokenFullName": "tnt",
+      "nativeTokenDecimals": 12,
+      "blockConfirmations": 2,
+      "startBlock": 6042982,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000002000",
+          "type": "fungible",
+          "native": true,
+          "symbol": "TNT",
+          "decimals": 12,
+          "assetName": "TNT",
+          "xcmMultiAssetId": {
+            "concrete": {
+              "parents": 0,
+              "interior": "here"
+            }
+          }
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "type": "fungible",
+          "assetID": 1984,
+          "native": false,
+          "symbol": "sygUSD",
+          "decimals": 6,
+          "assetName": "SygmaUSD",
+          "xcmMultiAssetId": {
+            "concrete": {
+              "parents": 1,
+              "interior": {
+                "X3": [
+                  {
+                    "Parachain": 1000
+                  },
+                  {
+                    "GeneralKey": {
+                      "length": 5,
+                      "data": "0x7379676d61000000000000000000000000000000000000000000000000000000"
+                    }
+                  },
+                  {
+                    "GeneralKey": {
+                      "length": 6,
+                      "data": "0x7379677573640000000000000000000000000000000000000000000000000000"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }
