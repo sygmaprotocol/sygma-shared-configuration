@@ -20,6 +20,17 @@
           "address": "0xD006a7c5A723476dc1b088880b2017116Ea371dc"
         }
       ],
+      "feeRouter": "0x143A067e2A3473Ec5A3f032fCA0924788937506d",
+      "feeHandlers": [
+        {
+          "address": "0x680b673194EC98A625df666A9cd4902B2aF1B987",
+          "type": "basic"
+        },
+        {
+          "address": "0x8322A43cBaabfc05A779Bec8f3e05Bd40B0a0a4a",
+          "type": "twap"
+        }
+      ],
       "nativeTokenSymbol": "eth",
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
@@ -67,6 +78,17 @@
         {
           "type": "permissionlessGeneric",
           "address": "0x675F2F8B8b67149BDac736c1AbD561Ee450a08D5"
+        }
+      ],
+      "feeRouter": "0x3B50efbeadE66cB9Ec1357bafa285608AC2ad996",
+      "feeHandlers": [
+        {
+          "address": "0x359Da945fBFa88B007596B3acF44ca455eE284c7",
+          "type": "basic"
+        },
+        {
+          "address": "0x5B601d41F4db89d39E7004AEfF49533DaA288F3e",
+          "type": "twap"
         }
       ],
       "nativeTokenSymbol": "eth",
