@@ -504,7 +504,7 @@
     {
       "id": 12,
       "chainId": 3799,
-      "parachainId": 1000,
+      "parachainId": 3799,
       "name": "tangle-standalone-testnet",
       "type": "substrate",
       "bridge": "",
