@@ -510,7 +510,11 @@
       "bridge": "",
       "handlers": [
         {
-          "address": "--TODO--",
+          "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
+          "type": "erc20"
+        },
+        {
+          "address": "5EYCAe5jLbHcAAMKvLFiGhk3htXY8jQncbLTDGJQnpnPMAVp",
           "type": "erc20"
         }
       ],
