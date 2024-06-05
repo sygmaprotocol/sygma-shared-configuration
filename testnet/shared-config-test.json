@@ -500,6 +500,78 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 12,
+      "chainId": 3799,
+      "parachainId": "",
+      "name": "tangle-standalone-testnet",
+      "type": "substrate",
+      "bridge": "",
+      "handlers": [
+        {
+          "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
+          "type": "erc20"
+        },
+        {
+          "address": "5EYCAe5jLbHcAAMKvLFiGhk3htXY8jQncbLTDGJQnpnPMAVp",
+          "type": "erc20"
+        }
+      ],
+      "nativeTokenSymbol": "tTNT",
+      "nativeTokenFullName": "tTNT",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 2,
+      "startBlock": 6042982,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000002000",
+          "type": "fungible",
+          "native": true,
+          "symbol": "tTNT",
+          "decimals": 18,
+          "assetName": "tTNT",
+          "xcmMultiAssetId": {
+            "concrete": {
+              "parents": 0,
+              "interior": "here"
+            }
+          }
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "type": "fungible",
+          "assetID": 1984,
+          "native": false,
+          "symbol": "sygUSD",
+          "decimals": 6,
+          "assetName": "SygmaUSD",
+          "xcmMultiAssetId": {
+            "concrete": {
+              "parents": 1,
+              "interior": {
+                "X3": [
+                  {
+                    "Parachain": 1000
+                  },
+                  {
+                    "GeneralKey": {
+                      "length": 5,
+                      "data": "0x7379676d61000000000000000000000000000000000000000000000000000000"
+                    }
+                  },
+                  {
+                    "GeneralKey": {
+                      "length": 6,
+                      "data": "0x7379677573640000000000000000000000000000000000000000000000000000"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

@@ -15,7 +15,7 @@
               "type": "integer"
             },
             "parachainId": {
-              "type": "integer"
+              "type": ["integer", "string"]
             },
             "name": {
               "type": "string"
