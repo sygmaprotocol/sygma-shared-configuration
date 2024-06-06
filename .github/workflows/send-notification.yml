@@ -49,7 +49,7 @@ jobs:
         fields: all
         custom_payload: |
          {
-          text: `Changes have been detected.\nPlease restart your relayer(s) on:\n\n*MAINNET* ${{ env.MAINNET_CHANGED }}\n*TESTNET* ${{ env.TESTNET_CHANGED }}\n\nIf a new network was added with these changes, you will have to expand your local relayer(s) configuration.\n\nFor more details feel free to contact the Sygma team.`,
+          text: `Changes have been detected.\nPlease restart your relayer(s) on:\n\n*MAINNET* ${{ env.MAINNET_CHANGED }}\n*TESTNET* ${{ env.TESTNET_CHANGED }}\n\nIf a new network was added with these changes, you will have to expand the configuration of your local relayer(s).\n\nFor more details feel free to contact the Sygma team.`,
           attachments: [{
             color: 'good',
             fields: [
