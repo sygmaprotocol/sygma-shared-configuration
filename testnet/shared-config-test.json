@@ -86,6 +86,13 @@
           "address": "0xA9F30c6B5E7996D1bAd51D213277c30750bcBB36",
           "symbol": "sygUSD",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000002000",
+          "type": "fungible",
+          "address": "0xcaad55c60823150566f9e2f6040556dc00a67f5c",
+          "symbol": "tTNT",
+          "decimals": 18
         }
       ]
     },
