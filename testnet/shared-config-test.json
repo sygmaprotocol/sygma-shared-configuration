@@ -81,6 +81,13 @@
           "decimals": 18
         },
         {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+          "type": "fungible",
+          "address": "0xc3cb14a020319f479ff164485008896a853dc8ca",
+          "symbol": "sygBTC",
+          "decimals": 8
+        },
+        {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
           "type": "fungible",
           "address": "0xA9F30c6B5E7996D1bAd51D213277c30750bcBB36",
@@ -290,6 +297,13 @@
           "address": "",
           "symbol": "eth",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+          "type": "fungible",
+          "address": "0x34d4fb8c45060143d39b7526c2b645d351af85a5",
+          "symbol": "sygBTC",
+          "decimals": 8
         }
       ]
     },
@@ -577,6 +591,26 @@
               }
             }
           }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Bitcoin-Testnet3",
+      "type": "btc",
+      "nativeTokenSymbol": "BTC",
+      "nativeTokenFullName": "Bitcoin",
+      "nativeTokenDecimals": 8,
+      "blockConfirmations": 5,
+      "startBlock": 2820671,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+          "type": "fungible",
+          "address": "",
+          "burnable": false,
+          "symbol": "BTC",
+          "decimals": 8
         }
       ]
     }
