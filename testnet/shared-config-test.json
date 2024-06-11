@@ -577,6 +577,48 @@
               }
             }
           }
+        },
+        {
+          "id": 15,
+          "chainId": 1993,
+          "name": "b3-sepolia",
+          "type": "evm",
+          "bridge": "0xFF92C3C393B22F9d26e5732F2601EaC04094880F",
+          "handlers": [
+            {
+              "type": "erc20",
+              "address": "0x36930B9117713EF92E2f5Ca4FCa047DAdb92C48E"
+            },
+            {
+              "type": "permissionlessGeneric",
+              "address": "0x39D1Aea5F01138940F19A15049E2073D4df1dc9E"
+            }
+          ],
+          "nativeTokenSymbol": "ETH",
+          "nativeTokenFullName": "eth",
+          "nativeTokenDecimals": 18,
+          "blockConfirmations": 5,
+          "startBlock":  6042982,
+          "feeRouter": "0x837F6005187b0Ce30451b464a0C6ae77F1aC94F7",
+          "feeHandlers": [
+            {
+              "address": "0x27284B791992a40D18197087477304368Ac67Fcb",
+              "type": "basic"
+            },
+            {
+              "address": "0x14d1cA88277E13B5615C2C727415a1B94E90264F",
+              "type": "percentage"
+            }
+          ],
+          "resources": [
+            {
+              "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+              "type": "permissionlessGeneric",
+              "address": "",
+              "symbol": "eth",
+              "decimals": 18
+            }
+          ]
         }
       ]
     }
