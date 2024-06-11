@@ -579,6 +579,55 @@
           }
         }
       ]
+    },
+    {
+      "id": 14,
+      "chainId": 24766,
+      "name": "bison-testnet2",
+      "type": "evm",
+      "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x72a588B76025d552B239532C31fB7D5Cc80A3e41"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x3C1A4d85826919CE0d170AaA93987C79D2B4374d"
+        }
+      ],
+      "nativeTokenSymbol": "BISON",
+      "nativeTokenFullName": "bison",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 35237,
+      "feeRouter": "0x772e242e6c312f6eF6255d8F35921e7A30D018BA",
+      "feeHandlers": [
+        {
+          "address": "0xde937016D67811f08D93ee54093ea686C21d211C",
+          "type": "basic"
+        },
+        {
+          "address": "0x4430E5D4447Df0FC25adCafEb8b5E49d38B56e21",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "BISON",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+          "type": "fungible",
+          "address": "0xb947F89269F0cF54CC721BcDE298a46930f3418b",
+          "symbol": "sygBTC",
+          "decimals": 8
+        }
+      ]
     }
   ]
 }
