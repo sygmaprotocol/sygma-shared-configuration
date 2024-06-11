@@ -577,48 +577,48 @@
               }
             }
           }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chainId": 1993,
+      "name": "b3-sepolia",
+      "type": "evm",
+      "bridge": "0xFF92C3C393B22F9d26e5732F2601EaC04094880F",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x36930B9117713EF92E2f5Ca4FCa047DAdb92C48E"
         },
         {
-          "id": 15,
-          "chainId": 1993,
-          "name": "b3-sepolia",
-          "type": "evm",
-          "bridge": "0xFF92C3C393B22F9d26e5732F2601EaC04094880F",
-          "handlers": [
-            {
-              "type": "erc20",
-              "address": "0x36930B9117713EF92E2f5Ca4FCa047DAdb92C48E"
-            },
-            {
-              "type": "permissionlessGeneric",
-              "address": "0x39D1Aea5F01138940F19A15049E2073D4df1dc9E"
-            }
-          ],
-          "nativeTokenSymbol": "ETH",
-          "nativeTokenFullName": "eth",
-          "nativeTokenDecimals": 18,
-          "blockConfirmations": 5,
-          "startBlock":  6042982,
-          "feeRouter": "0x837F6005187b0Ce30451b464a0C6ae77F1aC94F7",
-          "feeHandlers": [
-            {
-              "address": "0x27284B791992a40D18197087477304368Ac67Fcb",
-              "type": "basic"
-            },
-            {
-              "address": "0x14d1cA88277E13B5615C2C727415a1B94E90264F",
-              "type": "percentage"
-            }
-          ],
-          "resources": [
-            {
-              "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-              "type": "permissionlessGeneric",
-              "address": "",
-              "symbol": "eth",
-              "decimals": 18
-            }
-          ]
+          "type": "permissionlessGeneric",
+          "address": "0x39D1Aea5F01138940F19A15049E2073D4df1dc9E"
+        }
+      ],
+      "nativeTokenSymbol": "ETH",
+      "nativeTokenFullName": "eth",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock":  6042982,
+      "feeRouter": "0x837F6005187b0Ce30451b464a0C6ae77F1aC94F7",
+      "feeHandlers": [
+        {
+          "address": "0x27284B791992a40D18197087477304368Ac67Fcb",
+          "type": "basic"
+        },
+        {
+          "address": "0x14d1cA88277E13B5615C2C727415a1B94E90264F",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
         }
       ]
     },
@@ -627,15 +627,15 @@
       "chainId": 24766,
       "name": "bison-testnet2",
       "type": "evm",
-      "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
+      "bridge": "0x7e28f84A21cf0349165dD4f0590B1D28b71c6087",
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x72a588B76025d552B239532C31fB7D5Cc80A3e41"
+          "address": "0x564ba4645aEB9F91eCfd0B0FE47B273C34F28943"
         },
         {
           "type": "permissionlessGeneric",
-          "address": "0x3C1A4d85826919CE0d170AaA93987C79D2B4374d"
+          "address": "0x669F52487ffA6f9aBf722082f735537A98Ec0E4b"
         }
       ],
       "nativeTokenSymbol": "BISON",
@@ -643,14 +643,14 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "startBlock": 35237,
-      "feeRouter": "0x772e242e6c312f6eF6255d8F35921e7A30D018BA",
+      "feeRouter": "0x9CADaEBd6B67E424E0Cbc67Da1aF7cF991cFCb1E",
       "feeHandlers": [
         {
-          "address": "0xde937016D67811f08D93ee54093ea686C21d211C",
+          "address": "0x9b2Ac30252AADaD5DfBa81B65aA055153B0c796a",
           "type": "basic"
         },
         {
-          "address": "0x4430E5D4447Df0FC25adCafEb8b5E49d38B56e21",
+          "address": "0x7a26BAC81b453E4d6407b8e3fD7989cF650dCABd",
           "type": "percentage"
         }
       ],
@@ -665,7 +665,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
           "type": "fungible",
-          "address": "0xb947F89269F0cF54CC721BcDE298a46930f3418b",
+          "address": "0x53B8C30a0C51DDda196d62DA40dF810cb8f87859",
           "symbol": "sygBTC",
           "decimals": 8
         }
