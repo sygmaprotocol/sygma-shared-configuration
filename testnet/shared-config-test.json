@@ -529,7 +529,7 @@
       "nativeTokenFullName": "tTNT",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 2,
-      "startBlock": 6042982,
+      "startBlock": 655003,
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000002000",
@@ -600,7 +600,7 @@
       "nativeTokenFullName": "eth",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock":  6042982,
+      "startBlock":  4000715,
       "feeRouter": "0x837F6005187b0Ce30451b464a0C6ae77F1aC94F7",
       "feeHandlers": [
         {
