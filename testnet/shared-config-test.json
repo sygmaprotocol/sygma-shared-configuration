@@ -548,7 +548,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
           "type": "fungible",
-          "assetID": 1984,
+          "assetID": 2000,
           "native": false,
           "symbol": "sygUSD",
           "decimals": 6,
@@ -570,6 +570,37 @@
                   "GeneralKey": {
                     "length": 6,
                     "data": "0x7379677573640000000000000000000000000000000000000000000000000000"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "type": "fungible",
+          "assetID": 2001,
+          "native": false,
+          "symbol": "PHA",
+          "decimals": 12,
+          "assetName": "Phala",
+          "xcmMultiAssetId": {
+            "parents": 1,
+            "interior": {
+              "X3": [
+                {
+                  "Parachain": 2004
+                },
+                {
+                  "GeneralKey": {
+                    "length": 5,
+                    "data": "0x7379676d61000000000000000000000000000000000000000000000000000000"
+                  }
+                },
+                {
+                  "GeneralKey": {
+                    "length": 3,
+                    "data": "0x7068610000000000000000000000000000000000000000000000000000000000"
                   }
                 }
               ]
