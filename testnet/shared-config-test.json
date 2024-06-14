@@ -32,7 +32,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock": 5703542,
+      "startBlock": 6106827,
       "feeRouter": "0xCF4324adDf2ECA0181A2A0F5176ef61D115C0ae4",
       "feeHandlers": [
         {
@@ -113,7 +113,7 @@
       "nativeTokenFullName": "pha",
       "nativeTokenDecimals": 12,
       "blockConfirmations": 2,
-      "startBlock": 853611,
+      "startBlock": 1239683,
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
@@ -182,7 +182,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock":  8708492,
+      "startBlock":  11304268,
       "feeRouter": "0x772e242e6c312f6eF6255d8F35921e7A30D018BA",
       "feeHandlers": [
         {
@@ -220,7 +220,7 @@
     },
     {
       "id": 11,
-      "chainId": 80002,
+      "chainId": 8271867,
       "name": "amoy",
       "type": "evm",
       "bridge": "0x76779F1C15605d78001a364F6E551e25Bb63b74B",
@@ -288,7 +288,7 @@
       "nativeTokenFullName": "tTNT",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 2,
-      "startBlock": 655003,
+      "startBlock": 686342,
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000002000",
