@@ -650,55 +650,6 @@
           "decimals": 18
         }
       ]
-    },
-    {
-      "id": 14,
-      "chainId": 24766,
-      "name": "bison-testnet2",
-      "type": "evm",
-      "bridge": "0x7e28f84A21cf0349165dD4f0590B1D28b71c6087",
-      "handlers": [
-        {
-          "type": "erc20",
-          "address": "0x564ba4645aEB9F91eCfd0B0FE47B273C34F28943"
-        },
-        {
-          "type": "permissionlessGeneric",
-          "address": "0x669F52487ffA6f9aBf722082f735537A98Ec0E4b"
-        }
-      ],
-      "nativeTokenSymbol": "BISON",
-      "nativeTokenFullName": "bison",
-      "nativeTokenDecimals": 18,
-      "blockConfirmations": 5,
-      "startBlock": 35237,
-      "feeRouter": "0x9CADaEBd6B67E424E0Cbc67Da1aF7cF991cFCb1E",
-      "feeHandlers": [
-        {
-          "address": "0x9b2Ac30252AADaD5DfBa81B65aA055153B0c796a",
-          "type": "basic"
-        },
-        {
-          "address": "0x7a26BAC81b453E4d6407b8e3fD7989cF650dCABd",
-          "type": "percentage"
-        }
-      ],
-      "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "BISON",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
-          "type": "fungible",
-          "address": "0x53B8C30a0C51DDda196d62DA40dF810cb8f87859",
-          "symbol": "sygBTC",
-          "decimals": 8
-        }
-      ]
     }
   ]
 }
