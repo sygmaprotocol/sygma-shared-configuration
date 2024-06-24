@@ -543,7 +543,7 @@
       "nativeTokenFullName": "tTNT",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 2,
-      "startBlock": 6042982,
+      "startBlock": 655003,
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000002000",
@@ -562,33 +562,62 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
           "type": "fungible",
-          "assetID": 1984,
+          "assetID": 2000,
           "native": false,
           "symbol": "sygUSD",
           "decimals": 6,
           "assetName": "SygmaUSD",
           "xcmMultiAssetId": {
-            "concrete": {
-              "parents": 1,
-              "interior": {
-                "X3": [
-                  {
-                    "Parachain": 1000
-                  },
-                  {
-                    "GeneralKey": {
-                      "length": 5,
-                      "data": "0x7379676d61000000000000000000000000000000000000000000000000000000"
-                    }
-                  },
-                  {
-                    "GeneralKey": {
-                      "length": 6,
-                      "data": "0x7379677573640000000000000000000000000000000000000000000000000000"
-                    }
+            "parents": 1,
+            "interior": {
+              "X3": [
+                {
+                  "Parachain": 1000
+                },
+                {
+                  "GeneralKey": {
+                    "length": 5,
+                    "data": "0x7379676d61000000000000000000000000000000000000000000000000000000"
                   }
-                ]
-              }
+                },
+                {
+                  "GeneralKey": {
+                    "length": 6,
+                    "data": "0x7379677573640000000000000000000000000000000000000000000000000000"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "type": "fungible",
+          "assetID": 2001,
+          "native": false,
+          "symbol": "PHA",
+          "decimals": 12,
+          "assetName": "Phala",
+          "xcmMultiAssetId": {
+            "parents": 1,
+            "interior": {
+              "X3": [
+                {
+                  "Parachain": 2004
+                },
+                {
+                  "GeneralKey": {
+                    "length": 5,
+                    "data": "0x7379676d61000000000000000000000000000000000000000000000000000000"
+                  }
+                },
+                {
+                  "GeneralKey": {
+                    "length": 3,
+                    "data": "0x7068610000000000000000000000000000000000000000000000000000000000"
+                  }
+                }
+              ]
             }
           }
         }
@@ -607,10 +636,54 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
           "type": "fungible",
-          "address": "",
+          "address": "tb1p72xwajwdxdfhmu5dp39sh8jdc6msnez0a7rq4gk5jeep0kvccnsqkgcj7e",
           "burnable": false,
           "symbol": "BTC",
-          "decimals": 8
+          "decimals": 8,
+          "tweak": "213bff3f86006c010482ba7cb1fb9080f395407cb0a9cd2afcfbd861cb8ff759",
+          "script": "5120f28ceec9cd33537df28d0c4b0b9e4dc6b709e44fef860aa2d4967217d998c4e0"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chainId": 1993,
+      "name": "b3-sepolia",
+      "type": "evm",
+      "bridge": "0xFF92C3C393B22F9d26e5732F2601EaC04094880F",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x36930B9117713EF92E2f5Ca4FCa047DAdb92C48E"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x39D1Aea5F01138940F19A15049E2073D4df1dc9E"
+        }
+      ],
+      "nativeTokenSymbol": "ETH",
+      "nativeTokenFullName": "eth",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock":  4000715,
+      "feeRouter": "0x837F6005187b0Ce30451b464a0C6ae77F1aC94F7",
+      "feeHandlers": [
+        {
+          "address": "0x27284B791992a40D18197087477304368Ac67Fcb",
+          "type": "basic"
+        },
+        {
+          "address": "0x14d1cA88277E13B5615C2C727415a1B94E90264F",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
         }
       ]
     }
