@@ -630,8 +630,8 @@
       "nativeTokenSymbol": "BTC",
       "nativeTokenFullName": "Bitcoin",
       "nativeTokenDecimals": 8,
-      "blockConfirmations": 5,
-      "startBlock": 2820671,
+      "blockConfirmations": 2,
+      "startBlock": 2822263,
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
