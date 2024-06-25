@@ -138,7 +138,7 @@
           "burnable": false,
           "symbol": "BTC",
           "decimals": 8,
-	        "script": "5120b391eed9d2ec7387c6510d9e54ed746d0a83f4d8a6c9d8a02b3375cee1808d39",
+	  "script": "5120b391eed9d2ec7387c6510d9e54ed746d0a83f4d8a6c9d8a02b3375cee1808d39",
           "tweak": "dbeea926f9229e7c80d0ed242df23027c084df3987b2cadf7b5c6b3035eb0dc7",
           "feeAmount": "1000000"
         }
