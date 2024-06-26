@@ -130,7 +130,7 @@
     },
     {
       "id": 3,
-      "caipId": "eip155:3",
+      "caipId": "bip122:000000000933ea01ad0ee984209779ba",
       "name": "Bitcoin-Testnet3",
       "type": "btc",
       "nativeTokenSymbol": "BTC",
@@ -142,7 +142,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "caip19": "eip155:3/erc20:tb1pkwg7akwja3ec03j3pk09fmt5d59g8axc5mya3gptxd6uacvq35usmhh8x6",
+          "caip19": "bip122:000000000933ea01ad0ee984209779ba/slip44:0",
           "type": "fungible",
           "address": "tb1pkwg7akwja3ec03j3pk09fmt5d59g8axc5mya3gptxd6uacvq35usmhh8x6",
           "burnable": false,
