@@ -14,6 +14,9 @@
             "chainId": {
               "type": "integer"
             },
+            "caipId": {
+              "type": "string"
+            },
             "parachainId": {
               "type": ["integer", "string"]
             },
@@ -112,6 +115,9 @@
                     "resourceId": {
                       "type": "string",
                       "pattern": "^0x[0-9]{64}$"
+                    },
+                    "caipId": {
+                      "type": "string"
                     },
                     "type": {
                       "type": "string",
