@@ -227,7 +227,13 @@
           "topic": "TEST-relayer-low-balance"
         }
       ],
-      "assetBalanceData": []
+      "assetBalanceData": [
+        {
+          "resourceId":
+            "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "assetTokenMinBalance": "200"
+        }
+      ]
     },
     {
       "id": 8,

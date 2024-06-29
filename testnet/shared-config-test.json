@@ -285,6 +285,13 @@
       ],
       "resources": [
         {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "type": "fungible",
+          "address": "0xa85F87ff5F5d28eB775C23e35771A984c4bb3D41",
+          "symbol": "ERC20LRTest",
+          "decimals": 18
+        },
+        {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
           "type": "permissionlessGeneric",
           "address": "",
