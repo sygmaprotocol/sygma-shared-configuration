@@ -3,6 +3,7 @@
     {
       "id": 1,
       "chainId": 11155111,
+      "caipId": "eip155:11155111",
       "name": "sepolia",
       "type": "evm",
       "bridge": "0x8c7ef673fdB8A91c70f85b7f9Cf5055C0D6B4410",
@@ -39,6 +40,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "caip19": "eip155:11155111/erc20:0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
           "type": "fungible",
           "address": "0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
           "symbol": "ERC20LRTest",
@@ -46,6 +48,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "eip155:11155111/erc20:0x7d5e591661F4E727cE7A41982859C1c70A81ECf0",
           "type": "fungible",
           "address": "0x7d5e591661F4E727cE7A41982859C1c70A81ECf0",
           "symbol": "sygBTC",
@@ -53,6 +56,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -63,6 +67,7 @@
     {
       "id": 2,
       "chainId": 17000,
+      "caipId": "eip155:17000",
       "name": "holesky",
       "type": "evm",
       "bridge": "0x4f1624f758f43c69750f70cb12922A4ba34b6558",
@@ -99,6 +104,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "caip19": "eip155:17000/erc20:0xa85F87ff5F5d28eB775C23e35771A984c4bb3D41",
           "type": "fungible",
           "address": "0xa85F87ff5F5d28eB775C23e35771A984c4bb3D41",
           "symbol": "ERC20LRTest",
@@ -106,6 +112,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "eip155:17000/erc20:0x04EdAC940e4beD3aF04EC1a6f6f951cD42572c76",
           "type": "fungible",
           "address": "0x04EdAC940e4beD3aF04EC1a6f6f951cD42572c76",
           "symbol": "sygBTC",
@@ -113,6 +120,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -122,6 +130,7 @@
     },
     {
       "id": 3,
+      "caipId": "bip122:000000000933ea01ad0ee984209779ba",
       "name": "Bitcoin-Testnet3",
       "type": "btc",
       "nativeTokenSymbol": "BTC",
@@ -133,6 +142,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "bip122:000000000933ea01ad0ee984209779ba/slip44:0",
           "type": "fungible",
           "address": "tb1pkwg7akwja3ec03j3pk09fmt5d59g8axc5mya3gptxd6uacvq35usmhh8x6",
           "burnable": false,
