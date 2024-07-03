@@ -3,6 +3,7 @@
     {
       "id": 2,
       "chainId": 11155111,
+      "caipId": "eip155:11155111",
       "name": "sepolia",
       "type": "evm",
       "bridge": "0x4CF326d3817558038D1DEF9e76b727202c3E8492",
@@ -47,6 +48,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "caip19": "eip155:11155111/erc721:0x285207Cbed7AF3Bc80E05421D17AE1181d63aBd0",
           "type": "nonfungible",
           "address": "0x285207Cbed7AF3Bc80E05421D17AE1181d63aBd0",
           "symbol": "ERC721TST",
@@ -54,6 +56,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "eip155:11155111/erc20:0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
           "type": "fungible",
           "address": "0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
           "symbol": "ERC20LRTest",
@@ -61,6 +64,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
+          "caip19": "eip155:11155111/erc1155:0xc6DE9aa04eF369540A6A4Fa2864342732bC99d06",
           "type": "semifungible",
           "address": "0xc6DE9aa04eF369540A6A4Fa2864342732bC99d06",
           "symbol": "ERC1155TST",
@@ -68,6 +72,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -75,6 +80,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+          "caip19": "eip155:11155111/erc20:0xc3cb14a020319f479ff164485008896a853dc8ca",
           "type": "fungible",
           "address": "0xc3cb14a020319f479ff164485008896a853dc8ca",
           "symbol": "sygBTC",
@@ -82,6 +88,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "caip19": "eip155:11155111/erc20:0xA9F30c6B5E7996D1bAd51D213277c30750bcBB36",
           "type": "fungible",
           "address": "0xA9F30c6B5E7996D1bAd51D213277c30750bcBB36",
           "symbol": "sygUSD",
@@ -89,6 +96,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000002000",
+          "caip19": "eip155:11155111/erc20:0xcaad55c60823150566f9e2f6040556dc00a67f5c",
           "type": "fungible",
           "address": "0xcaad55c60823150566f9e2f6040556dc00a67f5c",
           "symbol": "tTNT",
@@ -96,6 +104,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "caip19": "eip155:11155111/erc20:0xAE3283fb214cDb14884039Df09B7895773e68eFA",
           "type": "fungible",
           "address": "0xAE3283fb214cDb14884039Df09B7895773e68eFA",
           "symbol": "PHA",
@@ -107,6 +116,7 @@
       "id": 3,
       "chainId": 5231,
       "parachainId": 2004,
+      "caipId": "polkadot:5231",
       "name": "rococo-phala",
       "type": "substrate",
       "bridge": "",
@@ -124,6 +134,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "caip19": "polkadot:5231",
           "type": "fungible",
           "native": true,
           "symbol": "PHA",
@@ -138,6 +149,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "caip19": "polkadot:5231",
           "type": "fungible",
           "assetID": 1984,
           "native": false,
@@ -154,8 +166,8 @@
                   },
                   {
                     "GeneralKey": {
-                    "length": 6,
-                    "data": "0x7379675553440000000000000000000000000000000000000000000000000000"
+                      "length": 6,
+                      "data": "0x7379675553440000000000000000000000000000000000000000000000000000"
                     }
                   }
                 ]
@@ -168,6 +180,7 @@
     {
       "id": 5,
       "chainId": 338,
+      "caipId": "eip155:338",
       "name": "cronos",
       "type": "evm",
       "bridge": "0x816bb9E810b6b97840F6818bF21Fa25DD7364132",
@@ -212,6 +225,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
+          "caip19": "eip155:338/erc721:0x18A8E0748FA207483D23aeAc3D0508a25dDA3dB1",
           "type": "nonfungible",
           "address": "0x18A8E0748FA207483D23aeAc3D0508a25dDA3dB1",
           "symbol": "ERC721TST",
@@ -219,6 +233,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "eip155:338/erc20:0x2938ED97eF9D897Dac7B21c48e045f34a3a02846",
           "type": "fungible",
           "address": "0x2938ED97eF9D897Dac7B21c48e045f34a3a02846",
           "symbol": "ERC20LRTest",
@@ -226,6 +241,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
+          "caip19": "eip155:338/erc1155:0x0d3Ce33038a3E9bF940eCA6f5EADF355d47D36B3",
           "type": "semifungible",
           "address": "0x0d3Ce33038a3E9bF940eCA6f5EADF355d47D36B3",
           "symbol": "ERC1155TST",
@@ -233,6 +249,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -243,6 +260,7 @@
     {
       "id": 6,
       "chainId": 17000,
+      "caipId": "eip155:17000",
       "name": "holesky",
       "type": "evm",
       "bridge": "0xE366E0B707FBF59CF9A3068af34dC519D5fa6e78",
@@ -279,6 +297,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -286,6 +305,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+          "caip19": "eip155:17000/erc20:0x34d4fb8c45060143d39b7526c2b645d351af85a5",
           "type": "fungible",
           "address": "0x34d4fb8c45060143d39b7526c2b645d351af85a5",
           "symbol": "sygBTC",
@@ -296,6 +316,7 @@
     {
       "id": 8,
       "chainId": 421614,
+      "caipId": "eip155:421614",
       "name": "arbitrum_sepolia",
       "type": "evm",
       "bridge": "0xFB2530Fb3f5801aD35ccd6fdA29715D9330b7F9f",
@@ -332,6 +353,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -342,6 +364,7 @@
     {
       "id": 9,
       "chainId": 10200,
+      "caipId": "eip155:10200",
       "name": "gnosis_chiado",
       "type": "evm",
       "bridge": "0x668fad90DeAd0F8f04346A735875b62eF9c65f0B",
@@ -378,6 +401,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -388,6 +412,7 @@
     {
       "id": 10,
       "chainId": 84532,
+      "caipId": "eip155:84532",
       "name": "base_sepolia",
       "type": "evm",
       "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
@@ -424,6 +449,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -431,6 +457,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "caip19": "eip155:84532/erc20:0xb947F89269F0cF54CC721BcDE298a46930f3418b",
           "type": "fungible",
           "address": "0xb947F89269F0cF54CC721BcDE298a46930f3418b",
           "symbol": "sygUSD",
@@ -441,6 +468,7 @@
     {
       "id": 11,
       "chainId": 80002,
+      "caipId": "eip155:80002",
       "name": "amoy",
       "type": "evm",
       "bridge": "0x76779F1C15605d78001a364F6E551e25Bb63b74B",
@@ -473,6 +501,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
@@ -480,6 +509,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "eip155:80002/erc20:0x245466D2175bcED0A1ad1ce804C8F724D7050e85",
           "type": "fungible",
           "address": "0x245466D2175bcED0A1ad1ce804C8F724D7050e85",
           "symbol": "ERC20LRTest",
@@ -490,7 +520,7 @@
     {
       "id": 12,
       "chainId": 3799,
-      "parachainId": "",
+      "caipId": "polkadot:3799",
       "name": "tangle-standalone-testnet",
       "type": "substrate",
       "bridge": "",
@@ -512,6 +542,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000002000",
+          "caip19": "polkadot:3799",
           "type": "fungible",
           "native": true,
           "symbol": "tTNT",
@@ -526,6 +557,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
+          "caip19": "polkadot:3799",
           "type": "fungible",
           "assetID": 2000,
           "native": false,
@@ -557,6 +589,7 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "caip19": "polkadot:3799",
           "type": "fungible",
           "assetID": 2001,
           "native": false,
@@ -590,6 +623,7 @@
     },
     {
       "id": 13,
+      "caipId": "bip122:000000000933ea01ad0ee984209779ba",
       "name": "Bitcoin-Testnet3",
       "type": "btc",
       "nativeTokenSymbol": "BTC",
@@ -600,6 +634,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+          "caip19": "bip122:000000000933ea01ad0ee984209779ba/slip44:0",
           "type": "fungible",
           "address": "tb1p72xwajwdxdfhmu5dp39sh8jdc6msnez0a7rq4gk5jeep0kvccnsqkgcj7e",
           "burnable": false,
@@ -613,6 +648,7 @@
     {
       "id": 15,
       "chainId": 1993,
+      "caipId": "eip155:1993",
       "name": "b3-sepolia",
       "type": "evm",
       "bridge": "0xFF92C3C393B22F9d26e5732F2601EaC04094880F",
@@ -649,6 +685,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "caip19": "",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
