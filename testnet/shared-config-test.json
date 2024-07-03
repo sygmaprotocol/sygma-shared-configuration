@@ -93,6 +93,13 @@
           "address": "0xcaad55c60823150566f9e2f6040556dc00a67f5c",
           "symbol": "tTNT",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
+          "type": "fungible",
+          "address": "0xAE3283fb214cDb14884039Df09B7895773e68eFA",
+          "symbol": "PHA",
+          "decimals": 18
         }
       ]
     },
