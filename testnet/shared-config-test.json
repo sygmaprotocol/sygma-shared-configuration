@@ -67,13 +67,6 @@
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "eth",
-          "decimals": 18
-        },
-        {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
           "type": "permissionlessGeneric",
           "address": "",
@@ -232,13 +225,6 @@
           "decimals": 18
         },
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "",
-          "decimals": 18
-        },
-        {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
           "type": "permissionlessGeneric",
           "address": "",
@@ -284,13 +270,6 @@
         }
       ],
       "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "",
-          "decimals": 0
-        },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
           "type": "permissionlessGeneric",
@@ -345,13 +324,6 @@
       ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "",
-          "decimals": 0
-        },
-        {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
           "type": "permissionlessGeneric",
           "address": "",
@@ -398,13 +370,6 @@
       ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "",
-          "decimals": 0
-        },
-        {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
           "type": "permissionlessGeneric",
           "address": "",
@@ -450,13 +415,6 @@
         }
       ],
       "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "",
-          "decimals": 18
-        },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
           "type": "permissionlessGeneric",
@@ -659,6 +617,10 @@
         {
           "type": "permissionlessGeneric",
           "address": "0x39D1Aea5F01138940F19A15049E2073D4df1dc9E"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x41f7869e4e0dd06c0c02804e4afcfa76bee92cc7"
         }
       ],
       "nativeTokenSymbol": "ETH",
@@ -679,7 +641,7 @@
       ],
       "resources": [
         {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "eth",
