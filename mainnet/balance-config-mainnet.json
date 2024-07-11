@@ -33,6 +33,14 @@
       {
         "address": "0x580549E46b62929182aCfbCB93544A0f213405a2",
         "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x96c3b060D85F75928CE057AD423BA8EfE778C4d1",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x8CfB285eE7E35a37708D81D019e896e38DA37Bfe",
+        "topic": "MAINNET-relayer-low-balance"
       }
     ],
     "assetBalanceData": [
@@ -54,7 +62,7 @@
     "chainId": 5232,
     "url": "",
     "type": "substrate",
-    "nativeTokenMinBalance": "50",
+    "nativeTokenMinBalance": "25",
     "nativeBalanceData": [
       {
         "address": "44jVUMQaqqW4Ue6TWPAGyXXNzb5cvQqe1sfVeoZkzoMfGuUK",
@@ -82,6 +90,14 @@
       },
       {
         "address": "454WJaPkoeZs7L1acD5HFUcb9rGCRX67p1KYDWADHv6uGF3u",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "45y5BGnjctXAPgX6T2mEPrT9o2i2fRojcTpRPyokjGQtkkT6",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "42kPSKoeT3JEPksvYUFQHu2HKEArNw1wLbZEKcdLNrgw9exz",
         "topic": "MAINNET-relayer-low-balance"
       }
     ],
@@ -104,7 +120,7 @@
     "chainId": 5233,
     "url": "",
     "type": "substrate",
-    "nativeTokenMinBalance": "50",
+    "nativeTokenMinBalance": "25",
     "nativeBalanceData": [
       {
         "address": "44jVUMQaqqW4Ue6TWPAGyXXNzb5cvQqe1sfVeoZkzoMfGuUK",
@@ -132,6 +148,14 @@
       },
       {
         "address": "454WJaPkoeZs7L1acD5HFUcb9rGCRX67p1KYDWADHv6uGF3u",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "45y5BGnjctXAPgX6T2mEPrT9o2i2fRojcTpRPyokjGQtkkT6",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "42kPSKoeT3JEPksvYUFQHu2HKEArNw1wLbZEKcdLNrgw9exz",
         "topic": "MAINNET-relayer-low-balance"
       }
     ],
@@ -183,6 +207,14 @@
       {
         "address": "0x580549E46b62929182aCfbCB93544A0f213405a2",
         "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x96c3b060D85F75928CE057AD423BA8EfE778C4d1",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x8CfB285eE7E35a37708D81D019e896e38DA37Bfe",
+        "topic": "MAINNET-relayer-low-balance"
       }
     ],
     "assetBalanceData": []
@@ -220,6 +252,14 @@
       },
       {
         "address": "0x580549E46b62929182aCfbCB93544A0f213405a2",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x96c3b060D85F75928CE057AD423BA8EfE778C4d1",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x8CfB285eE7E35a37708D81D019e896e38DA37Bfe",
         "topic": "MAINNET-relayer-low-balance"
       }
     ],
@@ -259,6 +299,14 @@
       {
         "address": "0x580549E46b62929182aCfbCB93544A0f213405a2",
         "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x96c3b060D85F75928CE057AD423BA8EfE778C4d1",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x8CfB285eE7E35a37708D81D019e896e38DA37Bfe",
+        "topic": "MAINNET-relayer-low-balance"
       }
     ],
     "assetBalanceData": []
@@ -296,6 +344,14 @@
       },
       {
         "address": "0x580549E46b62929182aCfbCB93544A0f213405a2",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x96c3b060D85F75928CE057AD423BA8EfE778C4d1",
+        "topic": "MAINNET-relayer-low-balance"
+      },
+      {
+        "address": "0x8CfB285eE7E35a37708D81D019e896e38DA37Bfe",
         "topic": "MAINNET-relayer-low-balance"
       }
     ],
