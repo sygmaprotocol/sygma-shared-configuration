@@ -647,6 +647,7 @@
       "nativeTokenDecimals": 8,
       "blockConfirmations": 2,
       "startBlock": 2822263,
+      "feeAddress": "tb1pnlurz40h4qgrt89dz66wsxe2m8ulank43f9xffeejqqe2ggtmd9q2y045l",
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
@@ -657,7 +658,8 @@
           "symbol": "BTC",
           "decimals": 8,
           "tweak": "213bff3f86006c010482ba7cb1fb9080f395407cb0a9cd2afcfbd861cb8ff759",
-          "script": "5120f28ceec9cd33537df28d0c4b0b9e4dc6b709e44fef860aa2d4967217d998c4e0"
+          "script": "5120f28ceec9cd33537df28d0c4b0b9e4dc6b709e44fef860aa2d4967217d998c4e0",
+          "feeAmount": "100000"
         }
       ]
     },
