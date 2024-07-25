@@ -710,6 +710,54 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 16,
+      "chainId": 3456,
+      "caipId": "eip155:3456",
+      "name": "layer_edge",
+      "type": "evm",
+      "bridge": "0x90e3B6Ec4587790c709cb17E5dbAff5F9E682Be5",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x579E3e2b73fD14b240a08fdcC50E1e6286c4CB9c"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x8Bba8d767113e3bfb17eD07C70C523BF21279122"
+        },
+        {
+          "type": "nativeToken",
+          "address": "0x7e28f84a21cf0349165dd4f0590b1d28b71c6087"
+        }
+      ],
+      "nativeTokenSymbol": "BTC",
+      "nativeTokenFullName": "Bitcoin",
+      "nativeTokenDecimals": 8,
+      "blockConfirmations": 5,
+      "startBlock":  397829,
+      "feeRouter": "0xE82541e064fab91f4deF2c0A8DaAa3c98f4F777F",
+      "feeHandlers": [
+        {
+          "address": "0xb667f92937D0674e7bab08c2b5241B1A2CC05773",
+          "type": "basic"
+        },
+        {
+          "address": "0xfd69bbfcCbfc832C56Ca1490df48B4baF3DfD376",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000700",
+          "caip19": "eip155:3456/slip44:0",
+          "type": "fungible",
+          "address": "",
+          "symbol": "BTC",
+          "decimals": 8
+        }
+      ]
     }
   ]
 }
