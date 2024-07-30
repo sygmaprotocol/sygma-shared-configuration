@@ -34,6 +34,10 @@
               "type": "string",
               "pattern": "^$|^0x[a-fA-F0-9]{40}$"
             },
+            "nativeTokenAdapter": {
+              "type": "string",
+              "pattern": "^$|^0x[a-fA-F0-9]{40}$"
+            },
             "nativeTokenSymbol": {
               "type": "string"
             },
@@ -60,7 +64,7 @@
                       "enum": [
                         "erc20",
                         "erc721",
-                        "permissionedGeneric",
+                        "nativeToken",
                         "permissionlessGeneric",
                         "xc20"
                       ]
