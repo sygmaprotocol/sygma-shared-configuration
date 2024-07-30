@@ -718,6 +718,7 @@
       "name": "layer_edge",
       "type": "evm",
       "bridge": "0x90e3B6Ec4587790c709cb17E5dbAff5F9E682Be5",
+      "nativeTokenAdapter": "0x10fd7d6505d72158a19cc612bc287e814e9255af",
       "handlers": [
         {
           "type": "erc20",
