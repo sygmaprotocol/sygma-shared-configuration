@@ -59,6 +59,11 @@
               "resourceId":
                 "0x0000000000000000000000000000000000000000000000000000000000001100",
               "assetTokenMinBalance": "500"
+            },
+            {
+              "resourceId":
+                "0x0000000000000000000000000000000000000000000000000000000000003000",
+              "assetTokenMinBalance": "200"
             }
           ],
           "accountAddresses": [],
@@ -360,6 +365,11 @@
               "resourceId":
                 "0x0000000000000000000000000000000000000000000000000000000000001100",
               "assetTokenMinBalance": "500"
+            },
+            {
+              "resourceId":
+                "0x0000000000000000000000000000000000000000000000000000000000003000",
+              "assetTokenMinBalance": "200"
             }
           ],
           "accountAddresses": [],
@@ -461,7 +471,19 @@
           "topic": "TEST-relayer-low-balance"
         }
       ],
-      "assetBalanceData": []
+      "assetBalanceData": [
+        {
+          "assets": [
+            {
+              "resourceId":
+                "0x0000000000000000000000000000000000000000000000000000000000003000",
+              "assetTokenMinBalance": "200"
+            }
+          ],
+          "accountAddresses": [],
+          "topic": ""
+        }
+      ]    
     },
     {
       "id": 16,
