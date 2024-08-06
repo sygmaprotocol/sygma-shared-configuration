@@ -63,7 +63,7 @@
             {
               "resourceId":
                 "0x0000000000000000000000000000000000000000000000000000000000003000",
-              "assetTokenMinBalance": "200"
+              "assetTokenMinBalance": "20"
             }
           ],
           "accountAddresses": [],
@@ -369,7 +369,7 @@
             {
               "resourceId":
                 "0x0000000000000000000000000000000000000000000000000000000000003000",
-              "assetTokenMinBalance": "200"
+              "assetTokenMinBalance": "20"
             }
           ],
           "accountAddresses": [],
@@ -477,7 +477,7 @@
             {
               "resourceId":
                 "0x0000000000000000000000000000000000000000000000000000000000003000",
-              "assetTokenMinBalance": "200"
+              "assetTokenMinBalance": "20"
             }
           ],
           "accountAddresses": [],
