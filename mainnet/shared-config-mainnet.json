@@ -274,6 +274,44 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 8,
+      "chainId": 8333,
+      "name": "b3",
+      "type": "evm",
+      "bridge": "0xC47468aeae431f5D0B7DA50F9f5D8a6c0eca4789",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0xe43F8245249d7fAF46408723Ab36D071dD85D7BB"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x2e1eE4153ad2F763ab8C612415AcF0DEe02Bc79B"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 730061,
+      "feeRouter": "0x4EE82A64Aa9535AE4aABe3B35a12c29a0430A951",
+      "feeHandlers": [
+        {
+          "address": "0x73aB792E6AdF236879a0A2AB1597fa221E736a0d",
+          "type": "basic"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "",
+          "decimals": 18
+        }
+      ]
     }
   ]
 }
