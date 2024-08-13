@@ -72,65 +72,6 @@
       ]
     },
     {
-      "id": 3,
-      "chainId": 5231,
-      "url": "",
-      "type": "substrate",
-      "nativeTokenMinBalance": "100",
-      "nativeBalanceData": [
-        {
-          "address": "42vh3fWXTBEVEF39bddrAaRQnceBUWKZC4iDsC7vNUv8i1df",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "459PnMXDim6kCnaq69sAPqZuGDWGqpwLAvxNTNVDzUKcgxhe",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "46KmgsV7wgpoMvYcLmSW4wKz8S3ZMSqkNzeR49y8iRF7ieXZ",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "45eGTXKATkBdwqTprSYTMGE5aZZaWjYzwesVfvc8WnqdvEao",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "44LgzzD9AYMZ79LhXJwGj8hGfXoEhx5e6PZKFmURf1nNyrLn",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "11c25TVS2kKvE9mnxZR213N7q9L7mhJx1sFLhyNA69yvsuc",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "1KUFHEKeHTWrQnUzNGsENqp81nb3yCFcnDLSRrkbhjneTJC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "12TPnuKJKCfxvXPPcALnoPfpm5kPSyYpnbH7LUBQr2o8yK4F",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": [
-        {
-          "assets": [
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000001000",
-              "assetTokenMinBalance": "1000"
-            },
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000001100",
-              "assetTokenMinBalance": "500"
-            }
-          ],
-          "accountAddresses": [],
-          "topic": ""
-        }
-      ]
-    },
-    {
       "id": 5,
       "chainId": 338,
       "url": "",
