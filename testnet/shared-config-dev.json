@@ -136,7 +136,7 @@
       "nativeTokenSymbol": "BTC",
       "nativeTokenFullName": "Bitcoin",
       "nativeTokenDecimals": 8,
-      "blockConfirmations": 5,
+      "blockConfirmations": 2,
       "startBlock": 2817394,
       "feeAddress": "tb1p0r2w3ugreaggd7nakw2wd04up6rl8k0cce8eetxwmhnrelgqx87s4zdkd7",
       "resources": [
