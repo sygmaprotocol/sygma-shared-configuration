@@ -3,6 +3,7 @@
     {
       "id": 1,
       "chainId": 1,
+      "caipId": "eip155:1",
       "name": "ethereum",
       "type": "evm",
       "bridge": "0x4D878E8Fb90178588Cda4cf1DCcdC9a6d2757089",
@@ -34,20 +35,23 @@
           "type": "fungible",
           "address": "0x6c5bA91642F10282b576d91922Ae6448C9d52f4E",
           "symbol": "PHA",
-          "decimals": 18
+          "decimals": 18,
+          "caip19": "eip155:1/erc20:0x6c5bA91642F10282b576d91922Ae6448C9d52f4E"
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "permissionlessGeneric",
           "address": "",
           "symbol": "",
-          "decimals": 18
+          "decimals": 18,
+          "caip19": ""
         }
       ]
     },
     {
       "id": 2,
       "chainId": 5232,
+      "caipId": "polkadot:5232",
       "parachainId": 2004,
       "name": "khala",
       "type": "substrate",
@@ -66,6 +70,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "caip19": "polkadot:5232",
           "type": "fungible",
           "native": true,
           "symbol": "PHA",
@@ -83,6 +88,7 @@
     {
       "id": 3,
       "chainId": 5233,
+      "caipId": "polkadot:5233",
       "parachainId": 2035,
       "name": "phala",
       "type": "substrate",
@@ -101,6 +107,7 @@
       "resources": [
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "caip19": "polkadot:5233",
           "type": "fungible",
           "native": true,
           "symbol": "PHA",
@@ -118,6 +125,7 @@
     {
       "id": 4,
       "chainId": 25,
+      "caipId": "eip155:25",
       "name": "cronos",
       "type": "evm",
       "bridge": "0x44d1Ae962945c5B168282D5002705dE7A9B84657",
@@ -151,6 +159,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "permissionlessGeneric",
+          "caip19": "",
           "address": "",
           "symbol": "",
           "decimals": 18
@@ -160,6 +169,7 @@
     {
       "id": 5,
       "chainId": 8453,
+      "caipId": "eip155:8453",
       "name": "base",
       "type": "evm",
       "bridge": "0xC47468aeae431f5D0B7DA50F9f5D8a6c0eca4789",
@@ -193,6 +203,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "permissionlessGeneric",
+          "caip19": "",
           "address": "",
           "symbol": "",
           "decimals": 18
@@ -202,6 +213,7 @@
     {
       "id": 6,
       "chainId": 100,
+      "caipId": "eip155:100",
       "name": "gnosis",
       "type": "evm",
       "bridge": "0x5FdC38c9b32909CcfF4629ffBFe5394852584C59",
@@ -231,6 +243,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "permissionlessGeneric",
+          "caip19": "",
           "address": "",
           "symbol": "",
           "decimals": 18
@@ -240,6 +253,7 @@
     {
       "id": 7,
       "chainId": 137,
+      "caipId": "eip155:137",
       "name": "polygon",
       "type": "evm",
       "bridge": "0x73aB792E6AdF236879a0A2AB1597fa221E736a0d",
@@ -269,6 +283,7 @@
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
           "type": "permissionlessGeneric",
+          "caip19": "",
           "address": "",
           "symbol": "",
           "decimals": 18
