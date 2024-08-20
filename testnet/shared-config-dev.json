@@ -153,6 +153,38 @@
           "feeAmount": "1000000"
         }
       ]
+    },
+    {
+      "id": 4,
+      "chainId": 5,
+      "parachainId": 1,
+      "caipId": "polkadot:5",
+      "name": "Sygma standalone pallet",
+      "type": "substrate",
+      "bridge": "",
+      "handlers": [],
+      "nativeTokenSymbol": "syg",
+      "nativeTokenFullName": "Sygma",
+      "nativeTokenDecimals": 12,
+      "blockConfirmations": 2,
+      "startBlock": 5,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "polkadot:5",
+          "type": "fungible",
+          "native": true,
+          "symbol": "PHA",
+          "decimals": 12,
+          "assetName": "Sygma",
+          "xcmMultiAssetId": {
+            "concrete": {
+              "parents": 0,
+              "interior": "here"
+            }
+          }
+        }
+      ]
     }
   ]
 }
