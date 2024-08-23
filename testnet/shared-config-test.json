@@ -13,6 +13,10 @@
           "address": "0xa65387feCb172ffF8A0aabA323A10c63757BBFA6"
         },
         {
+          "type": "erc20",
+          "address": "0xb7609765549bf6a5f93a22ec394e64de2b31f3e0"
+        },
+        {
           "type": "erc721",
           "address": "0x669F52487ffA6f9aBf722082f735537A98Ec0E4b"
         },
@@ -128,9 +132,9 @@
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000003000",
-          "caip19": "eip155:11155111/erc20:0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+          "caip19": "eip155:11155111/erc20:0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
           "type": "fungible",
-          "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+          "address": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
           "symbol": "WETH",
           "decimals": 18
         }
@@ -446,6 +450,10 @@
           "address": "0x72a588B76025d552B239532C31fB7D5Cc80A3e41"
         },
         {
+          "type": "erc20",
+          "address": "0x1a2191d93020fcb9a80e72b034efd53467324e8f"
+        },
+        {
           "type": "permissionlessGeneric",
           "address": "0x7f4e1E62A0Abd4A381254335CeF5770F74b3E22E"
         },
@@ -706,6 +714,10 @@
         {
           "type": "erc20",
           "address": "0x36930B9117713EF92E2f5Ca4FCa047DAdb92C48E"
+        },
+        {
+          "type": "erc20",
+          "address": "0xe4caab2677145a5370cd27da74aad4d781713fdd"
         },
         {
           "type": "permissionlessGeneric",
