@@ -13,6 +13,10 @@
           "address": "0xa65387feCb172ffF8A0aabA323A10c63757BBFA6"
         },
         {
+          "type": "erc20",
+          "address": "0xb7609765549bf6a5f93a22ec394e64de2b31f3e0"
+        },
+        {
           "type": "erc721",
           "address": "0x669F52487ffA6f9aBf722082f735537A98Ec0E4b"
         },
@@ -446,6 +450,10 @@
           "address": "0x72a588B76025d552B239532C31fB7D5Cc80A3e41"
         },
         {
+          "type": "erc20",
+          "address": "0x1a2191d93020fcb9a80e72b034efd53467324e8f"
+        },
+        {
           "type": "permissionlessGeneric",
           "address": "0x7f4e1E62A0Abd4A381254335CeF5770F74b3E22E"
         },
@@ -706,6 +714,10 @@
         {
           "type": "erc20",
           "address": "0x36930B9117713EF92E2f5Ca4FCa047DAdb92C48E"
+        },
+        {
+          "type": "erc20",
+          "address": "0xe4caab2677145a5370cd27da74aad4d781713fdd"
         },
         {
           "type": "permissionlessGeneric",
