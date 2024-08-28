@@ -455,7 +455,7 @@
         },
         {
           "type": "erc20",
-          "address": "0x1a2191d93020fcb9a80e72b034efd53467324e8f"
+          "address": "0x3b0f996C474c91de56617da13a52B22BB659D18E"
         },
         {
           "type": "permissionlessGeneric",
@@ -487,6 +487,10 @@
         },
         {
           "address": "0x816bb9E810b6b97840F6818bF21Fa25DD7364132",
+          "type": "twap"
+        },
+        {
+          "address": "0x4Cd7786e926B1f3D5c8Ecb338C6ad2aBaFc44948",
           "type": "twap"
         }
       ],
@@ -721,7 +725,7 @@
         },
         {
           "type": "erc20",
-          "address": "0xe4caab2677145a5370cd27da74aad4d781713fdd"
+          "address": "0x46b535f52237a9621dce4d506744056b10d2AD7D"
         },
         {
           "type": "permissionlessGeneric",
@@ -746,6 +750,10 @@
         {
           "address": "0xA6Cd2A4c41946fAADACf88a87A50997B04abE557",
           "type": "percentage"
+        },
+        {
+          "address": "0xfA520bE56053AFAbd82cE48BeCc5fa277DBda982",
+          "type": "twap"
         }
       ],
       "resources": [
