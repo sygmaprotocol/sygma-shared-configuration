@@ -13,6 +13,10 @@
           "address": "0x9354dD909416Be9405F174A9Fa81dD5D3F72bE5D"
         },
         {
+          "type":"erc20",
+          "address": "0xb9E2Ef56994D3FCeE782D89f8654e8916803A70e"
+        },
+        {
           "type": "erc721",
           "address": "0x482BBD2DA050dB6f2f6EAa9278408A116905826F"
         },
@@ -29,6 +33,10 @@
         },
         {
           "address": "0x8322A43cBaabfc05A779Bec8f3e05Bd40B0a0a4a",
+          "type": "twap"
+        },
+        {
+          "address": "0x8Fd0b1306eF568Da1f2231F5C54373162cDa5C8d",
           "type": "twap"
         }
       ],
@@ -61,6 +69,14 @@
           "address": "",
           "symbol": "eth",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001200",
+          "caip19": "eip155:11155111/erc20:0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+          "type": "fungible",
+          "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+          "symbol": "USDC",
+          "decimals": 6
         }
       ]
     },
@@ -83,6 +99,10 @@
         {
           "type": "permissionlessGeneric",
           "address": "0x675F2F8B8b67149BDac736c1AbD561Ee450a08D5"
+        },
+        {
+          "type": "erc20",
+          "address": "0x62c75f2303A72ABf3978BecEaa79dA029A73C7A6"
         }
       ],
       "feeRouter": "0x3B50efbeadE66cB9Ec1357bafa285608AC2ad996",
@@ -93,6 +113,10 @@
         },
         {
           "address": "0x5B601d41F4db89d39E7004AEfF49533DaA288F3e",
+          "type": "twap"
+        },
+        {
+          "address": "0x15ABB32eC1372896EDC2669cfc92B1ddF37AA75e",
           "type": "twap"
         }
       ],
