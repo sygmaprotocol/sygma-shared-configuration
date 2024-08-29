@@ -99,6 +99,10 @@
         {
           "type": "permissionlessGeneric",
           "address": "0x675F2F8B8b67149BDac736c1AbD561Ee450a08D5"
+        },
+        {
+          "type": "erc20",
+          "address": "0x62c75f2303A72ABf3978BecEaa79dA029A73C7A6"
         }
       ],
       "feeRouter": "0x3B50efbeadE66cB9Ec1357bafa285608AC2ad996",
@@ -109,6 +113,10 @@
         },
         {
           "address": "0x5B601d41F4db89d39E7004AEfF49533DaA288F3e",
+          "type": "twap"
+        },
+        {
+          "address": "0x15ABB32eC1372896EDC2669cfc92B1ddF37AA75e",
           "type": "twap"
         }
       ],
