@@ -9,12 +9,12 @@
       "bridge": "0x8c7ef673fdB8A91c70f85b7f9Cf5055C0D6B4410",
       "handlers": [
         {
-          "type": "erc20",
-          "address": "0x9354dD909416Be9405F174A9Fa81dD5D3F72bE5D"
-        },
-        {
           "type":"erc20",
           "address": "0xb9E2Ef56994D3FCeE782D89f8654e8916803A70e"
+        },
+        {
+          "type": "erc20",
+          "address": "0x9354dD909416Be9405F174A9Fa81dD5D3F72bE5D"
         },
         {
           "type": "erc721",
