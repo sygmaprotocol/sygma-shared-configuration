@@ -10,11 +10,11 @@
       "handlers": [
         {
           "type": "erc20", 
-          "address": "0xa65387feCb172ffF8A0aabA323A10c63757BBFA6"
+          "address": "0xFFFFAa3fE6df9a5Fcb31855004B734b5749e7D2F"
         },
         {
           "type": "erc20", 
-          "address": "0xFFFFAa3fE6df9a5Fcb31855004B734b5749e7D2F"
+          "address": "0xa65387feCb172ffF8A0aabA323A10c63757BBFA6"
         },
         {
           "type": "erc721",
@@ -451,11 +451,11 @@
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x72a588B76025d552B239532C31fB7D5Cc80A3e41"
+          "address": "0x3b0f996C474c91de56617da13a52B22BB659D18E"
         },
         {
           "type": "erc20",
-          "address": "0x3b0f996C474c91de56617da13a52B22BB659D18E"
+          "address": "0x72a588B76025d552B239532C31fB7D5Cc80A3e41"
         },
         {
           "type": "permissionlessGeneric",
@@ -721,11 +721,11 @@
       "handlers": [
         {
           "type": "erc20",
-          "address": "0x36930B9117713EF92E2f5Ca4FCa047DAdb92C48E"
+          "address": "0x46b535f52237a9621dce4d506744056b10d2AD7D"
         },
         {
           "type": "erc20",
-          "address": "0x46b535f52237a9621dce4d506744056b10d2AD7D"
+          "address": "0x36930B9117713EF92E2f5Ca4FCa047DAdb92C48E"
         },
         {
           "type": "permissionlessGeneric",
