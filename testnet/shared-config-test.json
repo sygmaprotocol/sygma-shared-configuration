@@ -32,6 +32,10 @@
         {
           "type": "permissionlessGeneric",
           "address": "0x39f34c108E0E47ED7fe124975c0204aa5146c074"
+        },
+        {
+          "type": "native",
+          "address": "0x2a71bc0efcbcFd3789385F8E49baf558b73904F8"
         }
       ],
       "nativeTokenSymbol": "eth",
@@ -457,6 +461,7 @@
       "name": "base_sepolia",
       "type": "evm",
       "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
+      "nativeTokenAdapter": "0x6b3BB80A93087CF0eABb72c6a1654C979586E15B",
       "handlers": [
         {
           "type": "erc20",
@@ -473,6 +478,10 @@
         {
           "type": "permissionlessGeneric",
           "address": "0xfd69bbfcCbfc832C56Ca1490df48B4baF3DfD376"
+        },
+        {
+          "type": "native",
+          "address": "0xEe1B03dc34d8A5F8f85de78335c29ecc1e73A65e"
         }
       ],
       "nativeTokenSymbol": "eth",
@@ -534,6 +543,14 @@
           "type": "fungible",
           "address": "0x4200000000000000000000000000000000000006",
           "symbol": "WETH",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x1000000000000000000000000000000000000000000000000000000000000000",
+          "caip19": "eip155:84532/erc20:0x0000000000000000000000000000000000000000",
+          "type": "fungible",
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
           "decimals": 18
         }
       ]
@@ -727,6 +744,7 @@
       "name": "b3-sepolia",
       "type": "evm",
       "bridge": "0xFF92C3C393B22F9d26e5732F2601EaC04094880F",
+      "nativeTokenAdapter": "0x7f1B01c8daFa8B8Ce843A47f85458C0F26B6b47b",
       "handlers": [
         {
           "type": "erc20",
@@ -743,6 +761,10 @@
         {
           "type": "permissionlessGeneric",
           "address": "0x41F7869E4E0dd06c0c02804e4afcFA76BEE92CC7"
+        },
+        {
+          "type": "native",
+          "address": "0x76779F1C15605d78001a364F6E551e25Bb63b74B"
         }
       ],
       "nativeTokenSymbol": "ETH",
@@ -788,6 +810,14 @@
           "type": "fungible",
           "address": "0x3538f4C55893eDca690D1e4Cf9Fb61FB70cd0DD8",
           "symbol": "WETH",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x1000000000000000000000000000000000000000000000000000000000000000",
+          "caip19": "eip155:1993/erc20:0x0000000000000000000000000000000000000000",
+          "type": "fungible",
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
           "decimals": 18
         }
       ]
