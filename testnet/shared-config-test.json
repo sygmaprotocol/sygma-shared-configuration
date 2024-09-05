@@ -7,6 +7,7 @@
       "name": "sepolia",
       "type": "evm",
       "bridge": "0x4CF326d3817558038D1DEF9e76b727202c3E8492",
+      "nativeTokenAdapter": "0xb55D0F87eE4a76fAa2f1d01A5abf3f1EB1bbFdd6",
       "handlers": [
         {
           "type": "erc20", 
@@ -140,6 +141,14 @@
           "type": "fungible",
           "address": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
           "symbol": "WETH",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x1000000000000000000000000000000000000000000000000000000000000000",
+          "caip19": "eip155:11155111/erc20:0x0000000000000000000000000000000000000000",
+          "type": "fungible",
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
           "decimals": 18
         }
       ]
