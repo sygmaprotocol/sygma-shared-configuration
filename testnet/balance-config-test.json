@@ -45,6 +45,10 @@
         {
           "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
           "topic": "TESTNET-relayer-low-balance"
+        },
+        {
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
+          "topic": "TESTNET-relayer-low-balance"
         }
       ],
       "assetBalanceData": [
@@ -109,6 +113,10 @@
         {
           "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
           "topic": "TESTNET-relayer-low-balance"
+        },
+        {
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
+          "topic": "TESTNET-relayer-low-balance"
         }
       ],
       "assetBalanceData": [
@@ -171,6 +179,10 @@
         {
           "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
           "topic": "TESTNET-relayer-low-balance"
+        },
+        {
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
+          "topic": "TESTNET-relayer-low-balance"
         }
       ],
       "assetBalanceData": []
@@ -212,6 +224,10 @@
         },
         {
           "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+          "topic": "TESTNET-relayer-low-balance"
+        },
+        {
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
           "topic": "TESTNET-relayer-low-balance"
         }
       ],
@@ -255,6 +271,10 @@
         {
           "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
           "topic": "TESTNET-relayer-low-balance"
+        },
+        {
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
+          "topic": "TESTNET-relayer-low-balance"
         }
       ],
       "assetBalanceData": []
@@ -296,6 +316,10 @@
         },
         {
           "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+          "topic": "TESTNET-relayer-low-balance"
+        },
+        {
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
           "topic": "TESTNET-relayer-low-balance"
         }
       ],
@@ -356,6 +380,10 @@
         {
           "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
           "topic": "TESTNET-relayer-low-balance"
+        },
+        {
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
+          "topic": "TESTNET-relayer-low-balance"
         }
       ],
       "assetBalanceData": [
@@ -409,6 +437,10 @@
         },
         {
           "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+          "topic": "TESTNET-relayer-low-balance"
+        },
+        {
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
           "topic": "TESTNET-relayer-low-balance"
         }
       ],
@@ -468,6 +500,10 @@
         {
           "address": "0x7e28f84a21cf0349165dd4f0590b1d28b71c6087",
           "topic": "TESTNET-liquidity-low-balance"
+        },
+        {
+          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
+          "topic": "TESTNET-relayer-low-balance"
         }
       ],
       "assetBalanceData": []
