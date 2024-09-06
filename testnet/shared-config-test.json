@@ -11,7 +11,7 @@
       "handlers": [
         {
           "type": "erc20", 
-          "address": "0xFFFFAa3fE6df9a5Fcb31855004B734b5749e7D2F"
+          "address": "0x0d4fB069753bdf1C5aB48302e9744BF222A9F4e8"
         },
         {
           "type": "erc20", 
