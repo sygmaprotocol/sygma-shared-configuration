@@ -34,7 +34,7 @@
           "address": "0x39f34c108E0E47ED7fe124975c0204aa5146c074"
         },
         {
-          "type": "erc20",
+          "type": "native",
           "address": "0x2a71bc0efcbcFd3789385F8E49baf558b73904F8"
         }
       ],
@@ -415,7 +415,7 @@
           "address": "0xfd69bbfcCbfc832C56Ca1490df48B4baF3DfD376"
         },
         {
-          "type": "erc20",
+          "type": "native",
           "address": "0xEe1B03dc34d8A5F8f85de78335c29ecc1e73A65e"
         }
       ],
@@ -698,7 +698,7 @@
           "address": "0x41F7869E4E0dd06c0c02804e4afcFA76BEE92CC7"
         },
         {
-          "type": "erc20",
+          "type": "native",
           "address": "0x76779F1C15605d78001a364F6E551e25Bb63b74B"
         }
       ],
