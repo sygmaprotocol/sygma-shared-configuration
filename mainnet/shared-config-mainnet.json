@@ -7,6 +7,7 @@
       "name": "ethereum",
       "type": "evm",
       "bridge": "0x4D878E8Fb90178588Cda4cf1DCcdC9a6d2757089",
+      "nativeTokenAdapter": "0xd5eCb14F0449E5aDA3d5A8AeB17EfA41554D1A28",
       "handlers": [
         {
           "type": "erc20",
@@ -15,6 +16,10 @@
         {
           "type": "permissionlessGeneric",
           "address": "0x31282123E7bcd947e2c1Bc364d564839574fAdCD"
+        },
+        {
+          "type": "native",
+          "address": "0xCcCCA86919b0769D46705e7Adf0EF02e98BebAc7"
         }
       ],
       "nativeTokenSymbol": "eth",
@@ -27,6 +32,10 @@
         {
           "address": "0x9f9778DA7c1D0AbE148314d6C1EA6E0A93C151C7",
           "type": "basic"
+        },
+        {
+          "address": "0x9B78199430693278445C8465C0C6c1Df1E76b100",
+          "type": "twap"
         }
       ],
       "resources": [
@@ -45,6 +54,14 @@
           "symbol": "",
           "decimals": 18,
           "caip19": ""
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+          "type": "fungible",
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "caip19": "eip155:1/erc20:0x0000000000000000000000000000000000000000"
         }
       ]
     },
@@ -173,6 +190,7 @@
       "name": "base",
       "type": "evm",
       "bridge": "0xC47468aeae431f5D0B7DA50F9f5D8a6c0eca4789",
+      "nativeTokenAdapter": "0xc8d25C177c126326c5FD7a50A60ED98098399179",
       "handlers": [
         {
           "type": "erc20",
@@ -181,6 +199,10 @@
         {
           "type": "permissionlessGeneric",
           "address": "0x2e1eE4153ad2F763ab8C612415AcF0DEe02Bc79B"
+        },
+        {
+          "type": "native",
+          "address": "0xFF0992fFA502b6FdB4620Dab8A858f6a76F19f79"
         }
       ],
       "nativeTokenSymbol": "eth",
@@ -197,6 +219,10 @@
         {
           "address": "0x73aB792E6AdF236879a0A2AB1597fa221E736a0d",
           "type": "basic"
+        },
+        {
+          "address": "0x0018e0b9062f1A40c1db29652A271cB94354d572",
+          "type": "twap"
         }
       ],
       "resources": [
@@ -207,6 +233,14 @@
           "address": "",
           "symbol": "",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+          "type": "fungible",
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "caip19": "eip155:8453/erc20:0x0000000000000000000000000000000000000000"
         }
       ]
     },
@@ -287,6 +321,63 @@
           "address": "",
           "symbol": "",
           "decimals": 18
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chainId": 8333,
+      "caipId": "eip155:8333",
+      "name": "b3",
+      "type": "evm",
+      "bridge": "0xC47468aeae431f5D0B7DA50F9f5D8a6c0eca4789",
+      "nativeTokenAdapter": "0xb4DabA4ba85C0b8C5438844FBEBA4fDB5748e6e8",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0xe43F8245249d7fAF46408723Ab36D071dD85D7BB"
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": "0x2e1eE4153ad2F763ab8C612415AcF0DEe02Bc79B"
+        },
+        {
+          "type": "native",
+          "address": "0x44d1Ae962945c5B168282D5002705dE7A9B84657"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 730061,
+      "feeRouter": "0x4EE82A64Aa9535AE4aABe3B35a12c29a0430A951",
+      "feeHandlers": [
+        {
+          "address": "0x73aB792E6AdF236879a0A2AB1597fa221E736a0d",
+          "type": "basic"
+        },
+        {
+          "address": "0xb18fEa28C8C9557aB65b2808c7b323A586687740",
+          "type": "twap"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "type": "permissionlessGeneric",
+          "caip19": "",
+          "address": "",
+          "symbol": "",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+          "type": "fungible",
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "caip19": "eip155:8333/erc20:0x0000000000000000000000000000000000000000"
         }
       ]
     }
