@@ -1,45 +1,37 @@
 [
     {
        "id":1,
-       "chainId": 5,
+       "chainId": 11155111,
        "url":"",
        "type":"evm",
        "nativeTokenMinBalance":"0.1",
+       "relayerLowBalanceTopic": "STAGE-relayer-low-balance",
+       "operationalWalletData": {
+         "address": "0xe9f23A8289764280697a03aC06795eA92a170e42",
+         "topic": "STAGE-wallet-low-balance",
+         "minBalance": "1"
+       },
        "nativeBalanceData":[
           {
-             "address":"0x002A465ADE27c72E34bf92f594B352A2Ac746D0a",
-             "topic":"STAGE-relayer-low-balance"
+             "address":"0xb6AF3CfE4A68e79d1e5ef37179d3B4BB3B179B0B"
           },
           {
-             "address":"0xf88977F49B56C07C298A2648124953D01895f7c0",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0x3f0D944A5EE850615A33726aC14CdA5EdC275630",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0x7dd78b480f89fd7E40eEE8bac3aE3e500b37E9eB",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0xb6AF3CfE4A68e79d1e5ef37179d3B4BB3B179B0B",
-             "topic":"STAGE-relayer-low-balance"
+             "address":"0xf88977F49B56C07C298A2648124953D01895f7c0"
           }
        ],
        "assetBalanceData":[
           {
              "assets":[
                 {
+                   "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000200",
+                   "assetTokenMinBalance":"10"
+                },
+                {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000300",
                    "assetTokenMinBalance":"10"
                 },
                 {
-                   "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000600",
-                   "assetTokenMinBalance":"10"
-                },
-                {
-                   "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000800",
+                   "resourceId":"0x0000000000000000000000000000000000000000000000000000000000001200",
                    "assetTokenMinBalance":"10"
                 }
              ],
@@ -52,45 +44,33 @@
     },
     {
        "id":2,
-       "chainId": 11155111,
+       "chainId": 17000,
        "url":"",
        "type":"evm",
        "nativeTokenMinBalance":"0.1",
+       "relayerLowBalanceTopic": "STAGE-relayer-low-balance",
+       "operationalWalletData": {
+         "address": "0xe9f23A8289764280697a03aC06795eA92a170e42",
+         "topic": "STAGE-wallet-low-balance",
+         "minBalance": "1"
+       },
        "nativeBalanceData":[
-          {
-             "address":"0x002A465ADE27c72E34bf92f594B352A2Ac746D0a",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0xf88977F49B56C07C298A2648124953D01895f7c0",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0x3f0D944A5EE850615A33726aC14CdA5EdC275630",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0x7dd78b480f89fd7E40eEE8bac3aE3e500b37E9eB",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0xb6AF3CfE4A68e79d1e5ef37179d3B4BB3B179B0B",
-             "topic":"STAGE-relayer-low-balance"
-          }
+         {
+            "address":"0xb6AF3CfE4A68e79d1e5ef37179d3B4BB3B179B0B"
+         },
+         {
+            "address":"0xf88977F49B56C07C298A2648124953D01895f7c0"
+         }
        ],
        "assetBalanceData":[
           {
              "assets":[
                 {
+                   "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000200",
+                   "assetTokenMinBalance":"10"
+                },
+                {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000300",
-                   "assetTokenMinBalance":"10"
-                },
-                {
-                   "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000600",
-                   "assetTokenMinBalance":"10"
-                },
-                {
-                   "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000800",
                    "assetTokenMinBalance":"10"
                 }
              ],
@@ -102,31 +82,23 @@
        ]
     },
     {
-       "id":100,
-       "chainId": 7701,
+       "id":4,
+       "chainId": 0,
        "url":"",
-       "type":"evm",
-       "nativeTokenMinBalance":"0.1",
+       "type":"substrate",
+       "nativeTokenMinBalance":"20",
+       "relayerLowBalanceTopic": "STAGE-relayer-low-balance",
+       "operationalWalletData": {
+         "address": "5GjowPEaFNnwbrmpPuDmBVdF2e7n3cHwk2LnUwHXsaW5KtEL",
+         "topic": "STAGE-wallet-low-balance",
+         "minBalance": "25"
+       },
        "nativeBalanceData":[
           {
-             "address":"0x002A465ADE27c72E34bf92f594B352A2Ac746D0a",
-             "topic":"STAGE-relayer-low-balance"
+             "address":"15oF4uVJwmo4TdGW7VfQxNLavjCXviqxT9S1MgbjMNHr6Sp5"
           },
           {
-             "address":"0xf88977F49B56C07C298A2648124953D01895f7c0",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0x3f0D944A5EE850615A33726aC14CdA5EdC275630",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0x7dd78b480f89fd7E40eEE8bac3aE3e500b37E9eB",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0xb6AF3CfE4A68e79d1e5ef37179d3B4BB3B179B0B",
-             "topic":"STAGE-relayer-low-balance"
+             "address":"14E5nqKAp3oAJcmzgZhUD2RcptBeUBScxKHgJKU4HPNcKVf3"
           }
        ],
        "assetBalanceData":[
@@ -135,55 +107,7 @@
                 {
                    "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000300",
                    "assetTokenMinBalance":"10"
-                },
-                {
-                   "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000600",
-                   "assetTokenMinBalance":"10"
-                },
-                {
-                   "resourceId":"0x0000000000000000000000000000000000000000000000000000000000000800",
-                   "assetTokenMinBalance":"10"
                 }
-             ],
-             "accountAddresses":[
-                
-             ],
-             "topic":""
-          }
-       ]
-    },
-    {
-       "id":101,
-       "chainId": 100,
-       "url":"",
-       "type":"evm",
-       "nativeTokenMinBalance":"0.1",
-       "nativeBalanceData":[
-          {
-             "address":"0x002A465ADE27c72E34bf92f594B352A2Ac746D0a",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0xf88977F49B56C07C298A2648124953D01895f7c0",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0x3f0D944A5EE850615A33726aC14CdA5EdC275630",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0x7dd78b480f89fd7E40eEE8bac3aE3e500b37E9eB",
-             "topic":"STAGE-relayer-low-balance"
-          },
-          {
-             "address":"0xb6AF3CfE4A68e79d1e5ef37179d3B4BB3B179B0B",
-             "topic":"STAGE-relayer-low-balance"
-          }
-       ],
-       "assetBalanceData":[
-          {
-             "assets":[
-                
              ],
              "accountAddresses":[
                 

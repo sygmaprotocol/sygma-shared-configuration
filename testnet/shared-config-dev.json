@@ -9,6 +9,10 @@
       "bridge": "0x8c7ef673fdB8A91c70f85b7f9Cf5055C0D6B4410",
       "handlers": [
         {
+          "type":"erc20",
+          "address": "0xb9E2Ef56994D3FCeE782D89f8654e8916803A70e"
+        },
+        {
           "type": "erc20",
           "address": "0x9354dD909416Be9405F174A9Fa81dD5D3F72bE5D"
         },
@@ -29,6 +33,10 @@
         },
         {
           "address": "0x8322A43cBaabfc05A779Bec8f3e05Bd40B0a0a4a",
+          "type": "twap"
+        },
+        {
+          "address": "0x8Fd0b1306eF568Da1f2231F5C54373162cDa5C8d",
           "type": "twap"
         }
       ],
@@ -61,6 +69,14 @@
           "address": "",
           "symbol": "eth",
           "decimals": 18
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001200",
+          "caip19": "eip155:11155111/erc20:0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+          "type": "fungible",
+          "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+          "symbol": "USDC",
+          "decimals": 6
         }
       ]
     },
@@ -83,6 +99,10 @@
         {
           "type": "permissionlessGeneric",
           "address": "0x675F2F8B8b67149BDac736c1AbD561Ee450a08D5"
+        },
+        {
+          "type": "erc20",
+          "address": "0x62c75f2303A72ABf3978BecEaa79dA029A73C7A6"
         }
       ],
       "feeRouter": "0x3B50efbeadE66cB9Ec1357bafa285608AC2ad996",
@@ -93,6 +113,10 @@
         },
         {
           "address": "0x5B601d41F4db89d39E7004AEfF49533DaA288F3e",
+          "type": "twap"
+        },
+        {
+          "address": "0x15ABB32eC1372896EDC2669cfc92B1ddF37AA75e",
           "type": "twap"
         }
       ],
@@ -136,7 +160,7 @@
       "nativeTokenSymbol": "BTC",
       "nativeTokenFullName": "Bitcoin",
       "nativeTokenDecimals": 8,
-      "blockConfirmations": 5,
+      "blockConfirmations": 2,
       "startBlock": 2817394,
       "feeAddress": "tb1p0r2w3ugreaggd7nakw2wd04up6rl8k0cce8eetxwmhnrelgqx87s4zdkd7",
       "resources": [
@@ -151,6 +175,38 @@
 	  "script": "512036c62696a3869cb46b2e6c93be73d039e6ab341853d824efadecd3dcee332c1a",
           "tweak": "d97ae87c238a8a674bff71db5eeb69519dbd1c57bec70a89f7b06fa2d0e97841",
           "feeAmount": "1000000"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chainId": 5,
+      "parachainId": 1,
+      "caipId": "polkadot:5",
+      "name": "Sygma standalone pallet",
+      "type": "substrate",
+      "bridge": "",
+      "handlers": [],
+      "nativeTokenSymbol": "syg",
+      "nativeTokenFullName": "Sygma",
+      "nativeTokenDecimals": 12,
+      "blockConfirmations": 2,
+      "startBlock": 5,
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
+          "caip19": "polkadot:5",
+          "type": "fungible",
+          "native": true,
+          "symbol": "PHA",
+          "decimals": 12,
+          "assetName": "Sygma",
+          "xcmMultiAssetId": {
+            "concrete": {
+              "parents": 0,
+              "interior": "here"
+            }
+          }
         }
       ]
     }
