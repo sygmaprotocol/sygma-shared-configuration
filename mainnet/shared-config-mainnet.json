@@ -17,7 +17,7 @@
           "address": "0x31282123E7bcd947e2c1Bc364d564839574fAdCD"
         },
         {
-          "type": "erc20",
+          "type": "native",
           "address": "0xCcCCA86919b0769D46705e7Adf0EF02e98BebAc7"
         }
       ],
@@ -190,7 +190,7 @@
           "address": "0x2e1eE4153ad2F763ab8C612415AcF0DEe02Bc79B"
         },
         {
-          "type": "erc20",
+          "type": "native",
           "address": "0xFF0992fFA502b6FdB4620Dab8A858f6a76F19f79"
         }
       ],
@@ -324,7 +324,7 @@
           "address": "0x2e1eE4153ad2F763ab8C612415AcF0DEe02Bc79B"
         },
         {
-          "type": "erc20",
+          "type": "native",
           "address": "0x44d1Ae962945c5B168282D5002705dE7A9B84657"
         }
       ],
