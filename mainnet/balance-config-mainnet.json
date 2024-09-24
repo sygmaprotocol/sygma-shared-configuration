@@ -52,7 +52,7 @@
       },
       {
         "address": "0xCcCCA86919b0769D46705e7Adf0EF02e98BebAc7",
-        "topic": "MAINNET-liquidity-native-handler-low-balance"
+        "topic": "MAINNET-native-handler-liquidity-low-balance"
       }
     ],
     "assetBalanceData": [
@@ -308,7 +308,7 @@
       },
       {
         "address": "0xFF0992fFA502b6FdB4620Dab8A858f6a76F19f79",
-        "topic": "MAINNET-liquidity-native-handler-low-balance"
+        "topic": "MAINNET-native-handler-liquidity-low-balance"
       }
     ],
     "assetBalanceData": []
@@ -430,7 +430,7 @@
     "nativeBalanceData": [
       {
         "address": "0x44d1Ae962945c5B168282D5002705dE7A9B84657",
-        "topic": "MAINNET-liquidity-native-handler-low-balance"
+        "topic": "MAINNET-native-handler-liquidity-low-balance"
       }
     ],
     "assetBalanceData": []
