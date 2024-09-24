@@ -380,6 +380,47 @@
           "caip19": "eip155:8333/erc20:0x0000000000000000000000000000000000000000"
         }
       ]
+    },
+    {
+      "id": 9,
+      "chainId": 42161,
+      "caipId": "eip155:42161",
+      "name": "arbitrum",
+      "type": "evm",
+      "bridge": "0x4D878E8Fb90178588Cda4cf1DCcdC9a6d2757089",
+      "nativeTokenAdapter": "0xb4daba4ba85c0b8c5438844fbeba4fdb5748e6e8",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0xC47468aeae431f5D0B7DA50F9f5D8a6c0eca4789"
+        },
+        {
+          "type": "native",
+          "address": "0xebef72c739289706f05a23536e6af6237208a0e6"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 256814905,
+      "feeRouter": "0x5573Ae978A10B724705624C620E6a7977935c721",
+      "feeHandlers": [
+        {
+          "address": "0x44d1ae962945c5b168282d5002705de7a9b84657",
+          "type": "twap"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+          "type": "fungible",
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "caip19": "eip155:42161/erc20:0x0000000000000000000000000000000000000000"
+        }
+      ]
     }
   ]
 }
