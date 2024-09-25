@@ -421,6 +421,47 @@
           "caip19": "eip155:42161/erc20:0x0000000000000000000000000000000000000000"
         }
       ]
+    },
+    {
+      "id": 10,
+      "chainId": 10,
+      "caipId": "eip155:10",
+      "name": "optimism",
+      "type": "evm",
+      "bridge": "0xe43F8245249d7fAF46408723Ab36D071dD85D7BB",
+      "nativeTokenAdapter": "0x13572649779c8e88bcbbf46e38d6addafa6ba4f1",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x4EE82A64Aa9535AE4aABe3B35a12c29a0430A951"
+        },
+        {
+          "type": "native",
+          "address": "0xb18fea28c8c9557ab65b2808c7b323a586687740"
+        }
+      ],
+      "nativeTokenSymbol": "eth",
+      "nativeTokenFullName": "ether",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 5,
+      "startBlock": 125794165,
+      "feeRouter": "0x3eE20f17BC7D07bf3e06a7342C13A29823C22Ad5",
+      "feeHandlers": [
+        {
+          "address": "0x1dac945c9e418d9d07278f2d36e310194baab24c",
+          "type": "twap"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+          "type": "fungible",
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18,
+          "caip19": "eip155:10/erc20:0x0000000000000000000000000000000000000000"
+        }
+      ]
     }
   ]
 }
