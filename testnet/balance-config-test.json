@@ -1,511 +1,938 @@
 [
-    {
-      "id": 2,
-      "chainId": 11155111,
-      "url": "",
-      "type": "evm",
-      "nativeTokenMinBalance": "0.1",
-      "nativeBalanceData": [
-        {
-          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": [
-        {
-          "assets": [
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000000300",
-              "assetTokenMinBalance": "200"
-            },
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000001100",
-              "assetTokenMinBalance": "500"
-            },
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000003000",
-              "assetTokenMinBalance": "20"
-            }
-          ],
-          "accountAddresses": [],
-          "topic": ""
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "chainId": 338,
-      "url": "",
-      "type": "evm",
-      "nativeTokenMinBalance": "10",
-      "nativeBalanceData": [
-        {
-          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": [
-        {
-          "assets": [
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000000300",
-              "assetTokenMinBalance": "200"
-            }
-          ],
-          "accountAddresses": [],
-          "topic": ""
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "chainId": 17000,
-      "url": "",
-      "type": "evm",
-      "nativeTokenMinBalance": "1",
-      "nativeBalanceData": [
-        {
-          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x71B54037B7b843934F575a762087D455bf44Bb1B",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": []
-    },
-    {
-      "id": 8,
-      "chainId": 421614,
-      "url": "",
-      "type": "evm",
-      "nativeTokenMinBalance": "0.1",
-      "nativeBalanceData": [
-        {
-          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": []
-    },
-    {
-      "id": 9,
-      "chainId": 10200,
-      "url": "",
-      "type": "evm",
-      "nativeTokenMinBalance": "0.1",
-      "nativeBalanceData": [
-        {
-          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": []
-    },
-    {
-      "id": 10,
-      "chainId": 84532,
-      "url": "",
-      "type": "evm",
-      "nativeTokenMinBalance": "0.1",
-      "nativeBalanceData": [
-        {
-          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": [
-        {
-          "assets": [
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000001100",
-              "assetTokenMinBalance": "500"
-            },
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000003000",
-              "assetTokenMinBalance": "20"
-            }
-          ],
-          "accountAddresses": [],
-          "topic": ""
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "chainId": 80002,
-      "url": "",
-      "type": "evm",
-      "nativeTokenMinBalance": "0.1",
-      "nativeBalanceData": [
-        {
-          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": [
-        {
-          "assets": [
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000000300",
-              "assetTokenMinBalance": "200"
-            }
-          ],
-          "accountAddresses": [],
-          "topic": ""
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "chainId": 1993,
-      "url": "",
-      "type": "evm",
-      "nativeTokenMinBalance": "0.1",
-      "nativeBalanceData": [
-        {
-          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": [
-        {
-          "assets": [
-            {
-              "resourceId":
-                "0x0000000000000000000000000000000000000000000000000000000000003000",
-              "assetTokenMinBalance": "20"
-            }
-          ],
-          "accountAddresses": [],
-          "topic": ""
-        }
-      ]    
-    },
-    {
-      "id": 16,
-      "chainId": 3456,
-      "url": "",
-      "type": "evm",
-      "nativeTokenMinBalance": "0.1",
-      "nativeBalanceData": [
-        {
-          "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-          "topic": "TESTNET-relayer-low-balance"
-        },
-        {
-          "address": "0x7e28f84a21cf0349165dd4f0590b1d28b71c6087",
-          "topic": "TESTNET-liquidity-low-balance"
-        },
-        {
-          "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
-          "topic": "TESTNET-relayer-low-balance"
-        }
-      ],
-      "assetBalanceData": []
-    }
-  ]
+  {
+    "id": "2",
+    "type": "evm",
+    "balanceData": [
+      {
+        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x0d4fB069753bdf1C5aB48302e9744BF222A9F4e8",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0x7d58589b6C1Ba455c4060a3563b9a0d447Bef9af",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d4fB069753bdf1C5aB48302e9744BF222A9F4e8",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0xA9F30c6B5E7996D1bAd51D213277c30750bcBB36",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d4fB069753bdf1C5aB48302e9744BF222A9F4e8",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d4fB069753bdf1C5aB48302e9744BF222A9F4e8",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0xA9F30c6B5E7996D1bAd51D213277c30750bcBB36",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d4fB069753bdf1C5aB48302e9744BF222A9F4e8",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d4fB069753bdf1C5aB48302e9744BF222A9F4e8",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "type": "evm",
+    "balanceData": [
+      {
+        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x39D1Aea5F01138940F19A15049E2073D4df1dc9E",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "200",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0x2938ED97eF9D897Dac7B21c48e045f34a3a02846",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "type": "evm",
+    "balanceData": [
+      {
+        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xEeFBd08769Ab1e369a04a17180E91E4549938d4c",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "10",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0x34d4fb8c45060143d39b7526c2b645d351af85a5",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "type": "evm",
+    "balanceData": [
+      {
+        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+
+      },
+      {
+        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "type": "evm",
+    "balanceData": [
+      {
+        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      }
+    ]
+  },
+
+  {
+    "id": "10",
+    "type": "evm",
+    "balanceData": [
+      {
+        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x72a588B76025d552B239532C31fB7D5Cc80A3e41",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "500",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0xb947F89269F0cF54CC721BcDE298a46930f3418b",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x72a588B76025d552B239532C31fB7D5Cc80A3e41",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "20",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x3b0f996C474c91de56617da13a52B22BB659D18E",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "20",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      }
+    ]
+  },
+
+  {
+    "id": "11",
+    "type": "evm",
+    "balanceData": [
+      {
+        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xeee097Be71Ba7e07f07fCdb1D01048c1b716174C",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "200",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0x245466D2175bcED0A1ad1ce804C8F724D7050e85",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      }
+    ]
+  },
+
+  {
+    "id": "15",
+    "type": "evm",
+    "balanceData": [
+      {
+        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../relayerLowBalanceTemplate.ejs"
+      },
+
+      {
+        "address": "0x46b535f52237a9621dce4d506744056b10d2AD7D",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "20",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0x3538f4C55893eDca690D1e4Cf9Fb61FB70cd0DD8",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x46b535f52237a9621dce4d506744056b10d2AD7D",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "20",
+        "decimals": "18",
+        "type": "erc20",
+        "erc20Address": "0xE61e5ed4c4f198c5384Ef57E69aAD1eF0c911004",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x46b535f52237a9621dce4d506744056b10d2AD7D",
+        "topic": "TESTNET-liquidity-low-balance",
+        "minBalance": "20",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../liquidityLowBalanceTemplate.ejs"
+      }
+    ]
+  }
+]
