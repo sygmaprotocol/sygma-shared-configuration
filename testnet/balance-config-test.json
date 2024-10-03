@@ -919,15 +919,15 @@
         "address": "0x46b535f52237a9621dce4d506744056b10d2AD7D",
         "topic": "TESTNET-liquidity-low-balance",
         "minBalance": "20",
-        "decimals": "18",
+        "decimals": "6",
         "type": "erc20",
         "erc20Address": "0xE61e5ed4c4f198c5384Ef57E69aAD1eF0c911004",
         "msgPath": "../assetLowBalanceTemplate.ejs"
       },
       {
-        "address": "0x46b535f52237a9621dce4d506744056b10d2AD7D",
+        "address": "0x76779F1C15605d78001a364F6E551e25Bb63b74B",
         "topic": "TESTNET-native-handler-liquidity-low-balance",
-        "minBalance": "20",
+        "minBalance": "0.5",
         "decimals": "18",
         "type": "native",
         "erc20Address": "",
