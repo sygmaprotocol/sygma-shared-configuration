@@ -901,15 +901,6 @@
         "msgPath": "../nativeLowBalanceTemplate.ejs"
       },
       {
-        "address": "0xCcCCA86919b0769D46705e7Adf0EF02e98BebAc7",
-        "topic": "MAINNET-native-handler-liquidity-low-balance",
-        "minBalance": "0.0005",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x44d1Ae962945c5B168282D5002705dE7A9B84657",
         "topic": "MAINNET-native-handler-liquidity-low-balance",
         "minBalance": "1",
@@ -1024,15 +1015,6 @@
         "msgPath": "../nativeLowBalanceTemplate.ejs"
       },
       {
-        "address": "0xCcCCA86919b0769D46705e7Adf0EF02e98BebAc7",
-        "topic": "MAINNET-native-handler-liquidity-low-balance",
-        "minBalance": "0.0005",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x44d1Ae962945c5B168282D5002705dE7A9B84657",
         "topic": "MAINNET-native-handler-liquidity-low-balance",
         "minBalance": "1",
@@ -1140,15 +1122,6 @@
       {
         "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
         "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.0005",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xCcCCA86919b0769D46705e7Adf0EF02e98BebAc7",
-        "topic": "MAINNET-native-handler-liquidity-low-balance",
         "minBalance": "0.0005",
         "decimals": "18",
         "type": "native",
