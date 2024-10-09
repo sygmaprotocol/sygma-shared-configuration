@@ -11,6 +11,10 @@
       "handlers": [
         {
           "type": "erc20",
+          "address": "0x7a44567ef7ac4c11cb141567a71de17261b4019c"
+        },
+        {
+          "type": "erc20",
           "address": "0xC832588193cd5ED2185daDA4A531e0B26eC5B830"
         },
         {
@@ -62,6 +66,14 @@
           "symbol": "ETH",
           "decimals": 18,
           "caip19": "eip155:1/erc20:0x0000000000000000000000000000000000000000"
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000055534443",
+          "type": "fungible",
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "symbol": "USDC",
+          "decimals": 6,
+          "caip19": "eip155:1/erc20:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
         }
       ]
     },
@@ -194,6 +206,10 @@
       "handlers": [
         {
           "type": "erc20",
+          "address": "0xeb87a3258668b79a21e454ab524ed4b67ca5b491"
+        },
+        {
+          "type": "erc20",
           "address": "0xe43F8245249d7fAF46408723Ab36D071dD85D7BB"
         },
         {
@@ -241,6 +257,14 @@
           "symbol": "ETH",
           "decimals": 18,
           "caip19": "eip155:8453/erc20:0x0000000000000000000000000000000000000000"
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000055534443",
+          "type": "fungible",
+          "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "symbol": "USDC",
+          "decimals": 6,
+          "caip19": "eip155:1/erc20:0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
         }
       ]
     },
@@ -335,6 +359,10 @@
       "handlers": [
         {
           "type": "erc20",
+          "address": "0xe6eea4189f078dd10e456bea0b0360356b6f330f"
+        },
+        {
+          "type": "erc20",
           "address": "0xe43F8245249d7fAF46408723Ab36D071dD85D7BB"
         },
         {
@@ -378,6 +406,14 @@
           "symbol": "ETH",
           "decimals": 18,
           "caip19": "eip155:8333/erc20:0x0000000000000000000000000000000000000000"
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000055534443",
+          "type": "fungible",
+          "address": "0x4facaeab0b044617a94e94a54a8d6644a7f9e41b",
+          "symbol": "USDC",
+          "decimals": 6,
+          "caip19": "eip155:1/erc20:0x4facaeab0b044617a94e94a54a8d6644a7f9e41b"
         }
       ]
     },
@@ -390,6 +426,10 @@
       "bridge": "0x4D878E8Fb90178588Cda4cf1DCcdC9a6d2757089",
       "nativeTokenAdapter": "0xb4daba4ba85c0b8c5438844fbeba4fdb5748e6e8",
       "handlers": [
+        {
+          "type": "erc20",
+          "address": "0xe889ebec7f82b927407fcc7ecd1408277906932a"
+        },
         {
           "type": "erc20",
           "address": "0xC47468aeae431f5D0B7DA50F9f5D8a6c0eca4789"
@@ -419,6 +459,14 @@
           "symbol": "ETH",
           "decimals": 18,
           "caip19": "eip155:42161/erc20:0x0000000000000000000000000000000000000000"
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000055534443",
+          "type": "fungible",
+          "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "symbol": "USDC",
+          "decimals": 6,
+          "caip19": "eip155:1/erc20:0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
         }
       ]
     },
@@ -431,6 +479,10 @@
       "bridge": "0xe43F8245249d7fAF46408723Ab36D071dD85D7BB",
       "nativeTokenAdapter": "0x13572649779c8e88bcbbf46e38d6addafa6ba4f1",
       "handlers": [
+        {
+          "type": "erc20",
+          "address": "0x7a8c47b7df480c6491e6c2f8eb58d2383cca86c9"
+        },
         {
           "type": "erc20",
           "address": "0x4EE82A64Aa9535AE4aABe3B35a12c29a0430A951"
@@ -460,6 +512,14 @@
           "symbol": "ETH",
           "decimals": 18,
           "caip19": "eip155:10/erc20:0x0000000000000000000000000000000000000000"
+        },
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000055534443",
+          "type": "fungible",
+          "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+          "symbol": "USDC",
+          "decimals": 6,
+          "caip19": "eip155:1/erc20:0x0b2c639c533813f4aa9d7837caf62653d097ff85"
         }
       ]
     }
