@@ -123,7 +123,7 @@
       {
         "address": "0xC832588193cd5ED2185daDA4A531e0B26eC5B830",
         "topic": "MAINNET-liquidity-low-balance",
-        "minBalance": "10000",
+        "minBalance": "1000",
         "decimals": "6",
         "type": "erc20",
         "erc20Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
@@ -579,7 +579,7 @@
       {
         "address": "0xeb87a3258668b79a21e454ab524ed4b67ca5b491",
         "topic": "MAINNET-liquidity-low-balance",
-        "minBalance": "10000",
+        "minBalance": "1000",
         "decimals": "6",
         "type": "erc20",
         "erc20Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -908,15 +908,6 @@
         "type": "native",
         "erc20Address": "",
         "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xe6eea4189f078dd10e456bea0b0360356b6f330f",
-        "topic": "MAINNET-liquidity-low-balance",
-        "minBalance": "10000",
-        "decimals": "6",
-        "type": "erc20",
-        "erc20Address": "0x4facaeab0b044617a94e94a54a8d6644a7f9e41b",
-        "msgPath": "../assetLowBalanceTemplate.ejs"
       }
     ]
   },
@@ -1035,7 +1026,7 @@
       {
         "address": "0xe889ebec7f82b927407fcc7ecd1408277906932a",
         "topic": "MAINNET-liquidity-low-balance",
-        "minBalance": "10000",
+        "minBalance": "1000",
         "decimals": "6",
         "type": "erc20",
         "erc20Address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
@@ -1158,7 +1149,7 @@
       {
         "address": "0x7a8c47b7df480c6491e6c2f8eb58d2383cca86c9",
         "topic": "MAINNET-liquidity-low-balance",
-        "minBalance": "10000",
+        "minBalance": "1000",
         "decimals": "6",
         "type": "erc20",
         "erc20Address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
