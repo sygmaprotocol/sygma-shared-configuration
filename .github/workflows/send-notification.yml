@@ -1,0 +1,72 @@
+name: "Send notification"
+on: 
+  pull_request:
+    types: [closed]
+jobs:
+  send_notification:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'Restart Relayers')
+    strategy: 
+      matrix:
+        include:
+        - webhook: SLACK_WEBHOOK_URL1 
+        - webhook: SLACK_WEBHOOK_URL2
+
+    env: 
+      SLACK_WEBHOOK_URL1: ${{ secrets.SLACK_WEBHOOK_URL1 }}
+      SLACK_WEBHOOK_URL2: ${{ secrets.SLACK_WEBHOOK_URL2 }}
+      MAINNET_CHANGED: ":x:"
+      TESTNET_CHANGED: ":x:"
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v32
+
+    - name: Check if mainnet changed
+      if: contains(steps.changed-files.outputs.all_changed_files, 'shared-config-mainnet.json')
+      run: |
+          echo "ENVIRONMENT_CHANGED=true" >> $GITHUB_ENV
+          echo "MAINNET_CHANGED=:heavy_check_mark:" >> $GITHUB_ENV
+
+
+    - name: Check if testnet changed
+      if: contains(steps.changed-files.outputs.all_changed_files, 'shared-config-test.json')
+      run: |
+          echo "ENVIRONMENT_CHANGED=true" >> $GITHUB_ENV
+          echo "TESTNET_CHANGED=:heavy_check_mark:" >> $GITHUB_ENV
+
+    - name: Send Slack notification
+      uses: 8398a7/action-slack@v3
+      if: ${{ env.ENVIRONMENT_CHANGED }}
+      with:
+        status: custom
+        fields: all
+        custom_payload: |
+         {
+          text: `Changes have been detected.\nPlease restart your relayer(s) on:\n\n*MAINNET* ${{ env.MAINNET_CHANGED }}\n*TESTNET* ${{ env.TESTNET_CHANGED }}\n\nIf a new network was added with these changes, you will have to expand the configuration of your local relayer(s).\n\nFor more details feel free to contact the Sygma team.`,
+          attachments: [{
+            color: 'good',
+            fields: [
+            {
+              title: 'Repository',
+              value: `${ process.env.AS_REPO }`,
+            },  
+            {
+              title: 'Pull request',
+              value: `${ process.env.AS_PULL_REQUEST }`,
+            },
+            {
+              title: 'Author',
+              value: `${ process.env.AS_AUTHOR }`,
+            },
+            ],
+          }]
+         }
+      env: 
+        SLACK_WEBHOOK_URL: ${{ secrets[matrix.webhook] }}
