@@ -60,7 +60,7 @@
           "type": "fungible",
           "address": "0x7d5e591661F4E727cE7A41982859C1c70A81ECf0",
           "symbol": "sygBTC",
-          "decimals": 18
+          "decimals": 8
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
@@ -140,7 +140,7 @@
           "type": "fungible",
           "address": "0x04EdAC940e4beD3aF04EC1a6f6f951cD42572c76",
           "symbol": "sygBTC",
-          "decimals": 18
+          "decimals": 8
         },
         {
           "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000500",
