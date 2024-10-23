@@ -121,7 +121,7 @@
         "msgPath": "../assetLowBalanceTemplate.ejs"
       },
       {
-        "address": "0xC832588193cd5ED2185daDA4A531e0B26eC5B830",
+        "address": "0x7a44567ef7ac4c11cb141567a71de17261b4019c",
         "topic": "MAINNET-liquidity-low-balance",
         "minBalance": "1000",
         "decimals": "6",
