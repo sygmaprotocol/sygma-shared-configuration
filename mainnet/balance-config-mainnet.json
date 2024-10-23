@@ -1022,15 +1022,6 @@
         "type": "native",
         "erc20Address": "",
         "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xe889ebec7f82b927407fcc7ecd1408277906932a",
-        "topic": "MAINNET-liquidity-low-balance",
-        "minBalance": "1000",
-        "decimals": "6",
-        "type": "erc20",
-        "erc20Address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-        "msgPath": "../assetLowBalanceTemplate.ejs"
       }
     ]
   },
