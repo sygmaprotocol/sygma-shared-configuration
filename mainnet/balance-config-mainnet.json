@@ -689,6 +689,24 @@
         "type": "native",
         "erc20Address": "",
         "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x6958F60BB824a6fc613a2E396E499c4A7E38431B",
+        "topic": "MAINNET-relayer-low-balance",
+        "minBalance": "5",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x3813e72e9f70539dC69400C9d02b0988933b9fB0",
+        "topic": "MAINNET-relayer-low-balance",
+        "minBalance": "5",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
       }
     ]
   },
