@@ -8,6 +8,7 @@
       "type": "evm",
       "bridge": "0x4CF326d3817558038D1DEF9e76b727202c3E8492",
       "nativeTokenAdapter": "0xb55D0F87eE4a76fAa2f1d01A5abf3f1EB1bbFdd6",
+      "swapAdapter": "0x4Ef09a306Cd4b89a969123bAd9B470EaEc3bdFa3",
       "handlers": [
         {
           "type": "erc20", 
@@ -397,6 +398,7 @@
       "type": "evm",
       "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
       "nativeTokenAdapter": "0x6b3BB80A93087CF0eABb72c6a1654C979586E15B",
+      "swapAdapter": "0x58dd309646c74670a6DF6E26fF3A0D8b5FBab01B",
       "handlers": [
         {
           "type": "erc20",
