@@ -42,6 +42,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 10,
       "startBlock": 5703542,
       "feeRouter": "0xD277478b4684Ed8594d5eb5B228AA7aDbA59df43",
       "feeHandlers": [
@@ -158,86 +159,6 @@
       ]
     },
     {
-      "id": 5,
-      "chainId": 338,
-      "caipId": "eip155:338",
-      "name": "cronos",
-      "type": "evm",
-      "bridge": "0x816bb9E810b6b97840F6818bF21Fa25DD7364132",
-      "handlers": [
-        {
-          "type": "erc20",
-          "address": "0x39D1Aea5F01138940F19A15049E2073D4df1dc9E"
-        },
-        {
-          "type": "erc721",
-          "address": "0x52757D9c1a8f8b496cf1e688bbB8055f9F3DfC8a"
-        },
-        {
-          "type": "erc1155",
-          "address": "0x2d92a0aa3Ea19DA735514Ea542438345EF09cB60"
-        },
-        {
-          "type": "permissionlessGeneric",
-          "address": "0x3CBbC542d10CD037cafb1632B29B5B0F59B08A48"
-        },
-        {
-          "type": "permissionlessGeneric",
-          "address": "0x65903772866E538E6fFc001dD0C7665E356eB6d8"
-        }
-      ],
-      "nativeTokenSymbol": "eth",
-      "nativeTokenFullName": "ether",
-      "nativeTokenDecimals": 18,
-      "blockConfirmations": 5,
-      "startBlock": 20483766,
-      "feeRouter": "0xFaa9214b2bb90222c4f5A2DAbBB61fC945CDFD42",
-      "feeHandlers": [
-        {
-          "address": "0x1afc317C3C8578274B557a022aD79e073ef6EBF7",
-          "type": "basic"
-        },
-        {
-          "address": "0xC5244700904c987E5441F568440ed5c3b7233559",
-          "type": "percentage"
-        }
-      ],
-      "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000200",
-          "caip19": "eip155:338/erc721:0x18A8E0748FA207483D23aeAc3D0508a25dDA3dB1",
-          "type": "nonfungible",
-          "address": "0x18A8E0748FA207483D23aeAc3D0508a25dDA3dB1",
-          "symbol": "ERC721TST",
-          "decimals": 0
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000300",
-          "caip19": "eip155:338/erc20:0x2938ED97eF9D897Dac7B21c48e045f34a3a02846",
-          "type": "fungible",
-          "address": "0x2938ED97eF9D897Dac7B21c48e045f34a3a02846",
-          "symbol": "ERC20LRTest",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000400",
-          "caip19": "eip155:338/erc1155:0x0d3Ce33038a3E9bF940eCA6f5EADF355d47D36B3",
-          "type": "semifungible",
-          "address": "0x0d3Ce33038a3E9bF940eCA6f5EADF355d47D36B3",
-          "symbol": "ERC1155TST",
-          "decimals": 18
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
-          "caip19": "",
-          "type": "permissionlessGeneric",
-          "address": "",
-          "symbol": "eth",
-          "decimals": 18
-        }
-      ]
-    },
-    {
       "id": 6,
       "chainId": 17000,
       "caipId": "eip155:17000",
@@ -262,6 +183,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": "10",
       "startBlock": 1351739,
       "feeRouter": "0xfc8fE2bC5C780ef8cA28dda09751ef69BdDA53Cb",
       "feeHandlers": [
@@ -318,6 +240,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 100,
       "startBlock": 33918637,
       "feeRouter": "0x2CD3f725BF9aa446FBD38e2A1A4787a40eEA2286",
       "feeHandlers": [
@@ -366,6 +289,7 @@
       "nativeTokenFullName": "xdai",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 25,
       "startBlock": 9275873,
       "feeRouter": "0x36930B9117713EF92E2f5Ca4FCa047DAdb92C48E",
       "feeHandlers": [
@@ -396,6 +320,7 @@
       "name": "base_sepolia",
       "type": "evm",
       "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
+      "blockInterval": 50,
       "nativeTokenAdapter": "0x6b3BB80A93087CF0eABb72c6a1654C979586E15B",
       "handlers": [
         {
@@ -511,6 +436,7 @@
       "nativeTokenFullName": "matic",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": "50",
       "startBlock":  6042982,
       "feeRouter": "0x04C4B75084B557ab0E79dE3DEd42b6c1dD4F48E6",
       "feeHandlers": [
@@ -539,110 +465,6 @@
           "address": "0x245466D2175bcED0A1ad1ce804C8F724D7050e85",
           "symbol": "ERC20LRTest",
           "decimals": 18
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "chainId": 3799,
-      "caipId": "polkadot:3799",
-      "name": "tangle-standalone-testnet",
-      "type": "substrate",
-      "bridge": "",
-      "handlers": [
-        {
-          "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
-          "type": "erc20"
-        },
-        {
-          "address": "5EYCAe5jLbHcAAMKvLFiGhk3htXY8jQncbLTDGJQnpnPMAVp",
-          "type": "erc20"
-        }
-      ],
-      "nativeTokenSymbol": "tTNT",
-      "nativeTokenFullName": "tTNT",
-      "nativeTokenDecimals": 18,
-      "blockConfirmations": 2,
-      "startBlock": 20219,
-      "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000002000",
-          "caip19": "polkadot:3799",
-          "type": "fungible",
-          "native": true,
-          "symbol": "tTNT",
-          "decimals": 18,
-          "assetName": "tTNT",
-          "xcmMultiAssetId": {
-            "concrete": {
-              "parents": 0,
-              "interior": "here"
-            }
-          }
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001100",
-          "caip19": "polkadot:3799",
-          "type": "fungible",
-          "assetID": 2000,
-          "native": false,
-          "symbol": "sygUSD",
-          "decimals": 6,
-          "assetName": "SygmaUSD",
-          "xcmMultiAssetId": {
-            "parents": 1,
-            "interior": {
-              "X3": [
-                {
-                  "Parachain": 1000
-                },
-                {
-                  "GeneralKey": {
-                    "length": 5,
-                    "data": "0x7379676d61000000000000000000000000000000000000000000000000000000"
-                  }
-                },
-                {
-                  "GeneralKey": {
-                    "length": 6,
-                    "data": "0x7379677573640000000000000000000000000000000000000000000000000000"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000001000",
-          "caip19": "polkadot:3799",
-          "type": "fungible",
-          "assetID": 2001,
-          "native": false,
-          "symbol": "PHA",
-          "decimals": 12,
-          "assetName": "Phala",
-          "xcmMultiAssetId": {
-            "parents": 1,
-            "interior": {
-              "X3": [
-                {
-                  "Parachain": 2004
-                },
-                {
-                  "GeneralKey": {
-                    "length": 5,
-                    "data": "0x7379676d61000000000000000000000000000000000000000000000000000000"
-                  }
-                },
-                {
-                  "GeneralKey": {
-                    "length": 3,
-                    "data": "0x7068610000000000000000000000000000000000000000000000000000000000"
-                  }
-                }
-              ]
-            }
-          }
         }
       ]
     },
@@ -706,6 +528,7 @@
       "nativeTokenFullName": "eth",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 10,
       "startBlock":  4000715,
       "feeRouter": "0xA56419ECdb71acE442a6FbfC8E50c5F993667938",
       "feeHandlers": [
