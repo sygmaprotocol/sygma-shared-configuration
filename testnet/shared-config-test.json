@@ -756,6 +756,63 @@
           "decimals": 18
         }
       ]
+    },
+    {
+      "id": 16,
+      "chainId": 19934,
+      "caipId": "eip155:19934",
+      "name": "b4-sepolia",
+      "type": "evm",
+      "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
+      "nativeTokenAdapter": "",
+      "handlers": [
+        {
+          "type": "erc20",
+          "address": ""
+        },
+        {
+          "type": "permissionlessGeneric",
+          "address": ""
+        },
+        {
+          "type": "native",
+          "address": ""
+        }
+      ],
+      "nativeTokenSymbol": "ETH",
+      "nativeTokenFullName": "eth",
+      "nativeTokenDecimals": 18,
+      "blockConfirmations": 1,
+      "startBlock":  750,
+      "feeRouter": "0xde937016D67811f08D93ee54093ea686C21d211C",
+      "feeHandlers": [
+        {
+          "address": "0x4430E5D4447Df0FC25adCafEb8b5E49d38B56e21",
+          "type": "basic"
+        },
+        {
+          "address": "0x668fad90DeAd0F8f04346A735875b62eF9c65f0B",
+          "type": "percentage"
+        }
+      ],
+      "resources": [
+        {
+          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000600",
+          "caip19": "",
+          "type": "permissionlessGeneric",
+          "address": "",
+          "symbol": "eth",
+          "decimals": 18
+        },
+        {
+          "resourceId": "0x1000000000000000000000000000000000000000000000000000000000000000",
+          "caip19": "eip155:1993/erc20:0x0000000000000000000000000000000000000000",
+          "type": "fungible",
+          "address": "0x0000000000000000000000000000000000000000",
+          "symbol": "ETH",
+          "decimals": 18
+        }
+      ]
     }
   ]
 }
