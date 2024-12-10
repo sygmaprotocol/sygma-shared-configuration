@@ -183,7 +183,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "blockInterval": "10",
+      "blockInterval": 10,
       "startBlock": 1351739,
       "feeRouter": "0xfc8fE2bC5C780ef8cA28dda09751ef69BdDA53Cb",
       "feeHandlers": [
@@ -436,7 +436,7 @@
       "nativeTokenFullName": "matic",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "blockInterval": "50",
+      "blockInterval": 50,
       "startBlock": 6042982,
       "feeRouter": "0x04C4B75084B557ab0E79dE3DEd42b6c1dD4F48E6",
       "feeHandlers": [
@@ -585,7 +585,7 @@
       "chainId": 19934,
       "caipId": "eip155:19934",
       "name": "b4-sepolia",
-      "blockInterval": "10",
+      "blockInterval": 10,
       "type": "evm",
       "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
       "nativeTokenAdapter": "0x90e3B6Ec4587790c709cb17E5dbAff5F9E682Be5",
