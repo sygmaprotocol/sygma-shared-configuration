@@ -764,19 +764,19 @@
       "name": "b4-sepolia",
       "type": "evm",
       "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
-      "nativeTokenAdapter": "",
+      "nativeTokenAdapter": "0x90e3B6Ec4587790c709cb17E5dbAff5F9E682Be5",
       "handlers": [
         {
           "type": "erc20",
-          "address": ""
+          "address": "0x7f027eE45b95D20804178583D0644BaEbbACcF8F"
         },
         {
           "type": "permissionlessGeneric",
-          "address": ""
+          "address": "0xD1c5D5e3084159dD2e92444A2b4657aB7358979c"
         },
         {
           "type": "native",
-          "address": ""
+          "address": "0x579E3e2b73fD14b240a08fdcC50E1e6286c4CB9c"
         }
       ],
       "nativeTokenSymbol": "ETH",
