@@ -10,11 +10,11 @@
       "nativeTokenAdapter": "0xb55D0F87eE4a76fAa2f1d01A5abf3f1EB1bbFdd6",
       "handlers": [
         {
-          "type": "erc20", 
+          "type": "erc20",
           "address": "0x0d4fB069753bdf1C5aB48302e9744BF222A9F4e8"
         },
         {
-          "type": "erc20", 
+          "type": "erc20",
           "address": "0xa65387feCb172ffF8A0aabA323A10c63757BBFA6"
         },
         {
@@ -56,15 +56,15 @@
         },
         {
           "address": "0x6a5c39db255D55F77ccA590418EB4175Ec02Ea37",
-          "type": "twap" 
+          "type": "twap"
         },
         {
           "address": "0x52C09318436d729c212B582A0b2Aba2952da0a05",
-          "type": "twap" 
+          "type": "twap"
         },
         {
           "address": "0x0e5F28d6874938CF1504Fe65Fa491E1BA7891B6A",
-          "type": "twap" 
+          "type": "twap"
         }
       ],
       "resources": [
@@ -348,7 +348,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
-      "startBlock":  8708492,
+      "startBlock": 8708492,
       "feeRouter": "0x241a1617a0C73373110F868C07e38679B1Ec4950",
       "feeHandlers": [
         {
@@ -437,7 +437,7 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "blockInterval": "50",
-      "startBlock":  6042982,
+      "startBlock": 6042982,
       "feeRouter": "0x04C4B75084B557ab0E79dE3DEd42b6c1dD4F48E6",
       "feeHandlers": [
         {
@@ -529,7 +529,7 @@
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
       "blockInterval": 10,
-      "startBlock":  4000715,
+      "startBlock": 4000715,
       "feeRouter": "0xA56419ECdb71acE442a6FbfC8E50c5F993667938",
       "feeHandlers": [
         {
@@ -585,6 +585,7 @@
       "chainId": 19934,
       "caipId": "eip155:19934",
       "name": "b4-sepolia",
+      "blockInterval": "10",
       "type": "evm",
       "bridge": "0x9D5C332Ebe0DaE36e07a4eD552Ad4d8c5067A61F",
       "nativeTokenAdapter": "0x90e3B6Ec4587790c709cb17E5dbAff5F9E682Be5",
@@ -606,7 +607,7 @@
       "nativeTokenFullName": "eth",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 1,
-      "startBlock":  750,
+      "startBlock": 750,
       "feeRouter": "0xde937016D67811f08D93ee54093ea686C21d211C",
       "feeHandlers": [
         {

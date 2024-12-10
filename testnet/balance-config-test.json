@@ -159,121 +159,6 @@
     ]
   },
   {
-    "id": "5",
-    "type": "evm",
-    "balanceData": [
-      {
-        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
-        "topic": "TESTNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-
-      },
-      {
-        "address": "0x39D1Aea5F01138940F19A15049E2073D4df1dc9E",
-        "topic": "TESTNET-liquidity-low-balance",
-        "minBalance": "200",
-        "decimals": "18",
-        "type": "erc20",
-        "erc20Address": "0x2938ED97eF9D897Dac7B21c48e045f34a3a02846",
-        "msgPath": "../assetLowBalanceTemplate.ejs"
-      }
-    ]
-  },
-  {
     "id": "6",
     "type": "evm",
     "balanceData": [
@@ -580,7 +465,6 @@
       }
     ]
   },
-
   {
     "id": "10",
     "type": "evm",
@@ -704,7 +588,6 @@
       }
     ]
   },
-
   {
     "id": "11",
     "type": "evm",
@@ -810,7 +693,6 @@
       }
     ]
   },
-
   {
     "id": "15",
     "type": "evm",
@@ -926,6 +808,111 @@
       },
       {
         "address": "0x76779F1C15605d78001a364F6E551e25Bb63b74B",
+        "topic": "TESTNET-native-handler-liquidity-low-balance",
+        "minBalance": "0.5",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "type": "evm",
+    "balanceData": [
+      {
+        "address": "0xEd4Ee0cF70423A2E4CD3ca960a1932c2D610BB54",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x0d58d2D2134C99CEac9934524633f02E282dB28C",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xC567612F0DAc053BdD35FE2363b4193a9B9c31E1",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xcBE812d1cE78a5FE403757Df45AdC7f59585De7a",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x4C2A3a361030dC5786b633bc60e6012279aD7316",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x1690A20A0afF150C0501919604bf46A9C76A1CBd",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0xA6F853fBb6d06Ec88763f0e5cC93132e5329190c",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x51cD3Fd2f116a87deB330fDf6395326b2e57C629",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x79Eb01d29e92f62aD49Aa3f7702cB2952F0123BC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x6A80C7c2021c6d33d7d30aB8878AffC6913dd9eC",
+        "topic": "TESTNET-relayer-low-balance",
+        "minBalance": "0.1",
+        "decimals": "18",
+        "type": "native",
+        "erc20Address": "",
+        "msgPath": "../nativeLowBalanceTemplate.ejs"
+      },
+      {
+        "address": "0x579E3e2b73fD14b240a08fdcC50E1e6286c4CB9c",
         "topic": "TESTNET-native-handler-liquidity-low-balance",
         "minBalance": "0.5",
         "decimals": "18",
