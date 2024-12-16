@@ -172,6 +172,7 @@
       "nativeTokenFullName": "Cronos",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 25,
       "startBlock": 10631584,
       "feeRouter": "0xb18fEa28C8C9557aB65b2808c7b323A586687740",
       "feeHandlers": [
