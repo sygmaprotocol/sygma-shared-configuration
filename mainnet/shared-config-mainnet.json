@@ -172,6 +172,7 @@
       "nativeTokenFullName": "Cronos",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 20,
       "startBlock": 10631584,
       "feeRouter": "0xb18fEa28C8C9557aB65b2808c7b323A586687740",
       "feeHandlers": [
@@ -225,6 +226,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 10,
       "startBlock": 5157116,
       "feeRouter": "0x5573Ae978A10B724705624C620E6a7977935c721",
       "feeHandlers": [
@@ -289,6 +291,7 @@
       "nativeTokenFullName": "xDai",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 20,
       "startBlock": 31074851,
       "feeRouter": "0xbb2bf03eD554571EFe9BEE2b46dFdc7e44c157e4",
       "feeHandlers": [
@@ -329,6 +332,7 @@
       "nativeTokenFullName": "MATIC",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 25,
       "startBlock": 50493698,
       "feeRouter": "0x11947a868b304898e51E50371b84a34D278026e5",
       "feeHandlers": [
@@ -378,6 +382,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 10,
       "startBlock": 730061,
       "feeRouter": "0x4EE82A64Aa9535AE4aABe3B35a12c29a0430A951",
       "feeHandlers": [
@@ -443,6 +448,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 50,
       "startBlock": 256814905,
       "feeRouter": "0x5573Ae978A10B724705624C620E6a7977935c721",
       "feeHandlers": [
@@ -496,6 +502,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 25,
       "startBlock": 125794165,
       "feeRouter": "0x3eE20f17BC7D07bf3e06a7342C13A29823C22Ad5",
       "feeHandlers": [
