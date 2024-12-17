@@ -502,6 +502,7 @@
       "nativeTokenFullName": "ether",
       "nativeTokenDecimals": 18,
       "blockConfirmations": 5,
+      "blockInterval": 25,
       "startBlock": 125794165,
       "feeRouter": "0x3eE20f17BC7D07bf3e06a7342C13A29823C22Ad5",
       "feeHandlers": [
