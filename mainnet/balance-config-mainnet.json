@@ -85,15 +85,6 @@
         "msgPath": "../nativeLowBalanceTemplate.ejs"
       },
       {
-        "address": "0xE3598C0114dbDD9b953F171b341eA11dd9F72185",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.1",
