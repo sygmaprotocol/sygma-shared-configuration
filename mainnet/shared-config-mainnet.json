@@ -78,43 +78,6 @@
       ]
     },
     {
-      "id": 2,
-      "chainId": 5232,
-      "caipId": "polkadot:5232",
-      "parachainId": 2004,
-      "name": "khala",
-      "type": "substrate",
-      "bridge": "",
-      "handlers": [
-        {
-          "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
-          "type": "erc20"
-        }
-      ],
-      "nativeTokenSymbol": "pha",
-      "nativeTokenFullName": "pha",
-      "nativeTokenDecimals": 12,
-      "blockConfirmations": 2,
-      "startBlock": 4076354,
-      "resources": [
-        {
-          "resourceId": "0x0000000000000000000000000000000000000000000000000000000000000001",
-          "caip19": "polkadot:5232",
-          "type": "fungible",
-          "native": true,
-          "symbol": "PHA",
-          "decimals": 12,
-          "assetName": "Phala",
-          "xcmMultiAssetId": {
-            "concrete": {
-              "parents": 0,
-              "interior": "here"
-            }
-          }
-        }
-      ]
-    },
-    {
       "id": 3,
       "chainId": 5233,
       "caipId": "polkadot:5233",
