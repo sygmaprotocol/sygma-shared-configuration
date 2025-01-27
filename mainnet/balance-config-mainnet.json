@@ -4,15 +4,6 @@
     "type": "evm",
     "balanceData": [
       {
-        "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x181b05D98dCCB9e38cf51fd30F4A225De79A3366",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.1",
@@ -85,15 +76,6 @@
         "msgPath": "../nativeLowBalanceTemplate.ejs"
       },
       {
-        "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.1",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0xCcCCA86919b0769D46705e7Adf0EF02e98BebAc7",
         "topic": "MAINNET-native-handler-liquidity-low-balance",
         "minBalance": "1",
@@ -135,15 +117,6 @@
     "id": "3",
     "type": "substrate",
     "balanceData": [
-      {
-        "address": "44jVUMQaqqW4Ue6TWPAGyXXNzb5cvQqe1sfVeoZkzoMfGuUK",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "25",
-        "decimals": "12",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
       {
         "address": "42z85jp7jYaKA1hQgRi6SKMR1AJXCF61s71zcQFCY3SGwcvt",
         "topic": "MAINNET-relayer-low-balance",
@@ -226,15 +199,6 @@
         "msgPath": "../nativeLowBalanceTemplate.ejs"
       },
       {
-        "address": "1vRhpVtDdynDBT8KHfeHpu17FEfBwwA3Hkdkp24vd6ZUpPM",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "25",
-        "decimals": "12",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "5EYCAe5jLbHcAAMKvLFSXgCTbPrLgBJusvPwfKcaKzuf5X5e",
         "topic": "MAINNET-liquidity-low-balance",
         "minBalance": "10000",
@@ -259,15 +223,6 @@
     "type": "evm",
     "balanceData": [
       {
-        "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "50",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x181b05D98dCCB9e38cf51fd30F4A225De79A3366",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "50",
@@ -341,15 +296,6 @@
       },
       {
         "address": "0xE3598C0114dbDD9b953F171b341eA11dd9F72185",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "50",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "50",
         "decimals": "18",
@@ -373,15 +319,6 @@
     "type": "evm",
     "balanceData": [
       {
-        "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.03",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x181b05D98dCCB9e38cf51fd30F4A225De79A3366",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.03",
@@ -455,15 +392,6 @@
       },
       {
         "address": "0xE3598C0114dbDD9b953F171b341eA11dd9F72185",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.03",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.03",
         "decimals": "18",
@@ -505,15 +433,6 @@
     "type": "evm",
     "balanceData": [
       {
-        "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "5",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x181b05D98dCCB9e38cf51fd30F4A225De79A3366",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "5",
@@ -587,15 +506,6 @@
       },
       {
         "address": "0xE3598C0114dbDD9b953F171b341eA11dd9F72185",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "5",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "5",
         "decimals": "18",
@@ -637,15 +547,6 @@
     "type": "evm",
     "balanceData": [
       {
-        "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "5",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x181b05D98dCCB9e38cf51fd30F4A225De79A3366",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "5",
@@ -719,15 +620,6 @@
       },
       {
         "address": "0xE3598C0114dbDD9b953F171b341eA11dd9F72185",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "5",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "5",
         "decimals": "18",
@@ -751,15 +643,6 @@
     "type": "evm",
     "balanceData": [
       {
-        "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.0005",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x181b05D98dCCB9e38cf51fd30F4A225De79A3366",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.0005",
@@ -833,15 +716,6 @@
       },
       {
         "address": "0xE3598C0114dbDD9b953F171b341eA11dd9F72185",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.0005",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.0005",
         "decimals": "18",
@@ -874,15 +748,6 @@
     "type": "evm",
     "balanceData": [
       {
-        "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.0005",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x181b05D98dCCB9e38cf51fd30F4A225De79A3366",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.0005",
@@ -956,15 +821,6 @@
       },
       {
         "address": "0xE3598C0114dbDD9b953F171b341eA11dd9F72185",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.0005",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.0005",
         "decimals": "18",
@@ -997,15 +853,6 @@
     "type": "evm",
     "balanceData": [
       {
-        "address": "0x8be30312f8eBc22F46c7f06F9913C52ef7690345",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.0005",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
         "address": "0x181b05D98dCCB9e38cf51fd30F4A225De79A3366",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.0005",
@@ -1079,15 +926,6 @@
       },
       {
         "address": "0xE3598C0114dbDD9b953F171b341eA11dd9F72185",
-        "topic": "MAINNET-relayer-low-balance",
-        "minBalance": "0.0005",
-        "decimals": "18",
-        "type": "native",
-        "erc20Address": "",
-        "msgPath": "../nativeLowBalanceTemplate.ejs"
-      },
-      {
-        "address": "0xBEE72DB9034965c02E9F01DBB561050F8713a6F2",
         "topic": "MAINNET-relayer-low-balance",
         "minBalance": "0.0005",
         "decimals": "18",
